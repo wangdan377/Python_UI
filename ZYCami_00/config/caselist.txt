@@ -1,0 +1,4 @@
+
+#test_prime_pay
+#test_prime_edit
+test_prime_equip
