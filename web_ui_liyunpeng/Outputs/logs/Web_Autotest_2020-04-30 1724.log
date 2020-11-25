@@ -1,0 +1,45 @@
+ Thu, 30 Apr 2020 17:24:28  INFO logger.py <module> [ line:27 ] hehehe
+ Thu, 30 Apr 2020 17:24:28  INFO conftest.py login_web [ line:30 ] ====================上传的前置，初始化浏览器会话，登录页面====================
+ Thu, 30 Apr 2020 17:24:33  INFO basepage.py wait_ele_exists [ line:56 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')存在成功，耗时：0:00:00.014001
+ Thu, 30 Apr 2020 17:24:33  INFO basepage.py get_element [ line:69 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')可见成功!
+ Thu, 30 Apr 2020 17:24:33  INFO basepage.py input_text [ line:95 ] 在登录页面_输入账户的元素：('xpath', '//input[@icon = "search user_bg"]')上输入文本值：13760495929成功!
+ Thu, 30 Apr 2020 17:24:33  INFO basepage.py wait_ele_exists [ line:56 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')存在成功，耗时：0:00:00.011001
+ Thu, 30 Apr 2020 17:24:33  INFO basepage.py get_element [ line:69 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')可见成功!
+ Thu, 30 Apr 2020 17:24:33  INFO basepage.py input_text [ line:95 ] 在登录页面_输入密码的元素：('xpath', '//input[@icon = "search psd_bg"]')上输入文本值：cl123456成功!
+ Thu, 30 Apr 2020 17:24:33  INFO basepage.py wait_ele_visible [ line:41 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功，耗时：0:00:00.024001
+ Thu, 30 Apr 2020 17:24:33  INFO basepage.py get_element [ line:69 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功!
+ Thu, 30 Apr 2020 17:24:33  INFO basepage.py click_element [ line:80 ] 点击登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')成功!
+ Thu, 30 Apr 2020 17:24:35  INFO basepage.py wait_ele_visible [ line:41 ] 等待首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')可见成功，耗时：0:00:01.560089
+ Thu, 30 Apr 2020 17:24:35  INFO basepage.py get_element [ line:69 ] 等待首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')可见成功!
+ Thu, 30 Apr 2020 17:24:35  INFO basepage.py click_element [ line:80 ] 点击首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')成功!
+ Thu, 30 Apr 2020 17:24:35  INFO basepage.py wait_ele_exists [ line:56 ] 等待上传合同页面_上传合同文件元素：('xpath', '//input[@class = "uploadinput"]')存在成功，耗时：0:00:00.590034
+ Thu, 30 Apr 2020 17:24:35  INFO basepage.py get_element [ line:69 ] 等待上传合同页面_上传合同文件元素：('xpath', '//input[@class = "uploadinput"]')可见成功!
+ Thu, 30 Apr 2020 17:24:36  INFO basepage.py input_text [ line:95 ] 在上传合同页面_上传合同文件的元素：('xpath', '//input[@class = "uploadinput"]')上输入文本值：D:\PycharmProjects\web001\data\123.jpg成功!
+ Thu, 30 Apr 2020 17:24:36  INFO basepage.py wait_ele_exists [ line:56 ] 等待上传合同页面_上传附件元素：('xpath', '//input[@class = "uploadfile"]')存在成功，耗时：0:00:00.021001
+ Thu, 30 Apr 2020 17:24:36  INFO basepage.py get_element [ line:69 ] 等待上传合同页面_上传附件元素：('xpath', '//input[@class = "uploadfile"]')可见成功!
+ Thu, 30 Apr 2020 17:24:36  INFO basepage.py input_text [ line:95 ] 在上传合同页面_上传附件的元素：('xpath', '//input[@class = "uploadfile"]')上输入文本值：D:\PycharmProjects\web001\data\123.jpg成功!
+ Thu, 30 Apr 2020 17:24:37  INFO basepage.py wait_ele_visible [ line:41 ] 等待上传合同页面_点击下一步元素：('xpath', '//span[text() = "下一步"]')可见成功，耗时：0:00:00.024002
+ Thu, 30 Apr 2020 17:24:37  INFO basepage.py get_element [ line:69 ] 等待上传合同页面_点击下一步元素：('xpath', '//span[text() = "下一步"]')可见成功!
+ Thu, 30 Apr 2020 17:24:37  INFO basepage.py click_element [ line:80 ] 点击上传合同页面_点击下一步元素：('xpath', '//span[text() = "下一步"]')成功!
+ Thu, 30 Apr 2020 17:24:42  INFO basepage.py wait_ele_visible [ line:41 ] 等待添加签署人页面_下一步按钮元素：('xpath', '//div[@class ="sure_bottom clearfix"]/button[2]/span')可见成功，耗时：0:00:00.060004
+ Thu, 30 Apr 2020 17:24:42  INFO basepage.py get_element [ line:69 ] 等待添加签署人页面_下一步按钮元素：('xpath', '//div[@class ="sure_bottom clearfix"]/button[2]/span')可见成功!
+ Thu, 30 Apr 2020 17:24:42  INFO basepage.py click_element [ line:80 ] 点击添加签署人页面_下一步按钮元素：('xpath', '//div[@class ="sure_bottom clearfix"]/button[2]/span')成功!
+ Thu, 30 Apr 2020 17:24:43  INFO basepage.py wait_ele_visible [ line:41 ] 等待文件签署页面_鼠标按住签章拖动到目标位置盖章元素：('xpath', '//div[@class ="cloud-box-content" ]/div[1]/ul[1]/li[1]/div/img')可见成功，耗时：0:00:00.534031
+ Thu, 30 Apr 2020 17:24:43  INFO basepage.py get_element [ line:69 ] 等待文件签署页面_鼠标按住签章拖动到目标位置盖章元素：('xpath', '//div[@class ="cloud-box-content" ]/div[1]/ul[1]/li[1]/div/img')可见成功!
+ Thu, 30 Apr 2020 17:24:43  ERROR basepage.py mouse_drag_and_drop [ line:147 ] <selenium.webdriver.remote.webelement.WebElement (session="4f6f78dfc530c2b9bfbaaa307c26b7d9", element="1567528b-a2e5-42da-aa3f-9eeb8f0e7e43")>元素鼠标移动到目标位置600,800失败
+Traceback (most recent call last):
+  File "D:\PycharmProjects\web001\Common\basepage.py", line 145, in mouse_drag_and_drop
+    ActionChains(self.driver).drag_and_drop_by_offset(source,xoffset,yoffset).perform()
+  File "D:\Python36\lib\site-packages\selenium\webdriver\common\action_chains.py", line 80, in perform
+    self.w3c_actions.perform()
+  File "D:\Python36\lib\site-packages\selenium\webdriver\common\actions\action_builder.py", line 76, in perform
+    self.driver.execute(Command.W3C_ACTIONS, enc)
+  File "D:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.MoveTargetOutOfBoundsException: Message: move target out of bounds
+  (Session info: chrome=81.0.4044.113)
+
+ Thu, 30 Apr 2020 17:24:43  INFO basepage.py save_imgs [ line:196 ] 截图成功，截图存放在:D:\PycharmProjects\web001\Outputs/imgs\文件签署页面_鼠标按住签章拖动到目标位置盖章_2020-04-30 17_24_43.png
+ Thu, 30 Apr 2020 17:24:43  INFO conftest.py login_web [ line:39 ] ====================上传的后置：关闭浏览器会话,清理环境，关闭浏览器====================

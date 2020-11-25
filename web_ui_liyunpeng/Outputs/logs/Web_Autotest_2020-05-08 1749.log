@@ -1,0 +1,2 @@
+ Fri, 08 May 2020 17:49:39  INFO logger.py <module> [ line:27 ] hehehe
+ Fri, 08 May 2020 17:49:40  INFO conftest.py login_web [ line:30 ] ====================上传的前置，初始化浏览器会话，登录页面====================

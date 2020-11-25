@@ -1,0 +1,33 @@
+ Fri, 08 May 2020 17:48:52  INFO logger.py <module> [ line:27 ] hehehe
+ Fri, 08 May 2020 17:48:52  INFO conftest.py login_web [ line:30 ] ====================上传的前置，初始化浏览器会话，登录页面====================
+ Fri, 08 May 2020 17:48:57  INFO basepage.py wait_ele_exists [ line:56 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')存在成功，耗时：0:00:00.017001
+ Fri, 08 May 2020 17:48:57  INFO basepage.py get_element [ line:69 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')可见成功!
+ Fri, 08 May 2020 17:48:57  INFO basepage.py input_text [ line:95 ] 在登录页面_输入账户的元素：('xpath', '//input[@icon = "search user_bg"]')上输入文本值：13760495929成功!
+ Fri, 08 May 2020 17:48:57  INFO basepage.py wait_ele_exists [ line:56 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')存在成功，耗时：0:00:00.011001
+ Fri, 08 May 2020 17:48:57  INFO basepage.py get_element [ line:69 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')可见成功!
+ Fri, 08 May 2020 17:48:57  INFO basepage.py input_text [ line:95 ] 在登录页面_输入密码的元素：('xpath', '//input[@icon = "search psd_bg"]')上输入文本值：cl123456成功!
+ Fri, 08 May 2020 17:48:57  INFO basepage.py wait_ele_visible [ line:41 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功，耗时：0:00:00.025002
+ Fri, 08 May 2020 17:48:57  INFO basepage.py get_element [ line:69 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功!
+ Fri, 08 May 2020 17:48:57  INFO basepage.py click_element [ line:80 ] 点击登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')成功!
+ Fri, 08 May 2020 17:48:59  INFO basepage.py wait_ele_visible [ line:41 ] 等待首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')可见成功，耗时：0:00:01.602092
+ Fri, 08 May 2020 17:48:59  INFO basepage.py get_element [ line:69 ] 等待首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')可见成功!
+ Fri, 08 May 2020 17:48:59  INFO basepage.py click_element [ line:80 ] 点击首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')成功!
+ Fri, 08 May 2020 17:48:59  INFO test_02_addSigner.py test_Specify_user [ line:33 ] *****************添加签署人付款方式为指定付*********************
+ Fri, 08 May 2020 17:48:59  INFO basepage.py wait_ele_exists [ line:56 ] 等待上传合同页面_上传合同文件元素：('xpath', '//input[@class = "uploadinput"]')存在成功，耗时：0:00:00.523029
+ Fri, 08 May 2020 17:48:59  INFO basepage.py get_element [ line:69 ] 等待上传合同页面_上传合同文件元素：('xpath', '//input[@class = "uploadinput"]')可见成功!
+ Fri, 08 May 2020 17:48:59  INFO basepage.py input_text [ line:95 ] 在上传合同页面_上传合同文件的元素：('xpath', '//input[@class = "uploadinput"]')上输入文本值：D:\PycharmProjects\web001\data\123.jpg成功!
+ Fri, 08 May 2020 17:48:59  INFO basepage.py wait_ele_exists [ line:56 ] 等待上传合同页面_上传附件元素：('xpath', '//input[@class = "uploadfile"]')存在成功，耗时：0:00:00.013000
+ Fri, 08 May 2020 17:48:59  INFO basepage.py get_element [ line:69 ] 等待上传合同页面_上传附件元素：('xpath', '//input[@class = "uploadfile"]')可见成功!
+ Fri, 08 May 2020 17:48:59  INFO basepage.py input_text [ line:95 ] 在上传合同页面_上传附件的元素：('xpath', '//input[@class = "uploadfile"]')上输入文本值：D:\PycharmProjects\web001\data\123.jpg成功!
+ Fri, 08 May 2020 17:49:00  INFO basepage.py wait_ele_visible [ line:41 ] 等待上传合同页面_点击下一步元素：('xpath', '//span[text() = "下一步"]')可见成功，耗时：0:00:00.082005
+ Fri, 08 May 2020 17:49:00  INFO basepage.py get_element [ line:69 ] 等待上传合同页面_点击下一步元素：('xpath', '//span[text() = "下一步"]')可见成功!
+ Fri, 08 May 2020 17:49:01  INFO basepage.py click_element [ line:80 ] 点击上传合同页面_点击下一步元素：('xpath', '//span[text() = "下一步"]')成功!
+ Fri, 08 May 2020 17:49:04  INFO basepage.py wait_ele_exists [ line:56 ] 等待添加签署人页面_切换到窗口点击下一步元素的底部对齐元素：('xpath', '//div[@class ="sure_bottom clearfix"]/button[2]/span')存在成功，耗时：0:00:00.029001
+ Fri, 08 May 2020 17:49:04  INFO basepage.py get_element [ line:69 ] 等待添加签署人页面_切换到窗口点击下一步元素的底部对齐元素：('xpath', '//div[@class ="sure_bottom clearfix"]/button[2]/span')可见成功!
+ Fri, 08 May 2020 17:49:04  ERROR basepage.py scroll_into_bottom [ line:220 ] 窗口滚动到当前元素页面底部对齐失败
+Traceback (most recent call last):
+  File "D:\PycharmProjects\web001\Common\basepage.py", line 218, in scroll_into_bottom
+    self.driver.driver.execute_script("arguments[0].scrollIntoView(true);", ele)
+AttributeError: 'WebDriver' object has no attribute 'driver'
+ Fri, 08 May 2020 17:49:04  INFO basepage.py save_imgs [ line:245 ] 截图成功，截图存放在:D:\PycharmProjects\web001\Outputs/imgs\添加签署人页面_切换到窗口点击下一步元素的底部对齐_2020-05-08 17_49_04.png
+ Fri, 08 May 2020 17:49:04  INFO conftest.py login_web [ line:39 ] ====================上传的后置：关闭浏览器会话,清理环境，关闭浏览器====================

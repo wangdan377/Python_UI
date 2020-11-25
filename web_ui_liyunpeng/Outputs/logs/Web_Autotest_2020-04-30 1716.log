@@ -1,0 +1,39 @@
+ Thu, 30 Apr 2020 17:16:35  INFO logger.py <module> [ line:27 ] hehehe
+ Thu, 30 Apr 2020 17:16:35  INFO conftest.py login_web [ line:30 ] ====================上传的前置，初始化浏览器会话，登录页面====================
+ Thu, 30 Apr 2020 17:16:40  INFO basepage.py wait_ele_exists [ line:56 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')存在成功，耗时：0:00:00.018001
+ Thu, 30 Apr 2020 17:16:40  INFO basepage.py get_element [ line:69 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')可见成功!
+ Thu, 30 Apr 2020 17:16:40  INFO basepage.py input_text [ line:95 ] 在登录页面_输入账户的元素：('xpath', '//input[@icon = "search user_bg"]')上输入文本值：13760495929成功!
+ Thu, 30 Apr 2020 17:16:42  INFO basepage.py wait_ele_exists [ line:56 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')存在成功，耗时：0:00:00.012000
+ Thu, 30 Apr 2020 17:16:42  INFO basepage.py get_element [ line:69 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')可见成功!
+ Thu, 30 Apr 2020 17:16:42  INFO basepage.py input_text [ line:95 ] 在登录页面_输入密码的元素：('xpath', '//input[@icon = "search psd_bg"]')上输入文本值：cl123456成功!
+ Thu, 30 Apr 2020 17:16:44  INFO basepage.py wait_ele_visible [ line:41 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功，耗时：0:00:00.025002
+ Thu, 30 Apr 2020 17:16:44  INFO basepage.py get_element [ line:69 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功!
+ Thu, 30 Apr 2020 17:16:44  INFO basepage.py click_element [ line:80 ] 点击登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')成功!
+ Thu, 30 Apr 2020 17:16:46  INFO basepage.py wait_ele_visible [ line:41 ] 等待首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')可见成功，耗时：0:00:01.583091
+ Thu, 30 Apr 2020 17:16:46  INFO basepage.py get_element [ line:69 ] 等待首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')可见成功!
+ Thu, 30 Apr 2020 17:16:46  INFO basepage.py click_element [ line:80 ] 点击首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')成功!
+ Thu, 30 Apr 2020 17:16:46  INFO basepage.py wait_ele_exists [ line:56 ] 等待上传合同页面_上传合同文件元素：('xpath', '//input[@class = "uploadinput"]')存在成功，耗时：0:00:00.549032
+ Thu, 30 Apr 2020 17:16:46  INFO basepage.py get_element [ line:69 ] 等待上传合同页面_上传合同文件元素：('xpath', '//input[@class = "uploadinput"]')可见成功!
+ Thu, 30 Apr 2020 17:16:46  INFO basepage.py input_text [ line:95 ] 在上传合同页面_上传合同文件的元素：('xpath', '//input[@class = "uploadinput"]')上输入文本值：D:\PycharmProjects\web001\data\123.jpg成功!
+ Thu, 30 Apr 2020 17:16:46  INFO basepage.py wait_ele_exists [ line:56 ] 等待上传合同页面_上传附件元素：('xpath', '//input[@class = "uploadfile"]')存在成功，耗时：0:00:00.016001
+ Thu, 30 Apr 2020 17:16:46  INFO basepage.py get_element [ line:69 ] 等待上传合同页面_上传附件元素：('xpath', '//input[@class = "uploadfile"]')可见成功!
+ Thu, 30 Apr 2020 17:16:46  INFO basepage.py input_text [ line:95 ] 在上传合同页面_上传附件的元素：('xpath', '//input[@class = "uploadfile"]')上输入文本值：D:\PycharmProjects\web001\data\123.jpg成功!
+ Thu, 30 Apr 2020 17:16:46  INFO basepage.py wait_ele_visible [ line:41 ] 等待上传合同页面_点击下一步元素：('xpath', '//span[text() = "下一步"]')可见成功，耗时：0:00:00.044003
+ Thu, 30 Apr 2020 17:16:46  INFO basepage.py get_element [ line:69 ] 等待上传合同页面_点击下一步元素：('xpath', '//span[text() = "下一步"]')可见成功!
+ Thu, 30 Apr 2020 17:16:48  ERROR basepage.py click_element [ line:82 ] 点击上传合同页面_点击下一步元素：('xpath', '//span[text() = "下一步"]')失败!
+Traceback (most recent call last):
+  File "D:\PycharmProjects\web001\Common\basepage.py", line 79, in click_element
+    ele.click()
+  File "D:\Python36\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\Python36\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "D:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span>...</span> is not clickable at point (1477, 865). Other element would receive the click: <div data-v-49154f1e="" class="loading-mask loading-pop-leave-active loading-pop-leave-to" style="">...</div>
+  (Session info: chrome=81.0.4044.113)
+
+ Thu, 30 Apr 2020 17:16:48  INFO basepage.py save_imgs [ line:196 ] 截图成功，截图存放在:D:\PycharmProjects\web001\Outputs/imgs\上传合同页面_点击下一步_2020-04-30 17_16_48.png
+ Thu, 30 Apr 2020 17:16:48  INFO conftest.py login_web [ line:39 ] ====================上传的后置：关闭浏览器会话,清理环境，关闭浏览器====================

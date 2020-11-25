@@ -1,0 +1,218 @@
+ Sun, 26 Apr 2020 16:26:27  INFO logger.py <module> [ line:27 ] hehehe
+ Sun, 26 Apr 2020 16:26:27  INFO conftest.py init_driver [ line:15 ] ====================登录的前置，初始化浏览器会话，打开登录页面====================
+ Sun, 26 Apr 2020 16:26:32  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')存在成功，耗时：0:00:00.024001
+ Sun, 26 Apr 2020 16:26:32  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')可见成功!
+ Sun, 26 Apr 2020 16:26:32  INFO basepage.py input_text [ line:94 ] 在登录页面_输入账户的元素：('xpath', '//input[@icon = "search user_bg"]')上输入文本值：13760495929成功!
+ Sun, 26 Apr 2020 16:26:34  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')存在成功，耗时：0:00:00.034002
+ Sun, 26 Apr 2020 16:26:34  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')可见成功!
+ Sun, 26 Apr 2020 16:26:34  INFO basepage.py input_text [ line:94 ] 在登录页面_输入密码的元素：('xpath', '//input[@icon = "search psd_bg"]')上输入文本值：cl123456成功!
+ Sun, 26 Apr 2020 16:26:36  INFO basepage.py wait_ele_visible [ line:40 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功，耗时：0:00:00.024002
+ Sun, 26 Apr 2020 16:26:36  INFO basepage.py get_element [ line:68 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功!
+ Sun, 26 Apr 2020 16:26:36  INFO basepage.py click_element [ line:79 ] 点击登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')成功!
+ Sun, 26 Apr 2020 16:26:37  INFO basepage.py wait_ele_exists [ line:55 ] 等待首页_安全等级元素是否存在元素：('xpath', '//span[text()="安全等级"]')存在成功，耗时：0:00:01.563090
+ Sun, 26 Apr 2020 16:26:37  INFO conftest.py init_driver [ line:21 ] ====================登录用例后置：关闭浏览器会话,清理环境，关闭浏览器====================
+ Sun, 26 Apr 2020 16:26:40  INFO conftest.py init_driver [ line:15 ] ====================登录的前置，初始化浏览器会话，打开登录页面====================
+ Sun, 26 Apr 2020 16:26:44  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')存在成功，耗时：0:00:00.019001
+ Sun, 26 Apr 2020 16:26:44  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')可见成功!
+ Sun, 26 Apr 2020 16:26:44  INFO basepage.py input_text [ line:94 ] 在登录页面_输入账户的元素：('xpath', '//input[@icon = "search user_bg"]')上输入文本值：461419962@qq.com成功!
+ Sun, 26 Apr 2020 16:26:47  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')存在成功，耗时：0:00:00.030002
+ Sun, 26 Apr 2020 16:26:47  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')可见成功!
+ Sun, 26 Apr 2020 16:26:47  INFO basepage.py input_text [ line:94 ] 在登录页面_输入密码的元素：('xpath', '//input[@icon = "search psd_bg"]')上输入文本值：cl123456成功!
+ Sun, 26 Apr 2020 16:26:49  INFO basepage.py wait_ele_visible [ line:40 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功，耗时：0:00:00.069004
+ Sun, 26 Apr 2020 16:26:49  INFO basepage.py get_element [ line:68 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功!
+ Sun, 26 Apr 2020 16:26:49  INFO basepage.py click_element [ line:79 ] 点击登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')成功!
+ Sun, 26 Apr 2020 16:26:53  INFO basepage.py wait_ele_exists [ line:55 ] 等待首页_安全等级元素是否存在元素：('xpath', '//span[text()="安全等级"]')存在成功，耗时：0:00:03.855221
+ Sun, 26 Apr 2020 16:26:53  INFO conftest.py init_driver [ line:21 ] ====================登录用例后置：关闭浏览器会话,清理环境，关闭浏览器====================
+ Sun, 26 Apr 2020 16:26:55  INFO conftest.py init_driver [ line:15 ] ====================登录的前置，初始化浏览器会话，打开登录页面====================
+ Sun, 26 Apr 2020 16:27:00  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_输入账号元素：('xpath', '//input[@icon = "search user_bg"]')存在成功，耗时：0:00:00.018001
+ Sun, 26 Apr 2020 16:27:00  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入账号元素：('xpath', '//input[@icon = "search user_bg"]')可见成功!
+ Sun, 26 Apr 2020 16:27:00  INFO basepage.py input_text [ line:94 ] 在登录页面_输入账号的元素：('xpath', '//input[@icon = "search user_bg"]')上输入文本值：成功!
+ Sun, 26 Apr 2020 16:27:00  INFO basepage.py wait_ele_visible [ line:40 ] 等待登录页面_点击登录元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功，耗时：0:00:00.027002
+ Sun, 26 Apr 2020 16:27:00  INFO basepage.py get_element [ line:68 ] 等待登录页面_点击登录元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功!
+ Sun, 26 Apr 2020 16:27:00  INFO basepage.py click_element [ line:79 ] 点击登录页面_点击登录元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')成功!
+ Sun, 26 Apr 2020 16:27:02  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_获取登录表单账户错误提示信息元素：('xpath', '//i[@class = "el-input__icon el-icon-search user_bg"]//parent::*//following-sibling::div')存在成功，耗时：0:00:00.029001
+ Sun, 26 Apr 2020 16:27:02  INFO basepage.py get_element [ line:68 ] 等待登录页面_获取登录表单账户错误提示信息元素：('xpath', '//i[@class = "el-input__icon el-icon-search user_bg"]//parent::*//following-sibling::div')可见成功!
+ Sun, 26 Apr 2020 16:27:02  INFO basepage.py get_text [ line:117 ] 获取登录页面_获取登录表单账户错误提示信息元素：请输入您注册的账户 文本成功!
+ Sun, 26 Apr 2020 16:27:02  INFO conftest.py init_driver [ line:21 ] ====================登录用例后置：关闭浏览器会话,清理环境，关闭浏览器====================
+ Sun, 26 Apr 2020 16:27:04  INFO conftest.py init_driver [ line:15 ] ====================登录的前置，初始化浏览器会话，打开登录页面====================
+ Sun, 26 Apr 2020 16:27:09  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_输入账号元素：('xpath', '//input[@icon = "search user_bg"]')存在成功，耗时：0:00:00.020001
+ Sun, 26 Apr 2020 16:27:09  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入账号元素：('xpath', '//input[@icon = "search user_bg"]')可见成功!
+ Sun, 26 Apr 2020 16:27:09  INFO basepage.py input_text [ line:94 ] 在登录页面_输入账号的元素：('xpath', '//input[@icon = "search user_bg"]')上输入文本值：123456798788成功!
+ Sun, 26 Apr 2020 16:27:09  INFO basepage.py wait_ele_visible [ line:40 ] 等待登录页面_点击登录元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功，耗时：0:00:00.025001
+ Sun, 26 Apr 2020 16:27:09  INFO basepage.py get_element [ line:68 ] 等待登录页面_点击登录元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功!
+ Sun, 26 Apr 2020 16:27:09  INFO basepage.py click_element [ line:79 ] 点击登录页面_点击登录元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')成功!
+ Sun, 26 Apr 2020 16:27:11  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_获取登录表单账户错误提示信息元素：('xpath', '//i[@class = "el-input__icon el-icon-search user_bg"]//parent::*//following-sibling::div')存在成功，耗时：0:00:00.030002
+ Sun, 26 Apr 2020 16:27:11  INFO basepage.py get_element [ line:68 ] 等待登录页面_获取登录表单账户错误提示信息元素：('xpath', '//i[@class = "el-input__icon el-icon-search user_bg"]//parent::*//following-sibling::div')可见成功!
+ Sun, 26 Apr 2020 16:27:11  INFO basepage.py get_text [ line:117 ] 获取登录页面_获取登录表单账户错误提示信息元素：请输入正确的手机号和邮箱 文本成功!
+ Sun, 26 Apr 2020 16:27:11  INFO conftest.py init_driver [ line:21 ] ====================登录用例后置：关闭浏览器会话,清理环境，关闭浏览器====================
+ Sun, 26 Apr 2020 16:27:14  INFO conftest.py init_driver [ line:15 ] ====================登录的前置，初始化浏览器会话，打开登录页面====================
+ Sun, 26 Apr 2020 16:27:18  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_输入账号元素：('xpath', '//input[@icon = "search user_bg"]')存在成功，耗时：0:00:00.018001
+ Sun, 26 Apr 2020 16:27:18  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入账号元素：('xpath', '//input[@icon = "search user_bg"]')可见成功!
+ Sun, 26 Apr 2020 16:27:18  INFO basepage.py input_text [ line:94 ] 在登录页面_输入账号的元素：('xpath', '//input[@icon = "search user_bg"]')上输入文本值：aa.com成功!
+ Sun, 26 Apr 2020 16:27:18  INFO basepage.py wait_ele_visible [ line:40 ] 等待登录页面_点击登录元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功，耗时：0:00:00.028001
+ Sun, 26 Apr 2020 16:27:18  INFO basepage.py get_element [ line:68 ] 等待登录页面_点击登录元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功!
+ Sun, 26 Apr 2020 16:27:18  INFO basepage.py click_element [ line:79 ] 点击登录页面_点击登录元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')成功!
+ Sun, 26 Apr 2020 16:27:21  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_获取登录表单账户错误提示信息元素：('xpath', '//i[@class = "el-input__icon el-icon-search user_bg"]//parent::*//following-sibling::div')存在成功，耗时：0:00:00.031002
+ Sun, 26 Apr 2020 16:27:21  INFO basepage.py get_element [ line:68 ] 等待登录页面_获取登录表单账户错误提示信息元素：('xpath', '//i[@class = "el-input__icon el-icon-search user_bg"]//parent::*//following-sibling::div')可见成功!
+ Sun, 26 Apr 2020 16:27:21  INFO basepage.py get_text [ line:117 ] 获取登录页面_获取登录表单账户错误提示信息元素：请输入正确的手机号和邮箱 文本成功!
+ Sun, 26 Apr 2020 16:27:21  INFO conftest.py init_driver [ line:21 ] ====================登录用例后置：关闭浏览器会话,清理环境，关闭浏览器====================
+ Sun, 26 Apr 2020 16:27:23  INFO conftest.py init_driver [ line:15 ] ====================登录的前置，初始化浏览器会话，打开登录页面====================
+ Sun, 26 Apr 2020 16:27:27  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')存在成功，耗时：0:00:00.021001
+ Sun, 26 Apr 2020 16:27:27  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')可见成功!
+ Sun, 26 Apr 2020 16:27:28  INFO basepage.py input_text [ line:94 ] 在登录页面_输入账户的元素：('xpath', '//input[@icon = "search user_bg"]')上输入文本值：13760495929成功!
+ Sun, 26 Apr 2020 16:27:30  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')存在成功，耗时：0:00:00.010001
+ Sun, 26 Apr 2020 16:27:30  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')可见成功!
+ Sun, 26 Apr 2020 16:27:30  INFO basepage.py input_text [ line:94 ] 在登录页面_输入密码的元素：('xpath', '//input[@icon = "search psd_bg"]')上输入文本值：成功!
+ Sun, 26 Apr 2020 16:27:32  INFO basepage.py wait_ele_visible [ line:40 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功，耗时：0:00:00.053003
+ Sun, 26 Apr 2020 16:27:32  INFO basepage.py get_element [ line:68 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功!
+ Sun, 26 Apr 2020 16:27:32  INFO basepage.py click_element [ line:79 ] 点击登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')成功!
+ Sun, 26 Apr 2020 16:27:34  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_获取登录表单密码错误提示信息元素：('xpath', '//i[@class = "el-input__icon el-icon-search psd_bg"]//parent::*//following-sibling::div')存在成功，耗时：0:00:00.026001
+ Sun, 26 Apr 2020 16:27:34  INFO basepage.py get_element [ line:68 ] 等待登录页面_获取登录表单密码错误提示信息元素：('xpath', '//i[@class = "el-input__icon el-icon-search psd_bg"]//parent::*//following-sibling::div')可见成功!
+ Sun, 26 Apr 2020 16:27:34  INFO basepage.py get_text [ line:117 ] 获取登录页面_获取登录表单密码错误提示信息元素：密码不能为空 文本成功!
+ Sun, 26 Apr 2020 16:27:34  INFO conftest.py init_driver [ line:21 ] ====================登录用例后置：关闭浏览器会话,清理环境，关闭浏览器====================
+ Sun, 26 Apr 2020 16:27:36  INFO conftest.py init_driver [ line:15 ] ====================登录的前置，初始化浏览器会话，打开登录页面====================
+ Sun, 26 Apr 2020 16:27:41  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')存在成功，耗时：0:00:00.020001
+ Sun, 26 Apr 2020 16:27:41  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')可见成功!
+ Sun, 26 Apr 2020 16:27:41  INFO basepage.py input_text [ line:94 ] 在登录页面_输入账户的元素：('xpath', '//input[@icon = "search user_bg"]')上输入文本值：13760495929成功!
+ Sun, 26 Apr 2020 16:27:43  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')存在成功，耗时：0:00:00.032002
+ Sun, 26 Apr 2020 16:27:43  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')可见成功!
+ Sun, 26 Apr 2020 16:27:43  INFO basepage.py input_text [ line:94 ] 在登录页面_输入密码的元素：('xpath', '//input[@icon = "search psd_bg"]')上输入文本值：12345成功!
+ Sun, 26 Apr 2020 16:27:45  INFO basepage.py wait_ele_visible [ line:40 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功，耗时：0:00:00.069004
+ Sun, 26 Apr 2020 16:27:45  INFO basepage.py get_element [ line:68 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功!
+ Sun, 26 Apr 2020 16:27:45  INFO basepage.py click_element [ line:79 ] 点击登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')成功!
+ Sun, 26 Apr 2020 16:27:47  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_获取登录表单密码错误提示信息元素：('xpath', '//i[@class = "el-input__icon el-icon-search psd_bg"]//parent::*//following-sibling::div')存在成功，耗时：0:00:00.037002
+ Sun, 26 Apr 2020 16:27:47  INFO basepage.py get_element [ line:68 ] 等待登录页面_获取登录表单密码错误提示信息元素：('xpath', '//i[@class = "el-input__icon el-icon-search psd_bg"]//parent::*//following-sibling::div')可见成功!
+ Sun, 26 Apr 2020 16:27:47  INFO basepage.py get_text [ line:117 ] 获取登录页面_获取登录表单密码错误提示信息元素：请输入8~20位字符 文本成功!
+ Sun, 26 Apr 2020 16:27:47  INFO conftest.py init_driver [ line:21 ] ====================登录用例后置：关闭浏览器会话,清理环境，关闭浏览器====================
+ Sun, 26 Apr 2020 16:27:50  INFO conftest.py init_driver [ line:15 ] ====================登录的前置，初始化浏览器会话，打开登录页面====================
+ Sun, 26 Apr 2020 16:27:54  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')存在成功，耗时：0:00:00.022001
+ Sun, 26 Apr 2020 16:27:54  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')可见成功!
+ Sun, 26 Apr 2020 16:27:54  INFO basepage.py input_text [ line:94 ] 在登录页面_输入账户的元素：('xpath', '//input[@icon = "search user_bg"]')上输入文本值：13760495929成功!
+ Sun, 26 Apr 2020 16:27:56  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')存在成功，耗时：0:00:00.030001
+ Sun, 26 Apr 2020 16:27:56  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')可见成功!
+ Sun, 26 Apr 2020 16:27:56  INFO basepage.py input_text [ line:94 ] 在登录页面_输入密码的元素：('xpath', '//input[@icon = "search psd_bg"]')上输入文本值：123452222222222121212成功!
+ Sun, 26 Apr 2020 16:27:58  INFO basepage.py wait_ele_visible [ line:40 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功，耗时：0:00:00.068004
+ Sun, 26 Apr 2020 16:27:58  INFO basepage.py get_element [ line:68 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功!
+ Sun, 26 Apr 2020 16:27:58  INFO basepage.py click_element [ line:79 ] 点击登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')成功!
+ Sun, 26 Apr 2020 16:28:00  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_获取登录表单密码错误提示信息元素：('xpath', '//i[@class = "el-input__icon el-icon-search psd_bg"]//parent::*//following-sibling::div')存在成功，耗时：0:00:00.021001
+ Sun, 26 Apr 2020 16:28:00  INFO basepage.py get_element [ line:68 ] 等待登录页面_获取登录表单密码错误提示信息元素：('xpath', '//i[@class = "el-input__icon el-icon-search psd_bg"]//parent::*//following-sibling::div')可见成功!
+ Sun, 26 Apr 2020 16:28:01  INFO basepage.py get_text [ line:117 ] 获取登录页面_获取登录表单密码错误提示信息元素：请输入8~20位字符 文本成功!
+ Sun, 26 Apr 2020 16:28:01  INFO conftest.py init_driver [ line:21 ] ====================登录用例后置：关闭浏览器会话,清理环境，关闭浏览器====================
+ Sun, 26 Apr 2020 16:28:03  INFO conftest.py init_driver [ line:15 ] ====================登录的前置，初始化浏览器会话，打开登录页面====================
+ Sun, 26 Apr 2020 16:28:07  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')存在成功，耗时：0:00:00.021001
+ Sun, 26 Apr 2020 16:28:07  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')可见成功!
+ Sun, 26 Apr 2020 16:28:07  INFO basepage.py input_text [ line:94 ] 在登录页面_输入账户的元素：('xpath', '//input[@icon = "search user_bg"]')上输入文本值：461419962@qq.com成功!
+ Sun, 26 Apr 2020 16:28:09  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')存在成功，耗时：0:00:00.036002
+ Sun, 26 Apr 2020 16:28:09  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')可见成功!
+ Sun, 26 Apr 2020 16:28:10  INFO basepage.py input_text [ line:94 ] 在登录页面_输入密码的元素：('xpath', '//input[@icon = "search psd_bg"]')上输入文本值：123452222222222121212成功!
+ Sun, 26 Apr 2020 16:28:12  INFO basepage.py wait_ele_visible [ line:40 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功，耗时：0:00:00.058003
+ Sun, 26 Apr 2020 16:28:12  INFO basepage.py get_element [ line:68 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功!
+ Sun, 26 Apr 2020 16:28:12  INFO basepage.py click_element [ line:79 ] 点击登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')成功!
+ Sun, 26 Apr 2020 16:28:14  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_获取登录表单密码错误提示信息元素：('xpath', '//i[@class = "el-input__icon el-icon-search psd_bg"]//parent::*//following-sibling::div')存在成功，耗时：0:00:00.023002
+ Sun, 26 Apr 2020 16:28:14  INFO basepage.py get_element [ line:68 ] 等待登录页面_获取登录表单密码错误提示信息元素：('xpath', '//i[@class = "el-input__icon el-icon-search psd_bg"]//parent::*//following-sibling::div')可见成功!
+ Sun, 26 Apr 2020 16:28:14  INFO basepage.py get_text [ line:117 ] 获取登录页面_获取登录表单密码错误提示信息元素：请输入8~20位字符 文本成功!
+ Sun, 26 Apr 2020 16:28:14  INFO conftest.py init_driver [ line:21 ] ====================登录用例后置：关闭浏览器会话,清理环境，关闭浏览器====================
+ Sun, 26 Apr 2020 16:28:16  INFO conftest.py init_driver [ line:15 ] ====================登录的前置，初始化浏览器会话，打开登录页面====================
+ Sun, 26 Apr 2020 16:28:20  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')存在成功，耗时：0:00:00.013001
+ Sun, 26 Apr 2020 16:28:20  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')可见成功!
+ Sun, 26 Apr 2020 16:28:20  INFO basepage.py input_text [ line:94 ] 在登录页面_输入账户的元素：('xpath', '//input[@icon = "search user_bg"]')上输入文本值：13760495929成功!
+ Sun, 26 Apr 2020 16:28:22  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')存在成功，耗时：0:00:00.033001
+ Sun, 26 Apr 2020 16:28:22  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')可见成功!
+ Sun, 26 Apr 2020 16:28:23  INFO basepage.py input_text [ line:94 ] 在登录页面_输入密码的元素：('xpath', '//input[@icon = "search psd_bg"]')上输入文本值：cl1234561成功!
+ Sun, 26 Apr 2020 16:28:25  INFO basepage.py wait_ele_visible [ line:40 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功，耗时：0:00:00.045003
+ Sun, 26 Apr 2020 16:28:25  INFO basepage.py get_element [ line:68 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功!
+ Sun, 26 Apr 2020 16:28:25  INFO basepage.py click_element [ line:79 ] 点击登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')成功!
+ Sun, 26 Apr 2020 16:28:28  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_后去账户或密码错误提示信息元素：('xpath', '//span[@class = "errTip"]')存在成功，耗时：0:00:00.037002
+ Sun, 26 Apr 2020 16:28:28  INFO basepage.py get_element [ line:68 ] 等待登录页面_后去账户或密码错误提示信息元素：('xpath', '//span[@class = "errTip"]')可见成功!
+ Sun, 26 Apr 2020 16:28:28  INFO basepage.py get_text [ line:117 ] 获取登录页面_后去账户或密码错误提示信息元素：账号或密码错误，请输入正确的账号和密码。 文本成功!
+ Sun, 26 Apr 2020 16:28:28  INFO conftest.py init_driver [ line:21 ] ====================登录用例后置：关闭浏览器会话,清理环境，关闭浏览器====================
+ Sun, 26 Apr 2020 16:28:30  INFO conftest.py init_driver [ line:15 ] ====================登录的前置，初始化浏览器会话，打开登录页面====================
+ Sun, 26 Apr 2020 16:28:34  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')存在成功，耗时：0:00:00.023001
+ Sun, 26 Apr 2020 16:28:34  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')可见成功!
+ Sun, 26 Apr 2020 16:28:34  INFO basepage.py input_text [ line:94 ] 在登录页面_输入账户的元素：('xpath', '//input[@icon = "search user_bg"]')上输入文本值：13760495920成功!
+ Sun, 26 Apr 2020 16:28:36  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')存在成功，耗时：0:00:00.028002
+ Sun, 26 Apr 2020 16:28:36  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')可见成功!
+ Sun, 26 Apr 2020 16:28:36  INFO basepage.py input_text [ line:94 ] 在登录页面_输入密码的元素：('xpath', '//input[@icon = "search psd_bg"]')上输入文本值：cl1234561成功!
+ Sun, 26 Apr 2020 16:28:39  INFO basepage.py wait_ele_visible [ line:40 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功，耗时：0:00:00.067004
+ Sun, 26 Apr 2020 16:28:39  INFO basepage.py get_element [ line:68 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功!
+ Sun, 26 Apr 2020 16:28:39  INFO basepage.py click_element [ line:79 ] 点击登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')成功!
+ Sun, 26 Apr 2020 16:28:42  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_后去账户或密码错误提示信息元素：('xpath', '//span[@class = "errTip"]')存在成功，耗时：0:00:00.035002
+ Sun, 26 Apr 2020 16:28:42  INFO basepage.py get_element [ line:68 ] 等待登录页面_后去账户或密码错误提示信息元素：('xpath', '//span[@class = "errTip"]')可见成功!
+ Sun, 26 Apr 2020 16:28:42  INFO basepage.py get_text [ line:117 ] 获取登录页面_后去账户或密码错误提示信息元素：账号或密码错误，请输入正确的账号和密码。 文本成功!
+ Sun, 26 Apr 2020 16:28:42  INFO conftest.py init_driver [ line:21 ] ====================登录用例后置：关闭浏览器会话,清理环境，关闭浏览器====================
+ Sun, 26 Apr 2020 16:28:44  INFO conftest.py init_driver [ line:15 ] ====================登录的前置，初始化浏览器会话，打开登录页面====================
+ Sun, 26 Apr 2020 16:28:49  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')存在成功，耗时：0:00:00.026002
+ Sun, 26 Apr 2020 16:28:49  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')可见成功!
+ Sun, 26 Apr 2020 16:28:49  INFO basepage.py input_text [ line:94 ] 在登录页面_输入账户的元素：('xpath', '//input[@icon = "search user_bg"]')上输入文本值：461419962@qq.com成功!
+ Sun, 26 Apr 2020 16:28:51  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')存在成功，耗时：0:00:00.037002
+ Sun, 26 Apr 2020 16:28:51  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')可见成功!
+ Sun, 26 Apr 2020 16:28:51  INFO basepage.py input_text [ line:94 ] 在登录页面_输入密码的元素：('xpath', '//input[@icon = "search psd_bg"]')上输入文本值：cl1234561成功!
+ Sun, 26 Apr 2020 16:28:53  INFO basepage.py wait_ele_visible [ line:40 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功，耗时：0:00:00.058003
+ Sun, 26 Apr 2020 16:28:53  INFO basepage.py get_element [ line:68 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功!
+ Sun, 26 Apr 2020 16:28:53  INFO basepage.py click_element [ line:79 ] 点击登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')成功!
+ Sun, 26 Apr 2020 16:28:56  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_后去账户或密码错误提示信息元素：('xpath', '//span[@class = "errTip"]')存在成功，耗时：0:00:00.031002
+ Sun, 26 Apr 2020 16:28:56  INFO basepage.py get_element [ line:68 ] 等待登录页面_后去账户或密码错误提示信息元素：('xpath', '//span[@class = "errTip"]')可见成功!
+ Sun, 26 Apr 2020 16:28:56  INFO basepage.py get_text [ line:117 ] 获取登录页面_后去账户或密码错误提示信息元素：账号或密码错误，请输入正确的账号和密码。 文本成功!
+ Sun, 26 Apr 2020 16:28:56  INFO conftest.py init_driver [ line:21 ] ====================登录用例后置：关闭浏览器会话,清理环境，关闭浏览器====================
+ Sun, 26 Apr 2020 16:28:58  INFO conftest.py login_web [ line:30 ] ====================上传的前置，初始化浏览器会话，登录页面====================
+ Sun, 26 Apr 2020 16:29:03  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')存在成功，耗时：0:00:00.019001
+ Sun, 26 Apr 2020 16:29:03  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')可见成功!
+ Sun, 26 Apr 2020 16:29:03  INFO basepage.py input_text [ line:94 ] 在登录页面_输入账户的元素：('xpath', '//input[@icon = "search user_bg"]')上输入文本值：13760495929成功!
+ Sun, 26 Apr 2020 16:29:05  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')存在成功，耗时：0:00:00.032002
+ Sun, 26 Apr 2020 16:29:05  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')可见成功!
+ Sun, 26 Apr 2020 16:29:05  INFO basepage.py input_text [ line:94 ] 在登录页面_输入密码的元素：('xpath', '//input[@icon = "search psd_bg"]')上输入文本值：cl123456成功!
+ Sun, 26 Apr 2020 16:29:07  INFO basepage.py wait_ele_visible [ line:40 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功，耗时：0:00:00.065004
+ Sun, 26 Apr 2020 16:29:07  INFO basepage.py get_element [ line:68 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功!
+ Sun, 26 Apr 2020 16:29:07  INFO basepage.py click_element [ line:79 ] 点击登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')成功!
+ Sun, 26 Apr 2020 16:29:09  INFO basepage.py wait_ele_visible [ line:40 ] 等待首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')可见成功，耗时：0:00:01.752100
+ Sun, 26 Apr 2020 16:29:09  INFO basepage.py get_element [ line:68 ] 等待首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')可见成功!
+ Sun, 26 Apr 2020 16:29:09  INFO basepage.py click_element [ line:79 ] 点击首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')成功!
+ Sun, 26 Apr 2020 16:29:09  INFO test_01_upload_files.py test_access_upload [ line:19 ] *****************点击发起签约按钮，进入上传合同页面成功*********************
+ Sun, 26 Apr 2020 16:29:12  INFO basepage.py wait_ele_exists [ line:55 ] 等待上传合同页面_上传合同元素元素：('xpath', '//input[@class = "uploadinput"]')存在成功，耗时：0:00:00.013001
+ Sun, 26 Apr 2020 16:29:12  INFO conftest.py login_web [ line:39 ] ====================上传的后置：关闭浏览器会话,清理环境，关闭浏览器====================
+ Sun, 26 Apr 2020 16:29:14  INFO conftest.py login_web [ line:30 ] ====================上传的前置，初始化浏览器会话，登录页面====================
+ Sun, 26 Apr 2020 16:29:19  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')存在成功，耗时：0:00:00.014001
+ Sun, 26 Apr 2020 16:29:19  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')可见成功!
+ Sun, 26 Apr 2020 16:29:19  INFO basepage.py input_text [ line:94 ] 在登录页面_输入账户的元素：('xpath', '//input[@icon = "search user_bg"]')上输入文本值：13760495929成功!
+ Sun, 26 Apr 2020 16:29:21  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')存在成功，耗时：0:00:00.031002
+ Sun, 26 Apr 2020 16:29:21  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')可见成功!
+ Sun, 26 Apr 2020 16:29:21  INFO basepage.py input_text [ line:94 ] 在登录页面_输入密码的元素：('xpath', '//input[@icon = "search psd_bg"]')上输入文本值：cl123456成功!
+ Sun, 26 Apr 2020 16:29:23  INFO basepage.py wait_ele_visible [ line:40 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功，耗时：0:00:00.050003
+ Sun, 26 Apr 2020 16:29:23  INFO basepage.py get_element [ line:68 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功!
+ Sun, 26 Apr 2020 16:29:23  INFO basepage.py click_element [ line:79 ] 点击登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')成功!
+ Sun, 26 Apr 2020 16:29:25  INFO basepage.py wait_ele_visible [ line:40 ] 等待首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')可见成功，耗时：0:00:01.897109
+ Sun, 26 Apr 2020 16:29:25  INFO basepage.py get_element [ line:68 ] 等待首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')可见成功!
+ Sun, 26 Apr 2020 16:29:25  INFO basepage.py click_element [ line:79 ] 点击首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')成功!
+ Sun, 26 Apr 2020 16:29:25  INFO test_01_upload_files.py test_upload_access [ line:30 ] *****************上传合同并点击下一步*********************
+ Sun, 26 Apr 2020 16:29:28  INFO basepage.py wait_ele_exists [ line:55 ] 等待上传合同页面_上传合同文件元素：('xpath', '//input[@class = "uploadinput"]')存在成功，耗时：0:00:00.015001
+ Sun, 26 Apr 2020 16:29:28  INFO basepage.py get_element [ line:68 ] 等待上传合同页面_上传合同文件元素：('xpath', '//input[@class = "uploadinput"]')可见成功!
+ Sun, 26 Apr 2020 16:29:28  INFO basepage.py input_text [ line:94 ] 在上传合同页面_上传合同文件的元素：('xpath', '//input[@class = "uploadinput"]')上输入文本值：D:\PycharmProjects\web001\data\123.jpg成功!
+ Sun, 26 Apr 2020 16:29:31  INFO basepage.py wait_ele_exists [ line:55 ] 等待上传合同页面_上传附件元素：('xpath', '//input[@class = "uploadfile"]')存在成功，耗时：0:00:00.011000
+ Sun, 26 Apr 2020 16:29:31  INFO basepage.py get_element [ line:68 ] 等待上传合同页面_上传附件元素：('xpath', '//input[@class = "uploadfile"]')可见成功!
+ Sun, 26 Apr 2020 16:29:31  INFO basepage.py input_text [ line:94 ] 在上传合同页面_上传附件的元素：('xpath', '//input[@class = "uploadfile"]')上输入文本值：D:\PycharmProjects\web001\data\123.jpg成功!
+ Sun, 26 Apr 2020 16:29:34  INFO basepage.py wait_ele_visible [ line:40 ] 等待上传合同页面_点击下一步元素：('xpath', '//span[text() = "下一步"]')可见成功，耗时：0:00:00.068004
+ Sun, 26 Apr 2020 16:29:34  INFO basepage.py get_element [ line:68 ] 等待上传合同页面_点击下一步元素：('xpath', '//span[text() = "下一步"]')可见成功!
+ Sun, 26 Apr 2020 16:29:35  INFO basepage.py click_element [ line:79 ] 点击上传合同页面_点击下一步元素：('xpath', '//span[text() = "下一步"]')成功!
+ Sun, 26 Apr 2020 16:29:38  INFO basepage.py wait_ele_exists [ line:55 ] 等待添加签署人页面_添加签署人元素元素：('xpath', '//p[text() = "签署对象"]')存在成功，耗时：0:00:00.030001
+ Sun, 26 Apr 2020 16:29:38  INFO conftest.py login_web [ line:39 ] ====================上传的后置：关闭浏览器会话,清理环境，关闭浏览器====================
+ Sun, 26 Apr 2020 16:29:40  INFO conftest.py login_web [ line:30 ] ====================上传的前置，初始化浏览器会话，登录页面====================
+ Sun, 26 Apr 2020 16:29:44  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')存在成功，耗时：0:00:00.016001
+ Sun, 26 Apr 2020 16:29:44  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')可见成功!
+ Sun, 26 Apr 2020 16:29:44  INFO basepage.py input_text [ line:94 ] 在登录页面_输入账户的元素：('xpath', '//input[@icon = "search user_bg"]')上输入文本值：13760495929成功!
+ Sun, 26 Apr 2020 16:29:46  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')存在成功，耗时：0:00:00.035002
+ Sun, 26 Apr 2020 16:29:46  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')可见成功!
+ Sun, 26 Apr 2020 16:29:46  INFO basepage.py input_text [ line:94 ] 在登录页面_输入密码的元素：('xpath', '//input[@icon = "search psd_bg"]')上输入文本值：cl123456成功!
+ Sun, 26 Apr 2020 16:29:49  INFO basepage.py wait_ele_visible [ line:40 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功，耗时：0:00:00.077004
+ Sun, 26 Apr 2020 16:29:49  INFO basepage.py get_element [ line:68 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功!
+ Sun, 26 Apr 2020 16:29:49  INFO basepage.py click_element [ line:79 ] 点击登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')成功!
+ Sun, 26 Apr 2020 16:29:50  INFO basepage.py wait_ele_visible [ line:40 ] 等待首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')可见成功，耗时：0:00:01.599092
+ Sun, 26 Apr 2020 16:29:50  INFO basepage.py get_element [ line:68 ] 等待首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')可见成功!
+ Sun, 26 Apr 2020 16:29:50  INFO basepage.py click_element [ line:79 ] 点击首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')成功!
+ Sun, 26 Apr 2020 16:29:50  INFO test_01_upload_files.py test_upload_error [ line:42 ] *****************不上传合同并点击下一步*********************
+ Sun, 26 Apr 2020 16:29:52  INFO basepage.py wait_ele_visible [ line:40 ] 等待不上传合同_点击下一步元素：('xpath', '//span[text() = "下一步"]')可见成功，耗时：0:00:01.612092
+ Sun, 26 Apr 2020 16:29:52  INFO basepage.py get_element [ line:68 ] 等待不上传合同_点击下一步元素：('xpath', '//span[text() = "下一步"]')可见成功!
+ Sun, 26 Apr 2020 16:29:52  INFO basepage.py click_element [ line:79 ] 点击不上传合同_点击下一步元素：('xpath', '//span[text() = "下一步"]')成功!
+ Sun, 26 Apr 2020 16:29:53  INFO basepage.py wait_ele_exists [ line:55 ] 等待上传合同页面_不上传合同错误提示元素：('xpath', '//div[@class = "el-message__group"]/p')存在成功，耗时：0:00:00.018001
+ Sun, 26 Apr 2020 16:29:53  INFO basepage.py get_element [ line:68 ] 等待上传合同页面_不上传合同错误提示元素：('xpath', '//div[@class = "el-message__group"]/p')可见成功!
+ Sun, 26 Apr 2020 16:29:53  INFO basepage.py get_text [ line:117 ] 获取上传合同页面_不上传合同错误提示元素：请上传合同再进行下一步 文本成功!
+ Sun, 26 Apr 2020 16:29:53  INFO conftest.py login_web [ line:39 ] ====================上传的后置：关闭浏览器会话,清理环境，关闭浏览器====================

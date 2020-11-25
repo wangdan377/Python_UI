@@ -1,0 +1,22 @@
+ Sun, 26 Apr 2020 16:25:57  INFO logger.py <module> [ line:27 ] hehehe
+ Sun, 26 Apr 2020 16:25:57  INFO conftest.py login_web [ line:30 ] ====================上传的前置，初始化浏览器会话，登录页面====================
+ Sun, 26 Apr 2020 16:26:02  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')存在成功，耗时：0:00:00.016000
+ Sun, 26 Apr 2020 16:26:02  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')可见成功!
+ Sun, 26 Apr 2020 16:26:02  INFO basepage.py input_text [ line:94 ] 在登录页面_输入账户的元素：('xpath', '//input[@icon = "search user_bg"]')上输入文本值：13760495929成功!
+ Sun, 26 Apr 2020 16:26:04  INFO basepage.py wait_ele_exists [ line:55 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')存在成功，耗时：0:00:00.032002
+ Sun, 26 Apr 2020 16:26:04  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')可见成功!
+ Sun, 26 Apr 2020 16:26:04  INFO basepage.py input_text [ line:94 ] 在登录页面_输入密码的元素：('xpath', '//input[@icon = "search psd_bg"]')上输入文本值：cl123456成功!
+ Sun, 26 Apr 2020 16:26:06  INFO basepage.py wait_ele_visible [ line:40 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功，耗时：0:00:00.070004
+ Sun, 26 Apr 2020 16:26:06  INFO basepage.py get_element [ line:68 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功!
+ Sun, 26 Apr 2020 16:26:06  INFO basepage.py click_element [ line:79 ] 点击登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')成功!
+ Sun, 26 Apr 2020 16:26:08  INFO basepage.py wait_ele_visible [ line:40 ] 等待首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')可见成功，耗时：0:00:01.642094
+ Sun, 26 Apr 2020 16:26:08  INFO basepage.py get_element [ line:68 ] 等待首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')可见成功!
+ Sun, 26 Apr 2020 16:26:08  INFO basepage.py click_element [ line:79 ] 点击首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')成功!
+ Sun, 26 Apr 2020 16:26:08  INFO test_01_upload_files.py test_upload_error [ line:42 ] *****************不上传合同并点击下一步*********************
+ Sun, 26 Apr 2020 16:26:08  INFO basepage.py wait_ele_visible [ line:40 ] 等待不上传合同_点击下一步元素：('xpath', '//span[text() = "下一步"]')可见成功，耗时：0:00:00.023001
+ Sun, 26 Apr 2020 16:26:08  INFO basepage.py get_element [ line:68 ] 等待不上传合同_点击下一步元素：('xpath', '//span[text() = "下一步"]')可见成功!
+ Sun, 26 Apr 2020 16:26:08  INFO basepage.py click_element [ line:79 ] 点击不上传合同_点击下一步元素：('xpath', '//span[text() = "下一步"]')成功!
+ Sun, 26 Apr 2020 16:26:09  INFO basepage.py wait_ele_exists [ line:55 ] 等待上传合同页面_不上传合同错误提示元素：('xpath', '//div[@class = "el-message__group"]/p')存在成功，耗时：0:00:00.010001
+ Sun, 26 Apr 2020 16:26:09  INFO basepage.py get_element [ line:68 ] 等待上传合同页面_不上传合同错误提示元素：('xpath', '//div[@class = "el-message__group"]/p')可见成功!
+ Sun, 26 Apr 2020 16:26:09  INFO basepage.py get_text [ line:117 ] 获取上传合同页面_不上传合同错误提示元素：请上传合同再进行下一步 文本成功!
+ Sun, 26 Apr 2020 16:26:09  INFO conftest.py login_web [ line:39 ] ====================上传的后置：关闭浏览器会话,清理环境，关闭浏览器====================

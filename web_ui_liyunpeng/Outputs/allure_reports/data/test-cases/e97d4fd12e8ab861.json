@@ -1,0 +1,110 @@
+{
+  "uid" : "e97d4fd12e8ab861",
+  "name" : "test_Specify_user[filepath0-mobile0]",
+  "fullName" : "TestCases.test_02_addSigner.Test_AddSigner#test_Specify_user",
+  "historyId" : "471a85c8f7930bc4ebbaacde75b6c969",
+  "time" : {
+    "start" : 1590131637468,
+    "stop" : 1590131658859,
+    "duration" : 21391
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login_web",
+    "time" : {
+      "start" : 1590131628891,
+      "stop" : 1590131637005,
+      "duration" : 8114
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c4c6a6867c56f339",
+      "name" : "log",
+      "source" : "c4c6a6867c56f339.txt",
+      "type" : "text/plain",
+      "size" : 8234
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "login_web::0",
+    "time" : {
+      "start" : 1590131658885,
+      "stop" : 1590131661034,
+      "duration" : 2149
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "demo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_02_addSigner"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_AddSigner"
+  }, {
+    "name" : "host",
+    "value" : "WIN-7JOCUDP647O"
+  }, {
+    "name" : "thread",
+    "value" : "11008-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_02_addSigner"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "filepath",
+    "value" : "{'filepath_1': 'D:\\\\PycharmProjects\\\\web001\\\\data\\\\123.jpg'}"
+  }, {
+    "name" : "mobile",
+    "value" : "{'mobile': '19333333333'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "demo" ]
+  },
+  "source" : "e97d4fd12e8ab861.json",
+  "parameterValues" : [ "{'filepath_1': 'D:\\\\PycharmProjects\\\\web001\\\\data\\\\123.jpg'}", "{'mobile': '19333333333'}" ]
+}

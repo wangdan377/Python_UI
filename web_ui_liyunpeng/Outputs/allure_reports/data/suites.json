@@ -1,0 +1,49 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "TestCases",
+    "children" : [ {
+      "name" : "test_02_addSigner",
+      "children" : [ {
+        "name" : "Test_AddSigner",
+        "children" : [ {
+          "name" : "test_Specify_user[filepath0-mobile0]",
+          "uid" : "e97d4fd12e8ab861",
+          "parentUid" : "12bd01e48331549d613fb9f1e9f90b14",
+          "status" : "passed",
+          "time" : {
+            "start" : 1590131637468,
+            "stop" : 1590131658859,
+            "duration" : 21391
+          },
+          "flaky" : false,
+          "parameters" : [ "{'filepath_1': 'D:\\\\PycharmProjects\\\\web001\\\\data\\\\123.jpg'}", "{'mobile': '19333333333'}" ]
+        } ],
+        "uid" : "12bd01e48331549d613fb9f1e9f90b14"
+      } ],
+      "uid" : "6bdf8e3b7dd95c24747b3564ddec4f65"
+    }, {
+      "name" : "test_03_signature",
+      "children" : [ {
+        "name" : "Test_Signature",
+        "children" : [ {
+          "name" : "test_Single_signture_success[filepath0]",
+          "uid" : "96f5db359f788f6a",
+          "parentUid" : "4ce5b82fc7bb2d6c137691f1d40225df",
+          "status" : "passed",
+          "time" : {
+            "start" : 1590131667879,
+            "stop" : 1590131687453,
+            "duration" : 19574
+          },
+          "flaky" : false,
+          "parameters" : [ "{'filepath_1': 'D:\\\\PycharmProjects\\\\web001\\\\data\\\\123.jpg'}" ]
+        } ],
+        "uid" : "4ce5b82fc7bb2d6c137691f1d40225df"
+      } ],
+      "uid" : "1d7eff5543e14cf53d0a5e11284b0896"
+    } ],
+    "uid" : "0408d924bc3d43de55080f45620fd22e"
+  } ]
+}

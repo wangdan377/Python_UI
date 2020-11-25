@@ -1,0 +1,37 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "WIN-7JOCUDP647O",
+    "children" : [ {
+      "name" : "11008-MainThread",
+      "children" : [ {
+        "name" : "test_Single_signture_success[filepath0]",
+        "uid" : "96f5db359f788f6a",
+        "parentUid" : "23301870b516540feb3c70f8fc8f19e7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590131667879,
+          "stop" : 1590131687453,
+          "duration" : 19574
+        },
+        "flaky" : false,
+        "parameters" : [ "{'filepath_1': 'D:\\\\PycharmProjects\\\\web001\\\\data\\\\123.jpg'}" ]
+      }, {
+        "name" : "test_Specify_user[filepath0-mobile0]",
+        "uid" : "e97d4fd12e8ab861",
+        "parentUid" : "23301870b516540feb3c70f8fc8f19e7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590131637468,
+          "stop" : 1590131658859,
+          "duration" : 21391
+        },
+        "flaky" : false,
+        "parameters" : [ "{'filepath_1': 'D:\\\\PycharmProjects\\\\web001\\\\data\\\\123.jpg'}", "{'mobile': '19333333333'}" ]
+      } ],
+      "uid" : "23301870b516540feb3c70f8fc8f19e7"
+    } ],
+    "uid" : "0aa3cfa0deb72d54937b2cdda3af75c4"
+  } ]
+}

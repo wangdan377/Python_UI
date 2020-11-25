@@ -1,0 +1,49 @@
+INFO     root:conftest.py:30 ====================上传的前置，初始化浏览器会话，登录页面====================
+INFO     root:basepage.py:56 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')存在成功，耗时：0:00:00.042002
+INFO     root:basepage.py:69 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')可见成功!
+INFO     root:basepage.py:95 在登录页面_输入账户的元素：('xpath', '//input[@icon = "search user_bg"]')上输入文本值：13760495929成功!
+INFO     root:basepage.py:56 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')存在成功，耗时：0:00:00.010001
+INFO     root:basepage.py:69 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')可见成功!
+INFO     root:basepage.py:95 在登录页面_输入密码的元素：('xpath', '//input[@icon = "search psd_bg"]')上输入文本值：cl123456成功!
+INFO     root:basepage.py:41 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功，耗时：0:00:00.027001
+INFO     root:basepage.py:69 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功!
+INFO     root:basepage.py:80 点击登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')成功!
+INFO     root:basepage.py:41 等待首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')可见成功，耗时：0:00:01.599091
+INFO     root:basepage.py:69 等待首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')可见成功!
+INFO     root:basepage.py:80 点击首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')成功!
+INFO     root:basepage.py:56 等待添加签署人页面_切换到窗口点击下一步元素的底部对齐元素：('xpath', '//span[text() = "下一步"]')存在成功，耗时：0:00:00.538031
+INFO     root:basepage.py:69 等待添加签署人页面_切换到窗口点击下一步元素的底部对齐元素：('xpath', '//span[text() = "下一步"]')可见成功!
+ERROR    root:basepage.py:224 窗口滚动到当前元素页面底部对齐
+NoneType: None
+INFO     root:basepage.py:56 等待上传合同页面_上传合同文件元素：('xpath', '//input[@class = "uploadinput"]')存在成功，耗时：0:00:00.016001
+INFO     root:basepage.py:69 等待上传合同页面_上传合同文件元素：('xpath', '//input[@class = "uploadinput"]')可见成功!
+INFO     root:basepage.py:95 在上传合同页面_上传合同文件的元素：('xpath', '//input[@class = "uploadinput"]')上输入文本值：D:\PycharmProjects\web001\data\123.jpg成功!
+INFO     root:basepage.py:56 等待上传合同页面_上传附件元素：('xpath', '//input[@class = "uploadfile"]')存在成功，耗时：0:00:00.020002
+INFO     root:basepage.py:69 等待上传合同页面_上传附件元素：('xpath', '//input[@class = "uploadfile"]')可见成功!
+INFO     root:basepage.py:95 在上传合同页面_上传附件的元素：('xpath', '//input[@class = "uploadfile"]')上输入文本值：D:\PycharmProjects\web001\data\123.jpg成功!
+INFO     root:basepage.py:41 等待上传合同页面_点击下一步元素：('xpath', '//span[text() = "下一步"]')可见成功，耗时：0:00:00.026002
+INFO     root:basepage.py:69 等待上传合同页面_点击下一步元素：('xpath', '//span[text() = "下一步"]')可见成功!
+INFO     root:basepage.py:80 点击上传合同页面_点击下一步元素：('xpath', '//span[text() = "下一步"]')成功!
+INFO     root:basepage.py:41 等待添加签署人页面_下一步按钮元素：('xpath', '//div[@class ="sure_bottom clearfix"]/button[2]/span')可见成功，耗时：0:00:00.031002
+INFO     root:basepage.py:69 等待添加签署人页面_下一步按钮元素：('xpath', '//div[@class ="sure_bottom clearfix"]/button[2]/span')可见成功!
+INFO     root:basepage.py:80 点击添加签署人页面_下一步按钮元素：('xpath', '//div[@class ="sure_bottom clearfix"]/button[2]/span')成功!
+INFO     root:basepage.py:41 等待文件签署页面_鼠标按住签章拖动到目标位置盖章元素：('xpath', '//div[@class ="cloud-box-content" ]/div[1]/ul[1]/li[1]/div/img')可见成功，耗时：0:00:00.541031
+INFO     root:basepage.py:69 等待文件签署页面_鼠标按住签章拖动到目标位置盖章元素：('xpath', '//div[@class ="cloud-box-content" ]/div[1]/ul[1]/li[1]/div/img')可见成功!
+ERROR    root:basepage.py:151 <selenium.webdriver.remote.webelement.WebElement (session="ebcfbfe8a7e2a73d1b933061a3051f38", element="711e802e-7e17-4c09-9157-cc91d3a0ce37")>元素鼠标移动到目标位置800,100成功
+NoneType: None
+INFO     root:basepage.py:41 等待文件签署页面_点击完成签署元素：('xpath', '//span[text() = "完成签署"]')可见成功，耗时：0:00:00.031002
+INFO     root:basepage.py:69 等待文件签署页面_点击完成签署元素：('xpath', '//span[text() = "完成签署"]')可见成功!
+INFO     root:basepage.py:80 点击文件签署页面_点击完成签署元素：('xpath', '//span[text() = "完成签署"]')成功!
+INFO     root:basepage.py:41 等待文件签署页面_点击密码验证元素：('xpath', '//span[text() = "密码验证"]')可见成功，耗时：0:00:00.592034
+INFO     root:basepage.py:69 等待文件签署页面_点击密码验证元素：('xpath', '//span[text() = "密码验证"]')可见成功!
+INFO     root:basepage.py:80 点击文件签署页面_点击密码验证元素：('xpath', '//span[text() = "密码验证"]')成功!
+INFO     root:basepage.py:56 等待文件签署页面_输入密码元素：('xpath', '//input[@type ="password"]')存在成功，耗时：0:00:00.014000
+INFO     root:basepage.py:69 等待文件签署页面_输入密码元素：('xpath', '//input[@type ="password"]')可见成功!
+INFO     root:basepage.py:95 在文件签署页面_输入密码的元素：('xpath', '//input[@type ="password"]')上输入文本值：123456成功!
+INFO     root:basepage.py:41 等待文件签署页面_点击确认签署按钮元素：('xpath', '//div[@class ="el-dialog__wrapper ukey checkPsw" ]/div/div[3]/div/button/span')可见成功，耗时：0:00:00.024002
+INFO     root:basepage.py:69 等待文件签署页面_点击确认签署按钮元素：('xpath', '//div[@class ="el-dialog__wrapper ukey checkPsw" ]/div/div[3]/div/button/span')可见成功!
+INFO     root:basepage.py:80 点击文件签署页面_点击确认签署按钮元素：('xpath', '//div[@class ="el-dialog__wrapper ukey checkPsw" ]/div/div[3]/div/button/span')成功!
+INFO     root:basepage.py:56 等待合同管理界面_文件签署成功弹框元素：('xpath', '//div[@class ="el-message__group"]')存在成功，耗时：0:00:04.340248
+INFO     root:basepage.py:69 等待合同管理界面_文件签署成功弹框元素：('xpath', '//div[@class ="el-message__group"]')可见成功!
+INFO     root:basepage.py:118 获取合同管理界面_文件签署成功弹框元素：签署成功 文本成功!
+INFO     root:conftest.py:39 ====================上传的后置：关闭浏览器会话,清理环境，关闭浏览器====================

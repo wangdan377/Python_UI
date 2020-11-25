@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Test Report</title>
+    <link href="assets/style.css" rel="stylesheet" type="text/css"/></head>
+  <body onLoad="init()">
+    <script>/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this file,
+ * You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+
+function toArray(iter) {
+    if (iter === null) {
+        return null;
+    }
+    return Array.prototype.slice.call(iter);
+}
+
+function find(selector, elem) {
+    if (!elem) {
+        elem = document;
+    }
+    return elem.querySelector(selector);
+}
+
+function find_all(selector, elem) {
+    if (!elem) {
+        elem = document;
+    }
+    return toArray(elem.querySelectorAll(selector));
+}
+
+function sort_column(elem) {
+    toggle_sort_states(elem);
+    var colIndex = toArray(elem.parentNode.childNodes).indexOf(elem);
+    var key;
+    if (elem.classList.contains('numeric')) {
+        key = key_num;
+    } else if (elem.classList.contains('result')) {
+        key = key_result;
+    } else {
+        key = key_alpha;
+    }
+    sort_table(elem, key(colIndex));
+}
+
+function show_all_extras() {
+    find_all('.col-result').forEach(show_extras);
+}
+
+function hide_all_extras() {
+    find_all('.col-result').forEach(hide_extras);
+}
+
+function show_extras(colresult_elem) {
+    var extras = colresult_elem.parentNode.nextElementSibling;
+    var expandcollapse = colresult_elem.firstElementChild;
+    extras.classList.remove("collapsed");
+    expandcollapse.classList.remove("expander");
+    expandcollapse.classList.add("collapser");
+}
+
+function hide_extras(colresult_elem) {
+    var extras = colresult_elem.parentNode.nextElementSibling;
+    var expandcollapse = colresult_elem.firstElementChild;
+    extras.classList.add("collapsed");
+    expandcollapse.classList.remove("collapser");
+    expandcollapse.classList.add("expander");
+}
+
+function show_filters() {
+    var filter_items = document.getElementsByClassName('filter');
+    for (var i = 0; i < filter_items.length; i++)
+        filter_items[i].hidden = false;
+}
+
+function add_collapse() {
+    // Add links for show/hide all
+    var resulttable = find('table#results-table');
+    var showhideall = document.createElement("p");
+    showhideall.innerHTML = '<a href="javascript:show_all_extras()">Show all details</a> / ' +
+                            '<a href="javascript:hide_all_extras()">Hide all details</a>';
+    resulttable.parentElement.insertBefore(showhideall, resulttable);
+
+    // Add show/hide link to each result
+    find_all('.col-result').forEach(function(elem) {
+        var collapsed = get_query_parameter('collapsed') || 'Passed';
+        var extras = elem.parentNode.nextElementSibling;
+        var expandcollapse = document.createElement("span");
+        if (extras.classList.contains("collapsed")) {
+            expandcollapse.classList.add("expander")
+        } else if (collapsed.includes(elem.innerHTML)) {
+            extras.classList.add("collapsed");
+            expandcollapse.classList.add("expander");
+        } else {
+            expandcollapse.classList.add("collapser");
+        }
+        elem.appendChild(expandcollapse);
+
+        elem.addEventListener("click", function(event) {
+            if (event.currentTarget.parentNode.nextElementSibling.classList.contains("collapsed")) {
+                show_extras(event.currentTarget);
+            } else {
+                hide_extras(event.currentTarget);
+            }
+        });
+    })
+}
+
+function get_query_parameter(name) {
+    var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+}
+
+function init () {
+    reset_sort_headers();
+
+    add_collapse();
+
+    show_filters();
+
+    sort_column(find('.initial-sort'));
+
+    find_all('.sortable').forEach(function(elem) {
+        elem.addEventListener("click",
+                              function(event) {
+                                  sort_column(elem);
+                              }, false)
+    });
+
+};
+
+function sort_table(clicked, key_func) {
+    var rows = find_all('.results-table-row');
+    var reversed = !clicked.classList.contains('asc');
+    var sorted_rows = sort(rows, key_func, reversed);
+    /* Whole table is removed here because browsers acts much slower
+     * when appending existing elements.
+     */
+    var thead = document.getElementById("results-table-head");
+    document.getElementById('results-table').remove();
+    var parent = document.createElement("table");
+    parent.id = "results-table";
+    parent.appendChild(thead);
+    sorted_rows.forEach(function(elem) {
+        parent.appendChild(elem);
+    });
+    document.getElementsByTagName("BODY")[0].appendChild(parent);
+}
+
+function sort(items, key_func, reversed) {
+    var sort_array = items.map(function(item, i) {
+        return [key_func(item), i];
+    });
+
+    sort_array.sort(function(a, b) {
+        var key_a = a[0];
+        var key_b = b[0];
+
+        if (key_a == key_b) return 0;
+
+        if (reversed) {
+            return (key_a < key_b ? 1 : -1);
+        } else {
+            return (key_a > key_b ? 1 : -1);
+        }
+    });
+
+    return sort_array.map(function(item) {
+        var index = item[1];
+        return items[index];
+    });
+}
+
+function key_alpha(col_index) {
+    return function(elem) {
+        return elem.childNodes[1].childNodes[col_index].firstChild.data.toLowerCase();
+    };
+}
+
+function key_num(col_index) {
+    return function(elem) {
+        return parseFloat(elem.childNodes[1].childNodes[col_index].firstChild.data);
+    };
+}
+
+function key_result(col_index) {
+    return function(elem) {
+        var strings = ['Error', 'Failed', 'Rerun', 'XFailed', 'XPassed',
+                       'Skipped', 'Passed'];
+        return strings.indexOf(elem.childNodes[1].childNodes[col_index].firstChild.data);
+    };
+}
+
+function reset_sort_headers() {
+    find_all('.sort-icon').forEach(function(elem) {
+        elem.parentNode.removeChild(elem);
+    });
+    find_all('.sortable').forEach(function(elem) {
+        var icon = document.createElement("div");
+        icon.className = "sort-icon";
+        icon.textContent = "vvv";
+        elem.insertBefore(icon, elem.firstChild);
+        elem.classList.remove("desc", "active");
+        elem.classList.add("asc", "inactive");
+    });
+}
+
+function toggle_sort_states(elem) {
+    //if active, toggle between asc and desc
+    if (elem.classList.contains('active')) {
+        elem.classList.toggle('asc');
+        elem.classList.toggle('desc');
+    }
+
+    //if inactive, reset all other functions and add ascending active
+    if (elem.classList.contains('inactive')) {
+        reset_sort_headers();
+        elem.classList.remove('inactive');
+        elem.classList.add('active');
+    }
+}
+
+function is_all_rows_hidden(value) {
+  return value.hidden == false;
+}
+
+function filter_table(elem) {
+    var outcome_att = "data-test-result";
+    var outcome = elem.getAttribute(outcome_att);
+    class_outcome = outcome + " results-table-row";
+    var outcome_rows = document.getElementsByClassName(class_outcome);
+
+    for(var i = 0; i < outcome_rows.length; i++){
+        outcome_rows[i].hidden = !elem.checked;
+    }
+
+    var rows = find_all('.results-table-row').filter(is_all_rows_hidden);
+    var all_rows_hidden = rows.length == 0 ? true : false;
+    var not_found_message = document.getElementById("not-found-message");
+    not_found_message.hidden = !all_rows_hidden;
+}
+</script>
+    <h1>PCUI_test.html</h1>
+    <p>Report generated on 22-May-2020 at 15:14:49 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.1.1</p>
+    <h2>Environment</h2>
+    <table id="environment">
+      <tr>
+        <td>JAVA_HOME</td>
+        <td>D:\jdk-13.0.1</td></tr>
+      <tr>
+        <td>Packages</td>
+        <td>{"pluggy": "0.13.1", "py": "1.8.1", "pytest": "5.4.1"}</td></tr>
+      <tr>
+        <td>Platform</td>
+        <td>Windows-7-6.1.7601-SP1</td></tr>
+      <tr>
+        <td>Plugins</td>
+        <td>{"allure-pytest": "2.8.13", "html": "2.1.1", "metadata": "1.8.0"}</td></tr>
+      <tr>
+        <td>Python</td>
+        <td>3.6.7</td></tr></table>
+    <h2>Summary</h2>
+    <p>2 tests ran in 61.10 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">2 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <h2>Results</h2>
+    <table id="results-table">
+      <thead id="results-table-head">
+        <tr>
+          <th class="sortable result initial-sort" col="result">Result</th>
+          <th class="sortable" col="name">Test</th>
+          <th class="sortable numeric" col="duration">Duration</th>
+          <th>Links</th></tr>
+        <tr hidden="true" id="not-found-message">
+          <th colspan="4">No results found. Try to check the filters</th></tr></thead>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCases/test_02_addSigner.py::Test_AddSigner::test_Specify_user[filepath0-mobile0]</td>
+          <td class="col-duration">21.39</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log setup------------------------------- <br/>INFO     root:conftest.py:30 ====================上传的前置，初始化浏览器会话，登录页面====================
+INFO     root:basepage.py:56 等待登录页面_输入账户元素：(&#x27;xpath&#x27;, &#x27;//input[@icon = &quot;search user_bg&quot;]&#x27;)存在成功，耗时：0:00:00.025001
+INFO     root:basepage.py:69 等待登录页面_输入账户元素：(&#x27;xpath&#x27;, &#x27;//input[@icon = &quot;search user_bg&quot;]&#x27;)可见成功!
+INFO     root:basepage.py:95 在登录页面_输入账户的元素：(&#x27;xpath&#x27;, &#x27;//input[@icon = &quot;search user_bg&quot;]&#x27;)上输入文本值：13760495929成功!
+INFO     root:basepage.py:56 等待登录页面_输入密码元素：(&#x27;xpath&#x27;, &#x27;//input[@icon = &quot;search psd_bg&quot;]&#x27;)存在成功，耗时：0:00:00.009001
+INFO     root:basepage.py:69 等待登录页面_输入密码元素：(&#x27;xpath&#x27;, &#x27;//input[@icon = &quot;search psd_bg&quot;]&#x27;)可见成功!
+INFO     root:basepage.py:95 在登录页面_输入密码的元素：(&#x27;xpath&#x27;, &#x27;//input[@icon = &quot;search psd_bg&quot;]&#x27;)上输入文本值：cl123456成功!
+INFO     root:basepage.py:41 等待登录页面_点击登录按钮元素：(&#x27;xpath&#x27;, &#x27;//button[contains (@class,&quot;el-button el-button--primary&quot;)]&#x27;)可见成功，耗时：0:00:00.025001
+INFO     root:basepage.py:69 等待登录页面_点击登录按钮元素：(&#x27;xpath&#x27;, &#x27;//button[contains (@class,&quot;el-button el-button--primary&quot;)]&#x27;)可见成功!
+INFO     root:basepage.py:80 点击登录页面_点击登录按钮元素：(&#x27;xpath&#x27;, &#x27;//button[contains (@class,&quot;el-button el-button--primary&quot;)]&#x27;)成功!
+INFO     root:basepage.py:41 等待首页_发起签约按钮元素：(&#x27;xpath&#x27;, &#x27;//span[text() =&quot;发起签约&quot;]&#x27;)可见成功，耗时：0:00:01.724099
+INFO     root:basepage.py:69 等待首页_发起签约按钮元素：(&#x27;xpath&#x27;, &#x27;//span[text() =&quot;发起签约&quot;]&#x27;)可见成功!
+INFO     root:basepage.py:80 点击首页_发起签约按钮元素：(&#x27;xpath&#x27;, &#x27;//span[text() =&quot;发起签约&quot;]&#x27;)成功!<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     root:test_02_addSigner.py:33 *****************添加签署人付款方式为指定付*********************
+INFO     root:basepage.py:56 等待添加签署人页面_切换到窗口点击下一步元素的底部对齐元素：(&#x27;xpath&#x27;, &#x27;//span[text() = &quot;下一步&quot;]&#x27;)存在成功，耗时：0:00:01.046060
+INFO     root:basepage.py:69 等待添加签署人页面_切换到窗口点击下一步元素的底部对齐元素：(&#x27;xpath&#x27;, &#x27;//span[text() = &quot;下一步&quot;]&#x27;)可见成功!
+ERROR    root:basepage.py:224 窗口滚动到当前元素页面底部对齐
+NoneType: None
+INFO     root:basepage.py:56 等待上传合同页面_上传合同文件元素：(&#x27;xpath&#x27;, &#x27;//input[@class = &quot;uploadinput&quot;]&#x27;)存在成功，耗时：0:00:00.011001
+INFO     root:basepage.py:69 等待上传合同页面_上传合同文件元素：(&#x27;xpath&#x27;, &#x27;//input[@class = &quot;uploadinput&quot;]&#x27;)可见成功!
+INFO     root:basepage.py:95 在上传合同页面_上传合同文件的元素：(&#x27;xpath&#x27;, &#x27;//input[@class = &quot;uploadinput&quot;]&#x27;)上输入文本值：D:\PycharmProjects\web001\data\123.jpg成功!
+INFO     root:basepage.py:56 等待上传合同页面_上传附件元素：(&#x27;xpath&#x27;, &#x27;//input[@class = &quot;uploadfile&quot;]&#x27;)存在成功，耗时：0:00:00.013000
+INFO     root:basepage.py:69 等待上传合同页面_上传附件元素：(&#x27;xpath&#x27;, &#x27;//input[@class = &quot;uploadfile&quot;]&#x27;)可见成功!
+INFO     root:basepage.py:95 在上传合同页面_上传附件的元素：(&#x27;xpath&#x27;, &#x27;//input[@class = &quot;uploadfile&quot;]&#x27;)上输入文本值：D:\PycharmProjects\web001\data\123.jpg成功!
+INFO     root:basepage.py:41 等待上传合同页面_点击下一步元素：(&#x27;xpath&#x27;, &#x27;//span[text() = &quot;下一步&quot;]&#x27;)可见成功，耗时：0:00:00.023001
+INFO     root:basepage.py:69 等待上传合同页面_点击下一步元素：(&#x27;xpath&#x27;, &#x27;//span[text() = &quot;下一步&quot;]&#x27;)可见成功!
+INFO     root:basepage.py:80 点击上传合同页面_点击下一步元素：(&#x27;xpath&#x27;, &#x27;//span[text() = &quot;下一步&quot;]&#x27;)成功!
+INFO     root:basepage.py:41 等待添加签署人页面_点击添加签署人元素：(&#x27;xpath&#x27;, &#x27;//span[text()=&quot;添加签署人&quot;]&#x27;)可见成功，耗时：0:00:00.028002
+INFO     root:basepage.py:69 等待添加签署人页面_点击添加签署人元素：(&#x27;xpath&#x27;, &#x27;//span[text()=&quot;添加签署人&quot;]&#x27;)可见成功!
+INFO     root:basepage.py:80 点击添加签署人页面_点击添加签署人元素：(&#x27;xpath&#x27;, &#x27;//span[text()=&quot;添加签署人&quot;]&#x27;)成功!
+INFO     root:basepage.py:56 等待添加签署人页面_输入签署人元素：(&#x27;xpath&#x27;, &#x27;//div[@class = &quot;info&quot;]/ul[2]/li[2]/div[@class = &quot;el-row&quot;]/div[1]/div/input[1]&#x27;)存在成功，耗时：0:00:00.014001
+INFO     root:basepage.py:69 等待添加签署人页面_输入签署人元素：(&#x27;xpath&#x27;, &#x27;//div[@class = &quot;info&quot;]/ul[2]/li[2]/div[@class = &quot;el-row&quot;]/div[1]/div/input[1]&#x27;)可见成功!
+INFO     root:basepage.py:95 在添加签署人页面_输入签署人的元素：(&#x27;xpath&#x27;, &#x27;//div[@class = &quot;info&quot;]/ul[2]/li[2]/div[@class = &quot;el-row&quot;]/div[1]/div/input[1]&#x27;)上输入文本值：19333333333成功!
+INFO     root:basepage.py:41 等待添加签署人页面_点击空白或者无连接处元素：(&#x27;xpath&#x27;, &#x27;//p[text() = &quot;签署对象&quot;]&#x27;)可见成功，耗时：0:00:00.019001
+INFO     root:basepage.py:69 等待添加签署人页面_点击空白或者无连接处元素：(&#x27;xpath&#x27;, &#x27;//p[text() = &quot;签署对象&quot;]&#x27;)可见成功!
+INFO     root:basepage.py:80 点击添加签署人页面_点击空白或者无连接处元素：(&#x27;xpath&#x27;, &#x27;//p[text() = &quot;签署对象&quot;]&#x27;)成功!
+INFO     root:basepage.py:41 等待添加签署人页面_点击指定付按钮元素：(&#x27;xpath&#x27;, &#x27;//label[@class = &quot;el-radio radio2&quot;]/span&#x27;)可见成功，耗时：0:00:00.019001
+INFO     root:basepage.py:69 等待添加签署人页面_点击指定付按钮元素：(&#x27;xpath&#x27;, &#x27;//label[@class = &quot;el-radio radio2&quot;]/span&#x27;)可见成功!
+INFO     root:basepage.py:80 点击添加签署人页面_点击指定付按钮元素：(&#x27;xpath&#x27;, &#x27;//label[@class = &quot;el-radio radio2&quot;]/span&#x27;)成功!
+INFO     root:basepage.py:56 等待添加签署人页面_切换到窗口点击下一步元素的底部对齐元素：(&#x27;xpath&#x27;, &#x27;//div[@class =&quot;sure_bottom clearfix&quot;]/button[2]/span&#x27;)存在成功，耗时：0:00:00.018001
+INFO     root:basepage.py:69 等待添加签署人页面_切换到窗口点击下一步元素的底部对齐元素：(&#x27;xpath&#x27;, &#x27;//div[@class =&quot;sure_bottom clearfix&quot;]/button[2]/span&#x27;)可见成功!
+ERROR    root:basepage.py:224 窗口滚动到当前元素页面底部对齐
+NoneType: None
+INFO     root:basepage.py:41 等待添加签署人页面_点击请选择用户元素：(&#x27;xpath&#x27;, &#x27;//div[@class =&quot;pay&quot;]/div[1]/div[1]/div/div[1]/input&#x27;)可见成功，耗时：0:00:00.031001
+INFO     root:basepage.py:69 等待添加签署人页面_点击请选择用户元素：(&#x27;xpath&#x27;, &#x27;//div[@class =&quot;pay&quot;]/div[1]/div[1]/div/div[1]/input&#x27;)可见成功!
+INFO     root:basepage.py:80 点击添加签署人页面_点击请选择用户元素：(&#x27;xpath&#x27;, &#x27;//div[@class =&quot;pay&quot;]/div[1]/div[1]/div/div[1]/input&#x27;)成功!
+INFO     root:basepage.py:41 等待添加签署人页面_选择指定付用户元素：(&#x27;xpath&#x27;, &#x27;//span[contains(text(),&quot;13760495929&quot;)]&#x27;)可见成功，耗时：0:00:00.031002
+INFO     root:basepage.py:69 等待添加签署人页面_选择指定付用户元素：(&#x27;xpath&#x27;, &#x27;//span[contains(text(),&quot;13760495929&quot;)]&#x27;)可见成功!
+INFO     root:basepage.py:80 点击添加签署人页面_选择指定付用户元素：(&#x27;xpath&#x27;, &#x27;//span[contains(text(),&quot;13760495929&quot;)]&#x27;)成功!
+INFO     root:basepage.py:41 等待添加签署人页面_点击下一步元素：(&#x27;xpath&#x27;, &#x27;//div[@class =&quot;sure_bottom clearfix&quot;]/button[2]/span&#x27;)可见成功，耗时：0:00:00.036002
+INFO     root:basepage.py:69 等待添加签署人页面_点击下一步元素：(&#x27;xpath&#x27;, &#x27;//div[@class =&quot;sure_bottom clearfix&quot;]/button[2]/span&#x27;)可见成功!
+INFO     root:basepage.py:80 点击添加签署人页面_点击下一步元素：(&#x27;xpath&#x27;, &#x27;//div[@class =&quot;sure_bottom clearfix&quot;]/button[2]/span&#x27;)成功!
+INFO     root:basepage.py:56 等待合同签署页面_定位给待签署人标记签署的位置文本是否存在元素：(&#x27;xpath&#x27;, &#x27;//p[text() = &quot;给待签署人标记签署的位置&quot;]&#x27;)存在成功，耗时：0:00:00.011000<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCases/test_03_signature.py::Test_Signature::test_Single_signture_success[filepath0]</td>
+          <td class="col-duration">19.57</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log setup------------------------------- <br/>INFO     root:conftest.py:30 ====================上传的前置，初始化浏览器会话，登录页面====================
+INFO     root:basepage.py:56 等待登录页面_输入账户元素：(&#x27;xpath&#x27;, &#x27;//input[@icon = &quot;search user_bg&quot;]&#x27;)存在成功，耗时：0:00:00.042002
+INFO     root:basepage.py:69 等待登录页面_输入账户元素：(&#x27;xpath&#x27;, &#x27;//input[@icon = &quot;search user_bg&quot;]&#x27;)可见成功!
+INFO     root:basepage.py:95 在登录页面_输入账户的元素：(&#x27;xpath&#x27;, &#x27;//input[@icon = &quot;search user_bg&quot;]&#x27;)上输入文本值：13760495929成功!
+INFO     root:basepage.py:56 等待登录页面_输入密码元素：(&#x27;xpath&#x27;, &#x27;//input[@icon = &quot;search psd_bg&quot;]&#x27;)存在成功，耗时：0:00:00.010001
+INFO     root:basepage.py:69 等待登录页面_输入密码元素：(&#x27;xpath&#x27;, &#x27;//input[@icon = &quot;search psd_bg&quot;]&#x27;)可见成功!
+INFO     root:basepage.py:95 在登录页面_输入密码的元素：(&#x27;xpath&#x27;, &#x27;//input[@icon = &quot;search psd_bg&quot;]&#x27;)上输入文本值：cl123456成功!
+INFO     root:basepage.py:41 等待登录页面_点击登录按钮元素：(&#x27;xpath&#x27;, &#x27;//button[contains (@class,&quot;el-button el-button--primary&quot;)]&#x27;)可见成功，耗时：0:00:00.027001
+INFO     root:basepage.py:69 等待登录页面_点击登录按钮元素：(&#x27;xpath&#x27;, &#x27;//button[contains (@class,&quot;el-button el-button--primary&quot;)]&#x27;)可见成功!
+INFO     root:basepage.py:80 点击登录页面_点击登录按钮元素：(&#x27;xpath&#x27;, &#x27;//button[contains (@class,&quot;el-button el-button--primary&quot;)]&#x27;)成功!
+INFO     root:basepage.py:41 等待首页_发起签约按钮元素：(&#x27;xpath&#x27;, &#x27;//span[text() =&quot;发起签约&quot;]&#x27;)可见成功，耗时：0:00:01.599091
+INFO     root:basepage.py:69 等待首页_发起签约按钮元素：(&#x27;xpath&#x27;, &#x27;//span[text() =&quot;发起签约&quot;]&#x27;)可见成功!
+INFO     root:basepage.py:80 点击首页_发起签约按钮元素：(&#x27;xpath&#x27;, &#x27;//span[text() =&quot;发起签约&quot;]&#x27;)成功!<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     root:basepage.py:56 等待添加签署人页面_切换到窗口点击下一步元素的底部对齐元素：(&#x27;xpath&#x27;, &#x27;//span[text() = &quot;下一步&quot;]&#x27;)存在成功，耗时：0:00:00.538031
+INFO     root:basepage.py:69 等待添加签署人页面_切换到窗口点击下一步元素的底部对齐元素：(&#x27;xpath&#x27;, &#x27;//span[text() = &quot;下一步&quot;]&#x27;)可见成功!
+ERROR    root:basepage.py:224 窗口滚动到当前元素页面底部对齐
+NoneType: None
+INFO     root:basepage.py:56 等待上传合同页面_上传合同文件元素：(&#x27;xpath&#x27;, &#x27;//input[@class = &quot;uploadinput&quot;]&#x27;)存在成功，耗时：0:00:00.016001
+INFO     root:basepage.py:69 等待上传合同页面_上传合同文件元素：(&#x27;xpath&#x27;, &#x27;//input[@class = &quot;uploadinput&quot;]&#x27;)可见成功!
+INFO     root:basepage.py:95 在上传合同页面_上传合同文件的元素：(&#x27;xpath&#x27;, &#x27;//input[@class = &quot;uploadinput&quot;]&#x27;)上输入文本值：D:\PycharmProjects\web001\data\123.jpg成功!
+INFO     root:basepage.py:56 等待上传合同页面_上传附件元素：(&#x27;xpath&#x27;, &#x27;//input[@class = &quot;uploadfile&quot;]&#x27;)存在成功，耗时：0:00:00.020002
+INFO     root:basepage.py:69 等待上传合同页面_上传附件元素：(&#x27;xpath&#x27;, &#x27;//input[@class = &quot;uploadfile&quot;]&#x27;)可见成功!
+INFO     root:basepage.py:95 在上传合同页面_上传附件的元素：(&#x27;xpath&#x27;, &#x27;//input[@class = &quot;uploadfile&quot;]&#x27;)上输入文本值：D:\PycharmProjects\web001\data\123.jpg成功!
+INFO     root:basepage.py:41 等待上传合同页面_点击下一步元素：(&#x27;xpath&#x27;, &#x27;//span[text() = &quot;下一步&quot;]&#x27;)可见成功，耗时：0:00:00.026002
+INFO     root:basepage.py:69 等待上传合同页面_点击下一步元素：(&#x27;xpath&#x27;, &#x27;//span[text() = &quot;下一步&quot;]&#x27;)可见成功!
+INFO     root:basepage.py:80 点击上传合同页面_点击下一步元素：(&#x27;xpath&#x27;, &#x27;//span[text() = &quot;下一步&quot;]&#x27;)成功!
+INFO     root:basepage.py:41 等待添加签署人页面_下一步按钮元素：(&#x27;xpath&#x27;, &#x27;//div[@class =&quot;sure_bottom clearfix&quot;]/button[2]/span&#x27;)可见成功，耗时：0:00:00.031002
+INFO     root:basepage.py:69 等待添加签署人页面_下一步按钮元素：(&#x27;xpath&#x27;, &#x27;//div[@class =&quot;sure_bottom clearfix&quot;]/button[2]/span&#x27;)可见成功!
+INFO     root:basepage.py:80 点击添加签署人页面_下一步按钮元素：(&#x27;xpath&#x27;, &#x27;//div[@class =&quot;sure_bottom clearfix&quot;]/button[2]/span&#x27;)成功!
+INFO     root:basepage.py:41 等待文件签署页面_鼠标按住签章拖动到目标位置盖章元素：(&#x27;xpath&#x27;, &#x27;//div[@class =&quot;cloud-box-content&quot; ]/div[1]/ul[1]/li[1]/div/img&#x27;)可见成功，耗时：0:00:00.541031
+INFO     root:basepage.py:69 等待文件签署页面_鼠标按住签章拖动到目标位置盖章元素：(&#x27;xpath&#x27;, &#x27;//div[@class =&quot;cloud-box-content&quot; ]/div[1]/ul[1]/li[1]/div/img&#x27;)可见成功!
+ERROR    root:basepage.py:151 &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;ebcfbfe8a7e2a73d1b933061a3051f38&quot;, element=&quot;711e802e-7e17-4c09-9157-cc91d3a0ce37&quot;)&gt;元素鼠标移动到目标位置800,100成功
+NoneType: None
+INFO     root:basepage.py:41 等待文件签署页面_点击完成签署元素：(&#x27;xpath&#x27;, &#x27;//span[text() = &quot;完成签署&quot;]&#x27;)可见成功，耗时：0:00:00.031002
+INFO     root:basepage.py:69 等待文件签署页面_点击完成签署元素：(&#x27;xpath&#x27;, &#x27;//span[text() = &quot;完成签署&quot;]&#x27;)可见成功!
+INFO     root:basepage.py:80 点击文件签署页面_点击完成签署元素：(&#x27;xpath&#x27;, &#x27;//span[text() = &quot;完成签署&quot;]&#x27;)成功!
+INFO     root:basepage.py:41 等待文件签署页面_点击密码验证元素：(&#x27;xpath&#x27;, &#x27;//span[text() = &quot;密码验证&quot;]&#x27;)可见成功，耗时：0:00:00.592034
+INFO     root:basepage.py:69 等待文件签署页面_点击密码验证元素：(&#x27;xpath&#x27;, &#x27;//span[text() = &quot;密码验证&quot;]&#x27;)可见成功!
+INFO     root:basepage.py:80 点击文件签署页面_点击密码验证元素：(&#x27;xpath&#x27;, &#x27;//span[text() = &quot;密码验证&quot;]&#x27;)成功!
+INFO     root:basepage.py:56 等待文件签署页面_输入密码元素：(&#x27;xpath&#x27;, &#x27;//input[@type =&quot;password&quot;]&#x27;)存在成功，耗时：0:00:00.014000
+INFO     root:basepage.py:69 等待文件签署页面_输入密码元素：(&#x27;xpath&#x27;, &#x27;//input[@type =&quot;password&quot;]&#x27;)可见成功!
+INFO     root:basepage.py:95 在文件签署页面_输入密码的元素：(&#x27;xpath&#x27;, &#x27;//input[@type =&quot;password&quot;]&#x27;)上输入文本值：123456成功!
+INFO     root:basepage.py:41 等待文件签署页面_点击确认签署按钮元素：(&#x27;xpath&#x27;, &#x27;//div[@class =&quot;el-dialog__wrapper ukey checkPsw&quot; ]/div/div[3]/div/button/span&#x27;)可见成功，耗时：0:00:00.024002
+INFO     root:basepage.py:69 等待文件签署页面_点击确认签署按钮元素：(&#x27;xpath&#x27;, &#x27;//div[@class =&quot;el-dialog__wrapper ukey checkPsw&quot; ]/div/div[3]/div/button/span&#x27;)可见成功!
+INFO     root:basepage.py:80 点击文件签署页面_点击确认签署按钮元素：(&#x27;xpath&#x27;, &#x27;//div[@class =&quot;el-dialog__wrapper ukey checkPsw&quot; ]/div/div[3]/div/button/span&#x27;)成功!
+INFO     root:basepage.py:56 等待合同管理界面_文件签署成功弹框元素：(&#x27;xpath&#x27;, &#x27;//div[@class =&quot;el-message__group&quot;]&#x27;)存在成功，耗时：0:00:04.340248
+INFO     root:basepage.py:69 等待合同管理界面_文件签署成功弹框元素：(&#x27;xpath&#x27;, &#x27;//div[@class =&quot;el-message__group&quot;]&#x27;)可见成功!
+INFO     root:basepage.py:118 获取合同管理界面_文件签署成功弹框元素：签署成功 文本成功!<br/></div></td></tr></tbody></table></body></html>

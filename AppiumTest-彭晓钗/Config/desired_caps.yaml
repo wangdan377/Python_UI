@@ -1,0 +1,19 @@
+platformName: Android
+platformVersion: 10
+#deviceName: 5ENDU19609000291
+deviceName: GMG0220617002466
+appPackage: com.zhiyun.cama
+noReset: true
+appActivity: com.zhiyun.cama.splash.SplashActivity
+newCommandTimeout: 6000
+ip: 127.0.0.1
+port: 4723
+
+#platformName: Android
+#platformVersion: 10
+#deviceName: 5ENDU19609000291
+#appPackage: com.jingdong.app.mall
+#noReset: true
+#appActivity: com.jingdong.app.mall.main.MainActivity
+#ip: 127.0.0.1
+#port: 4723

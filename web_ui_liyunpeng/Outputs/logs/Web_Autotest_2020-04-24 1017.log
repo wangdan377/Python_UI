@@ -1,0 +1,78 @@
+ Fri, 24 Apr 2020 10:17:10  INFO logger.py <module> [ line:27 ] hehehe
+ Fri, 24 Apr 2020 10:17:52  INFO logger.py <module> [ line:27 ] hehehe
+ Fri, 24 Apr 2020 10:17:52  INFO conftest.py login_web [ line:30 ] ====================上传的前置，初始化浏览器会话，登录页面====================
+ Fri, 24 Apr 2020 10:17:56  INFO basepage.py wait_ele_visible [ line:40 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')可见成功，耗时：0:00:00.041002
+ Fri, 24 Apr 2020 10:17:56  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')可见成功!
+ Fri, 24 Apr 2020 10:17:57  INFO basepage.py input_text [ line:94 ] 在登录页面_输入账户的元素：('xpath', '//input[@icon = "search user_bg"]')上输入文本值：13760495929成功!
+ Fri, 24 Apr 2020 10:17:59  INFO basepage.py wait_ele_visible [ line:40 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')可见成功，耗时：0:00:00.064004
+ Fri, 24 Apr 2020 10:17:59  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')可见成功!
+ Fri, 24 Apr 2020 10:17:59  INFO basepage.py input_text [ line:94 ] 在登录页面_输入密码的元素：('xpath', '//input[@icon = "search psd_bg"]')上输入文本值：cl123456成功!
+ Fri, 24 Apr 2020 10:18:01  INFO basepage.py wait_ele_visible [ line:40 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功，耗时：0:00:00.052003
+ Fri, 24 Apr 2020 10:18:01  INFO basepage.py get_element [ line:68 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功!
+ Fri, 24 Apr 2020 10:18:01  INFO basepage.py click_element [ line:79 ] 点击登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')成功!
+ Fri, 24 Apr 2020 10:18:03  INFO basepage.py wait_ele_visible [ line:40 ] 等待首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')可见成功，耗时：0:00:01.728099
+ Fri, 24 Apr 2020 10:18:03  INFO basepage.py get_element [ line:68 ] 等待首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')可见成功!
+ Fri, 24 Apr 2020 10:18:03  INFO basepage.py click_element [ line:79 ] 点击首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')成功!
+ Fri, 24 Apr 2020 10:18:03  INFO test_01_upload_files.py test_upload_access [ line:30 ] *****************上传合同并点击下一步*********************
+ Fri, 24 Apr 2020 10:18:36  ERROR basepage.py wait_ele_visible [ line:33 ] 等待元素('xpath', '//input[@class = "uploadinput"]')可见失败!
+Traceback (most recent call last):
+  File "D:\PycharmProjects\web001\Common\basepage.py", line 31, in wait_ele_visible
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "D:\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Fri, 24 Apr 2020 10:18:36  INFO basepage.py save_imgs [ line:182 ] 截图成功，截图存放在:D:\PycharmProjects\web001\Outputs/imgs\上传合同页面_添加合同_2020-04-24 10_18_36.png
+ Fri, 24 Apr 2020 10:18:36  INFO conftest.py login_web [ line:39 ] ====================上传的后置：关闭浏览器会话,清理环境，关闭浏览器====================
+ Fri, 24 Apr 2020 10:18:39  INFO conftest.py login_web [ line:30 ] ====================上传的前置，初始化浏览器会话，登录页面====================
+ Fri, 24 Apr 2020 10:18:43  INFO basepage.py wait_ele_visible [ line:40 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')可见成功，耗时：0:00:00.042003
+ Fri, 24 Apr 2020 10:18:43  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')可见成功!
+ Fri, 24 Apr 2020 10:18:43  INFO basepage.py input_text [ line:94 ] 在登录页面_输入账户的元素：('xpath', '//input[@icon = "search user_bg"]')上输入文本值：13760495929成功!
+ Fri, 24 Apr 2020 10:18:45  INFO basepage.py wait_ele_visible [ line:40 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')可见成功，耗时：0:00:00.060004
+ Fri, 24 Apr 2020 10:18:45  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')可见成功!
+ Fri, 24 Apr 2020 10:18:46  INFO basepage.py input_text [ line:94 ] 在登录页面_输入密码的元素：('xpath', '//input[@icon = "search psd_bg"]')上输入文本值：cl123456成功!
+ Fri, 24 Apr 2020 10:18:48  INFO basepage.py wait_ele_visible [ line:40 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功，耗时：0:00:00.020001
+ Fri, 24 Apr 2020 10:18:48  INFO basepage.py get_element [ line:68 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功!
+ Fri, 24 Apr 2020 10:18:48  INFO basepage.py click_element [ line:79 ] 点击登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')成功!
+ Fri, 24 Apr 2020 10:18:49  INFO basepage.py wait_ele_visible [ line:40 ] 等待首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')可见成功，耗时：0:00:01.748100
+ Fri, 24 Apr 2020 10:18:49  INFO basepage.py get_element [ line:68 ] 等待首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')可见成功!
+ Fri, 24 Apr 2020 10:18:49  INFO basepage.py click_element [ line:79 ] 点击首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')成功!
+ Fri, 24 Apr 2020 10:18:49  INFO test_01_upload_files.py test_upload_access [ line:30 ] *****************上传合同并点击下一步*********************
+ Fri, 24 Apr 2020 10:19:22  ERROR basepage.py wait_ele_visible [ line:33 ] 等待元素('xpath', '//input[@class = "uploadinput"]')可见失败!
+Traceback (most recent call last):
+  File "D:\PycharmProjects\web001\Common\basepage.py", line 31, in wait_ele_visible
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "D:\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Fri, 24 Apr 2020 10:19:23  INFO basepage.py save_imgs [ line:182 ] 截图成功，截图存放在:D:\PycharmProjects\web001\Outputs/imgs\上传合同页面_添加合同_2020-04-24 10_19_22.png
+ Fri, 24 Apr 2020 10:19:23  INFO conftest.py login_web [ line:39 ] ====================上传的后置：关闭浏览器会话,清理环境，关闭浏览器====================
+ Fri, 24 Apr 2020 10:19:25  INFO conftest.py login_web [ line:30 ] ====================上传的前置，初始化浏览器会话，登录页面====================
+ Fri, 24 Apr 2020 10:19:30  INFO basepage.py wait_ele_visible [ line:40 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')可见成功，耗时：0:00:00.035002
+ Fri, 24 Apr 2020 10:19:30  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')可见成功!
+ Fri, 24 Apr 2020 10:19:30  INFO basepage.py input_text [ line:94 ] 在登录页面_输入账户的元素：('xpath', '//input[@icon = "search user_bg"]')上输入文本值：13760495929成功!
+ Fri, 24 Apr 2020 10:19:32  INFO basepage.py wait_ele_visible [ line:40 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')可见成功，耗时：0:00:00.056003
+ Fri, 24 Apr 2020 10:19:32  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入密码元素：('xpath', '//input[@icon = "search psd_bg"]')可见成功!
+ Fri, 24 Apr 2020 10:19:32  INFO basepage.py input_text [ line:94 ] 在登录页面_输入密码的元素：('xpath', '//input[@icon = "search psd_bg"]')上输入文本值：cl123456成功!
+ Fri, 24 Apr 2020 10:19:34  INFO basepage.py wait_ele_visible [ line:40 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功，耗时：0:00:00.048003
+ Fri, 24 Apr 2020 10:19:34  INFO basepage.py get_element [ line:68 ] 等待登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')可见成功!
+ Fri, 24 Apr 2020 10:19:34  INFO basepage.py click_element [ line:79 ] 点击登录页面_点击登录按钮元素：('xpath', '//button[contains (@class,"el-button el-button--primary")]')成功!
+ Fri, 24 Apr 2020 10:19:36  INFO basepage.py wait_ele_visible [ line:40 ] 等待首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')可见成功，耗时：0:00:01.680096
+ Fri, 24 Apr 2020 10:19:36  INFO basepage.py get_element [ line:68 ] 等待首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')可见成功!
+ Fri, 24 Apr 2020 10:19:36  INFO basepage.py click_element [ line:79 ] 点击首页_发起签约按钮元素：('xpath', '//span[text() ="发起签约"]')成功!
+ Fri, 24 Apr 2020 10:19:36  INFO test_01_upload_files.py test_upload_access [ line:30 ] *****************上传合同并点击下一步*********************
+ Fri, 24 Apr 2020 10:20:09  ERROR basepage.py wait_ele_visible [ line:33 ] 等待元素('xpath', '//input[@class = "uploadinput"]')可见失败!
+Traceback (most recent call last):
+  File "D:\PycharmProjects\web001\Common\basepage.py", line 31, in wait_ele_visible
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "D:\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Fri, 24 Apr 2020 10:20:10  INFO basepage.py save_imgs [ line:182 ] 截图成功，截图存放在:D:\PycharmProjects\web001\Outputs/imgs\上传合同页面_添加合同_2020-04-24 10_20_09.png
+ Fri, 24 Apr 2020 10:20:10  INFO conftest.py login_web [ line:39 ] ====================上传的后置：关闭浏览器会话,清理环境，关闭浏览器====================
+ Fri, 24 Apr 2020 10:20:12  INFO conftest.py login_web [ line:30 ] ====================上传的前置，初始化浏览器会话，登录页面====================
+ Fri, 24 Apr 2020 10:20:16  INFO basepage.py wait_ele_visible [ line:40 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')可见成功，耗时：0:00:00.034002
+ Fri, 24 Apr 2020 10:20:16  INFO basepage.py get_element [ line:68 ] 等待登录页面_输入账户元素：('xpath', '//input[@icon = "search user_bg"]')可见成功!
+ Fri, 24 Apr 2020 10:20:16  INFO basepage.py input_text [ line:94 ] 在登录页面_输入账户的元素：('xpath', '//input[@icon = "search user_bg"]')上输入文本值：13760495929成功!

@@ -1,0 +1,29 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_Specify_user[filepath0-mobile0]",
+    "uid" : "e97d4fd12e8ab861",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1590131637468,
+      "stop" : 1590131658859,
+      "duration" : 21391
+    },
+    "flaky" : false,
+    "parameters" : [ "{'filepath_1': 'D:\\\\PycharmProjects\\\\web001\\\\data\\\\123.jpg'}", "{'mobile': '19333333333'}" ]
+  }, {
+    "name" : "test_Single_signture_success[filepath0]",
+    "uid" : "96f5db359f788f6a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1590131667879,
+      "stop" : 1590131687453,
+      "duration" : 19574
+    },
+    "flaky" : false,
+    "parameters" : [ "{'filepath_1': 'D:\\\\PycharmProjects\\\\web001\\\\data\\\\123.jpg'}" ]
+  } ]
+}

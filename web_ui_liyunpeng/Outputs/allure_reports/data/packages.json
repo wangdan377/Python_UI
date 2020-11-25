@@ -1,0 +1,41 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "TestCases",
+    "children" : [ {
+      "name" : "test_02_addSigner",
+      "children" : [ {
+        "name" : "test_Specify_user[filepath0-mobile0]",
+        "uid" : "e97d4fd12e8ab861",
+        "parentUid" : "de3a6ba70cb1d8c0b841e64d23d403a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590131637468,
+          "stop" : 1590131658859,
+          "duration" : 21391
+        },
+        "flaky" : false,
+        "parameters" : [ "{'filepath_1': 'D:\\\\PycharmProjects\\\\web001\\\\data\\\\123.jpg'}", "{'mobile': '19333333333'}" ]
+      } ],
+      "uid" : "de3a6ba70cb1d8c0b841e64d23d403a0"
+    }, {
+      "name" : "test_03_signature",
+      "children" : [ {
+        "name" : "test_Single_signture_success[filepath0]",
+        "uid" : "96f5db359f788f6a",
+        "parentUid" : "94661e166804e8672977b8d6078155dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590131667879,
+          "stop" : 1590131687453,
+          "duration" : 19574
+        },
+        "flaky" : false,
+        "parameters" : [ "{'filepath_1': 'D:\\\\PycharmProjects\\\\web001\\\\data\\\\123.jpg'}" ]
+      } ],
+      "uid" : "94661e166804e8672977b8d6078155dd"
+    } ],
+    "uid" : "1dd5dae00c58193b69825e57e00d160e"
+  } ]
+}
