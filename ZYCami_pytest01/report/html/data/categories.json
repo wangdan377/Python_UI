@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AttributeError: 'NoneType' object has no attribute 'find_element'",
+      "children" : [ {
+        "name" : "登录成功",
+        "uid" : "c68f20a828831052",
+        "parentUid" : "aea41d374636158f3fd1da51a865a2b8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607076804055,
+          "stop" : 1607076804056,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'17195453626'", "'00000000'" ]
+      } ],
+      "uid" : "aea41d374636158f3fd1da51a865a2b8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

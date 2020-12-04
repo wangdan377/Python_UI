@@ -1,0 +1,110 @@
+2020-11-23 17:59:14,408 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-23 17:59:23,773 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-23 17:59:33,038 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-23 17:59:43,101 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-23 17:59:52,536 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-23 18:00:01,884 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-23 18:00:11,245 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-23 18:01:57,663 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-23 18:02:07,672 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-23 18:02:17,024 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-23 18:02:17,618 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET
+
+2020-11-23 18:02:17,638 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET
+
+2020-11-23 18:02:17,650 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET
+
+2020-11-23 18:03:07,894 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-23 18:03:16,680 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-23 18:03:25,193 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-23 18:03:33,981 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-23 18:03:42,925 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-23 18:03:51,848 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-23 18:06:46,734 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-23 18:07:06,899 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET
+
+2020-11-23 18:07:25,844 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET
+
+2020-11-23 18:07:46,512 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-23 18:08:08,278 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-23 18:09:08,632 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-23 18:19:28,432 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-23 18:19:50,291 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-23 18:20:12,862 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-23 18:20:49,402 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-23 18:21:12,477 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-23 18:22:29,810 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET
+
+2020-11-23 18:22:51,096 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-23 18:22:58,724 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET
+
+2020-11-23 18:22:58,724 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-23 18:23:15,057 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET
+
+2020-11-23 18:23:34,005 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET
+
+2020-11-23 18:24:43,204 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET
+
+2020-11-23 18:24:43,205 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-23 18:26:17,502 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET
+
+2020-11-23 18:27:24,151 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET
+
+2020-11-24 11:55:16,943 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='连续包半年']")元素可见失效，错误：Message: 
+
+2020-11-24 11:55:34,027 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='一个月']")元素可见失效，错误：Message: 
+
+2020-11-24 11:56:18,345 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='连续包半年']")元素可见失效，错误：Message: 
+
+2020-11-24 11:56:34,920 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='一个月']")元素可见失效，错误：Message: 
+
+2020-11-24 15:00:31,691 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002041DFE2088>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-11-24 15:00:31,699 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-24 15:00:40,951 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002041E0278C8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-11-24 15:00:40,951 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-24 15:00:50,112 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002041E0279C8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-11-24 15:00:50,112 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-24 15:01:19,253 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DC62002148>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-11-24 15:01:19,254 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-24 15:01:28,421 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DC620479C8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-11-24 15:01:28,421 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-24 15:01:37,576 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DC62047B08>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-11-24 15:01:37,576 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-24 15:03:58,932 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET
+
+2020-11-24 15:04:35,141 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-24 15:05:24,721 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET
+
+2020-11-24 15:06:08,978 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+
+2020-11-24 15:07:06,532 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-24 15:07:45,153 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET
+

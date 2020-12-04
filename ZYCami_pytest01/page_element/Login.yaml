@@ -1,0 +1,38 @@
+
+#
+#首页: "xpath==//*[@content-desc='Home']"
+#home: "xpath==//*[@content-desc='Home']"
+#me: "xpath==//*[@content-desc='Me']"
+#登录按钮: "id==tv_login"
+#输入用户名: "id==et_name"
+#输入密码: "id==et_pass"
+#登录提交按钮: "id==tv_commit"
+
+登录:
+  - name: 首页
+    type: xpath
+    value: //*[@content-desc='Home']
+
+  - name: Editor
+    type: xpath
+    value: //*[@content-desc='Editor']
+
+  - name: me
+    type: xpath
+    value: //*[@content-desc='Me']
+
+  - name: 登录按钮
+    type: id
+    value: tv_login
+
+  - name: 输入用户名
+    type: id
+    value: et_name
+
+  - name: 输入密码
+    type: id
+    value: et_pass
+
+  - name: 登录提交按钮
+    type: id
+    value: tv_commit

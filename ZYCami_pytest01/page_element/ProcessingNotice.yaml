@@ -1,0 +1,7 @@
+标题输入框: "id==keywordsInput"
+检索按钮: "classname==btn.btn-light.btn-xs"
+点击标题: "xpath==//*[@id='simple-table']/tbody/tr/td[2]/a"
+填写照会: "xpath==//*[@id='zhongxin']/div/div/div[16]/button[5]"
+输入接收方: "id==RECEIVE_NAME_widget_input"
+选择模板: "id==xuanzhe"
+处理意见: "id==COMMENTCONETENT_TEXT"

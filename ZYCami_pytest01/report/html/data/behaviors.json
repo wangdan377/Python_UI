@@ -1,0 +1,26 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "测试登录页",
+    "children" : [ {
+      "name" : "登录成功",
+      "children" : [ {
+        "name" : "登录成功",
+        "uid" : "c68f20a828831052",
+        "parentUid" : "27206bc6653ea30d4a7572408412ad20",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607076804055,
+          "stop" : 1607076804056,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'17195453626'", "'00000000'" ]
+      } ],
+      "uid" : "27206bc6653ea30d4a7572408412ad20"
+    } ],
+    "uid" : "c6c26bd2a26cd70bf45651b5ab920be8"
+  } ]
+}

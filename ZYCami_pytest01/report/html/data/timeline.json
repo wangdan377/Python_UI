@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-4KG9PK6",
+    "children" : [ {
+      "name" : "73844-MainThread",
+      "children" : [ {
+        "name" : "登录成功",
+        "uid" : "c68f20a828831052",
+        "parentUid" : "cf74622f41fc6ac49f889669d476a546",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607076804055,
+          "stop" : 1607076804056,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'17195453626'", "'00000000'" ]
+      } ],
+      "uid" : "cf74622f41fc6ac49f889669d476a546"
+    } ],
+    "uid" : "014fb80e6a4b2c7e152f21e17aa82bc3"
+  } ]
+}

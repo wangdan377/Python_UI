@@ -1,0 +1,22 @@
+{
+  "6c04a1056664c2539892ac154e213feb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c68f20a828831052",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'find_element'",
+      "time" : {
+        "start" : 1607076804055,
+        "stop" : 1607076804056,
+        "duration" : 1
+      }
+    } ]
+  }
+}

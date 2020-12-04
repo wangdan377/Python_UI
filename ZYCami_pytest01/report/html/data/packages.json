@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "TestCase.test_02_test_login",
+    "children" : [ {
+      "name" : "登录成功",
+      "uid" : "c68f20a828831052",
+      "parentUid" : "77bc0075b78470075da724d1e836886c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1607076804055,
+        "stop" : 1607076804056,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'17195453626'", "'00000000'" ]
+    } ],
+    "uid" : "TestCase.test_02_test_login"
+  } ]
+}

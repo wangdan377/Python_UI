@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "TestCase",
+    "children" : [ {
+      "name" : "test_02_test_login",
+      "children" : [ {
+        "name" : "TestLogin",
+        "children" : [ {
+          "name" : "登录成功",
+          "uid" : "c68f20a828831052",
+          "parentUid" : "25648bf9f15a7b3626d446c19a4ebc28",
+          "status" : "broken",
+          "time" : {
+            "start" : 1607076804055,
+            "stop" : 1607076804056,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'17195453626'", "'00000000'" ]
+        } ],
+        "uid" : "25648bf9f15a7b3626d446c19a4ebc28"
+      } ],
+      "uid" : "4650689058b11afd75d2d7c2dddad35a"
+    } ],
+    "uid" : "ee79ae265a842e48c4df30f006daaf4e"
+  } ]
+}

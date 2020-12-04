@@ -1,0 +1,3 @@
+2020-12-02 16:26:22,492 - D:\ZYCami_00\Public\Function.py[line:24] - ERROR: ('xpath', "//*[@content-desc='Me']")元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-12-02 16:27:04,075 - D:\ZYCami_00\Public\Function.py[line:24] - ERROR: ('xpath', "//*[@content-desc='Me']")元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-12-02 16:29:08,593 - D:\ZYCami_00\Public\Function.py[line:24] - ERROR: ('xpath', "//*[@content-desc='Me']")元素可见失效，错误：'NoneType' object has no attribute 'find_element'

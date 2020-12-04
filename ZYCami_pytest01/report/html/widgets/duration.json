@@ -1,0 +1,11 @@
+[ {
+  "uid" : "c68f20a828831052",
+  "name" : "登录成功",
+  "time" : {
+    "start" : 1607076804055,
+    "stop" : 1607076804056,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

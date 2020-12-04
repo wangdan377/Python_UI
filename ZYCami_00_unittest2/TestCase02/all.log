@@ -1,0 +1,12 @@
+2020-12-02 17:34:29,415 - D:\ZYCami_00\Public\Function.py[line:24] - ERROR: ('xpath', "//*[android.widget.LinearLayout[1]/android.widget.TextView']")元素可见失效，错误：Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET
+
+2020-12-02 17:35:38,487 - D:\ZYCami_00\Public\Function.py[line:24] - ERROR: ('xpath', "//*[android.widget.LinearLayout[1]/android.widget.TextView']")元素可见失效，错误：Message: 
+
+2020-12-02 17:38:00,767 - D:\ZYCami_00\Public\Function.py[line:24] - ERROR: ('xpath', "//*[android.widget.LinearLayout[1]/android.widget.TextView']")元素可见失效，错误：Message: 
+
+2020-12-02 17:38:37,812 - D:\ZYCami_00\Public\Function.py[line:24] - ERROR: ('xpath', "//*[android.widget.LinearLayout[1]/android.widget.TextView']")元素可见失效，错误：Message: 
+
+2020-12-02 17:47:33,273 - D:\ZYCami_00\Public\Function.py[line:24] - ERROR: ('xpath', "//*[android.widget.LinearLayout[1]/android.widget.TextView']")元素可见失效，错误：Message: 
+
+2020-12-02 17:55:00,272 - D:\ZYCami_00\Public\Function.py[line:24] - ERROR: ('xpath', "//*[android.widget.LinearLayout[1]/android.widget.TextView']")元素可见失效，错误：Message: 
+

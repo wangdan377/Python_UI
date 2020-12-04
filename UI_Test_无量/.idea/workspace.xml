@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="974323bf-7439-42e2-a0d5-ad75a39b9572" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Mobile_UI/Mobile_UI" beforeDir="false" afterPath="$PROJECT_DIR$/../Mobile_UI/Mobile_UI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_Test/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_Test/.idea/UI_Test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_Test/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_Test/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_Test/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_Test/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_Test/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_Test/Python_Project_Test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_pytest_appium/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app_pytest_appium/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_pytest_appium/app_test" beforeDir="false" afterPath="$PROJECT_DIR$/../app_pytest_appium/app_test" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python_Project_Test/UI-Auto-Test/test/pagework/OpenPage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1614" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python_Project_Test/UI-Auto-Test/test/testcase/BasetestCase.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python_Project_Test/UI-Auto-Test/test/testcase/DFBLoginCase.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python_Project_Test/UI-Auto-Test/test/testcase/geckodriver.log">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python_Project_Test/UI-Auto-Test/test/pagework/BasePage.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Python_Project_Test" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1309" />
+    <option name="height" value="1250" />
+  </component>
+  <component name="ProjectId" id="1hJ8om6SbaQL0MJSModsSQNVZyq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="UI_Test_无量" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI_Test_无量" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UI_Test_无量" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI_Test_无量" type="462c0819:PsiDirectoryNode" />
+              <item name="Python_Project_Test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UI_Test_无量" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI_Test_无量" type="462c0819:PsiDirectoryNode" />
+              <item name="Python_Project_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="Python_Appium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UI_Test_无量" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI_Test_无量" type="462c0819:PsiDirectoryNode" />
+              <item name="Python_Project_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="UI-Auto-Test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UI_Test_无量" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI_Test_无量" type="462c0819:PsiDirectoryNode" />
+              <item name="Python_Project_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="UI-Auto-Test" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UI_Test_无量" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI_Test_无量" type="462c0819:PsiDirectoryNode" />
+              <item name="Python_Project_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="UI-Auto-Test" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="pagework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UI_Test_无量" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI_Test_无量" type="462c0819:PsiDirectoryNode" />
+              <item name="Python_Project_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="UI-Auto-Test" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="974323bf-7439-42e2-a0d5-ad75a39b9572" name="Default Changelist" comment="" />
+      <created>1599718016447</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599718016447</updated>
+      <workItem from="1606977651244" duration="127000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="127000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Python_Project_Test/UI-Auto-Test/test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Project_Test/UI-Auto-Test/test/comwork/chromedriver.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Project_Test/UI-Auto-Test/test/pagework/BackendUserCenterPage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Project_Test/UI-Auto-Test/test/pagework/BasePage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Project_Test/UI-Auto-Test/test/pagework/OpenPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1614" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Project_Test/UI-Auto-Test/test/testcase/BasetestCase.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Project_Test/UI-Auto-Test/test/testcase/DFBLoginCase.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Project_Test/UI-Auto-Test/test/testcase/geckodriver.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
