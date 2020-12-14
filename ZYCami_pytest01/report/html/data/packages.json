@@ -2,21 +2,81 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "TestCase.test_02_test_login",
+    "name" : "TestCase",
     "children" : [ {
-      "name" : "登录成功",
-      "uid" : "c68f20a828831052",
-      "parentUid" : "77bc0075b78470075da724d1e836886c",
-      "status" : "broken",
-      "time" : {
-        "start" : 1607076804055,
-        "stop" : 1607076804056,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "'17195453626'", "'00000000'" ]
+      "name" : "test_01_test_camera",
+      "children" : [ {
+        "name" : "test_front",
+        "uid" : "99d2a07e7a3129bb",
+        "parentUid" : "f8621f106822722be366afc0023a0894",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607502113381,
+          "stop" : 1607502120895,
+          "duration" : 7514
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "美颜",
+        "uid" : "7ef42af918291783",
+        "parentUid" : "f8621f106822722be366afc0023a0894",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607502120897,
+          "stop" : 1607502127720,
+          "duration" : 6823
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '拍照', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "倒计时",
+        "uid" : "9498edbb9ca19ff2",
+        "parentUid" : "f8621f106822722be366afc0023a0894",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607502127722,
+          "stop" : 1607502133378,
+          "duration" : 5656
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '倒计时', 'type': 'id', 'value': 'iv_countdown'}" ]
+      }, {
+        "name" : "倒计时",
+        "uid" : "109fcbb9a8465e75",
+        "parentUid" : "f8621f106822722be366afc0023a0894",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607502133381,
+          "stop" : 1607502139062,
+          "duration" : 5681
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '3s', 'type': 'xpath', 'value': \"//*[@text='3s']\"}" ]
+      } ],
+      "uid" : "f8621f106822722be366afc0023a0894"
+    }, {
+      "name" : "test_02_test_login",
+      "children" : [ {
+        "name" : "登录成功",
+        "uid" : "5c2c35ebab644492",
+        "parentUid" : "77bc0075b78470075da724d1e836886c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607502139076,
+          "stop" : 1607502145005,
+          "duration" : 5929
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'17195453626'", "'00000000'" ]
+      } ],
+      "uid" : "77bc0075b78470075da724d1e836886c"
     } ],
-    "uid" : "TestCase.test_02_test_login"
+    "uid" : "9fa14e2db0d1ecbd3a4c5f0825d2ac34"
   } ]
 }

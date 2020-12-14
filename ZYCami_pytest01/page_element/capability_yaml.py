@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 from appium import webdriver
 import yaml
-file = open('desired_caps.yaml','r')
+file = open('.\page_element\desired_caps.yaml','r')
 data = yaml.load(file, Loader=yaml.SafeLoader)
 
 desired_caps = {}

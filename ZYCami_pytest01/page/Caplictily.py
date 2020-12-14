@@ -8,12 +8,12 @@ import os
 
 #公共方法
 
-class Driver_Config():
+class Driver_Config:
 
     def get_driver(self):
 
         try:
-            file = open('../page_element/desired_caps.yaml', 'r')
+            file = open(r'./page_element/desired_caps.yaml', 'r')
             data = yaml.load(file, Loader=yaml.SafeLoader)
             self.desired_caps = {}
             self.desired_caps['platformName'] = data['platformName']
@@ -30,3 +30,6 @@ class Driver_Config():
         except Exception as e:
             log.info('启动app错误：{}'.format(e))
 
+
+if __name__ == '__main__':
+    file = open(r'./page_element/desired_caps.yaml', 'r')

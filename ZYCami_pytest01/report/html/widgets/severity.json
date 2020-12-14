@@ -1,11 +1,51 @@
 [ {
-  "uid" : "c68f20a828831052",
+  "uid" : "9498edbb9ca19ff2",
+  "name" : "倒计时",
+  "time" : {
+    "start" : 1607502127722,
+    "stop" : 1607502133378,
+    "duration" : 5656
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "109fcbb9a8465e75",
+  "name" : "倒计时",
+  "time" : {
+    "start" : 1607502133381,
+    "stop" : 1607502139062,
+    "duration" : 5681
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "99d2a07e7a3129bb",
+  "name" : "test_front",
+  "time" : {
+    "start" : 1607502113381,
+    "stop" : 1607502120895,
+    "duration" : 7514
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ef42af918291783",
+  "name" : "美颜",
+  "time" : {
+    "start" : 1607502120897,
+    "stop" : 1607502127720,
+    "duration" : 6823
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c2c35ebab644492",
   "name" : "登录成功",
   "time" : {
-    "start" : 1607076804055,
-    "stop" : 1607076804056,
-    "duration" : 1
+    "start" : 1607502139076,
+    "stop" : 1607502145005,
+    "duration" : 5929
   },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "normal"
 } ]

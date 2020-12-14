@@ -79,8 +79,6 @@ class BaseFun(object):
         y = self.driver.get_window_size()["height"]
         self.driver.swipe(x * 0.15, y * 0.8, x * 0.15, y * 0.3,time)  # 向上滑动
 
-
-
     # 向下滑动(美颜向下)
     def swip_down(self, time=200):
         x = self.driver.get_window_size()["width"]
@@ -134,6 +132,22 @@ class BaseFun(object):
         x = self.driver.get_window_size()["width"]
         y = self.driver.get_window_size()["height"]
         self.driver.swipe(x * 0.1, y * 0.48, x * 0.54, y * 0.48, time)  # 向左滑动
+
+    # 向左滑动-找到特定元素停止滑动
+    # time：滑动的时间
+    def swipe_left_find_ele(self, loc, timeout=1000):
+        x = self.driver.get_window_size()['width']
+        y = self.driver.get_window_size()['height']
+        flag = True
+        i = 0
+        while flag:
+            if self.is_element_exist(loc):
+                break
+            else:
+                self.driver.swipe(x * 0.5, y * 0.98, x * 0.25, y * 0.98, timeout)
+                i = i + 1
+            if i == 3:
+                flag = False
 
     # 点击元素，通过元素的坐标
     def tap_element(self, loc):

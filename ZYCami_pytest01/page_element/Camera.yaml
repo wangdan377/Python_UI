@@ -1,0 +1,344 @@
+相机:
+  - name: 相机按钮
+    type: id
+    value: iv_camera
+
+  - name: 帮助
+    type: id
+    value: ib_help
+
+  - name: 直接进入
+    type: xpath
+    value: //*[@text='直接进入']
+
+  - name: 连接设备
+    type: id
+    value: bt_connect
+
+  - name: 返回
+    type: id
+    value: iv_home
+
+  - name: 蓝牙
+    type: id
+    value: iv_bluetooth
+
+导航栏:
+  - name: SMART
+    type: xpath
+    value: //android.view.ViewGroup/android.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.ImageView[1]
+
+  - name: AILive
+    type: xpath
+    value: //android.view.ViewGroup/android.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.ImageView[2]
+
+  - name: 拍照
+    type: xpath
+    value: //*[@text='拍照']
+
+  - name: 录像
+    type: xpath
+    value: //*[@text='录像']
+
+  - name: 全景
+    type: xpath
+    value: //*[@text='全景']
+
+  - name: 延时摄影
+    type: xpath
+    value: //*[@text='延时摄影']
+
+  - name: 运动延时
+    type: xpath
+    value: //*[@text='运动延时']
+
+倒计时:
+  - name: 倒计时
+    type: id
+    value: iv_countdown
+
+  - name: 3s
+    type: xpath
+    value: //*[@text='3s']
+
+  - name: 5s
+    type: xpath
+    value: //*[@text='5s']
+
+  - name: 7s
+    type: xpath
+    value: //*[@text='7s']
+
+  - name: off
+    type: xpath
+    value: //*[@text='off']
+
+
+美颜:
+  - name: 美颜按钮
+    type: xpath
+    value: //*[contains(@resource-id, 'com.zhiyun.cama:id/iv_beauty')]
+
+
+  - name: 取消美颜
+    type: xpath
+    value: //android.widget.LinearLayout/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.ImageView
+
+  - name: 自动美颜
+    type: xpath
+    value: //*[@text='自动美颜']
+
+  - name: 瘦脸
+    type: xpath
+    value: //*[@text='瘦脸']
+
+  - name: 磨皮
+    type: xpath
+    value: //*[@text='磨皮']
+
+  - name: 美白
+    type: xpath
+    value: //*[@text='美白']
+
+  - name: 眼睛放大
+    type: xpath
+    value: //*[@text='眼睛放大']
+
+  - name: 光照
+    type: xpath
+    value: //*[@text='光照']
+
+  - name: 红润
+    type: xpath
+    value: //*[@text='红润']
+
+  - name: action
+    type: id
+    value: cb_action
+
+
+设置:
+  - name: 设置
+    type: id
+    value: iv_setting
+
+  - name: 视频
+    type: xpath
+    value: //*[@text='视频']
+
+  - name: 云台
+    type: xpath
+    value: //*[@text='云台']
+
+  - name: 通用
+    type: xpath
+    value: //*[@text='通用']
+
+闪光灯:
+
+  - name: 闪光灯
+    type: xpath
+    value: //*[contains(@resource-id, 'com.zhiyun.cama:id/cb_video_flash')]
+
+  - name: 关闭
+    type: xpath
+    value: //*[@text='关闭']
+
+
+  - name: 常亮
+    type: xpath
+    value: //*[@text='常亮']
+
+
+网络显示:
+  - name: 网络显示
+    type: xpath
+    value: //*[contains(@resource-id, 'com.zhiyun.cama:id/cb_video_grid')]
+
+  - name: 关闭
+    type: xpath
+    value: //*[@text='关闭']
+
+  - name: 方格
+    type: xpath
+    value: //*[@text='方格']
+
+  - name: 方格+对角线
+    type: xpath
+    value: //*[@text='方格+对角线']
+
+白平衡:
+#  - com.zhiyun.cama:id/tv_title   白平衡title
+
+  - name: 白平衡
+    type: xpath
+    value: //*[contains(@resource-id, 'com.zhiyun.cama:id/tv_white_balance')]
+
+  - name: 自动
+    type: xpath
+    value: //*[@text='自动']
+
+  - name: 晴天
+    type: xpath
+    value: //*[@text='晴天']
+
+  - name: 阴天
+    type: xpath
+    value: //*[@text='阴天']
+
+  - name: 白炽灯
+    type: xpath
+    value: //*[@text='白炽灯']
+
+  - name: 荧光灯
+    type: xpath
+    value: //*[@text='荧光灯']
+
+  - name: 返回
+    type: xpath
+    value: //*[contains(@resource-id, 'com.zhiyun.cama:id/iv_back')]
+
+手势控制:
+  - name: 手势控制
+    type: xpath
+    value: //*[contains(@resource-id, 'com.zhiyun.cama:id/ll_gesture')]
+
+  - name: 跟随+拍摄
+    type: xpath
+    value: //*[contains(@resource-id, 'com.zhiyun.cama:id/tv_follow_take')]
+
+  - name: 仅拍摄
+    type: xpath
+    value: //*[contains(@resource-id, 'com.zhiyun.cama:id/tv_only_take')]
+
+  - name: 手势控制返回键
+    type: xpath
+    value: //*[contains(@resource-id, 'com.zhiyun.cama:id/iv_back')]
+
+  - name: 问号
+    type: xpath
+    value: //*[contains(@resource-id, 'com.zhiyun.cama:id/ib_gesture')]
+
+
+
+去水印:
+  - name: 去水印
+    type: xpath
+    value: //*[contains(@resource-id, 'com.zhiyun.cama:id/cb_watermark')]
+
+
+情景模式:
+  - name: 行走
+    type: xpath
+    value: //*[@text='行走']
+
+  - name: 运动
+    type: xpath
+    value: //*[@text='运动']
+
+跟随模式:
+  - name: 跟随模式
+    type: xpath
+    value: //*[@text='跟随模式']
+
+  - name: 左右跟随
+    type: xpath
+    value: //*[@text='左右跟随']
+
+  - name: 全锁定
+    type: xpath
+    value: //*[@text='全锁定']
+
+  - name: 横滚航向跟随
+    type: xpath
+    value: //*[@text='横滚航向跟随']
+
+摇杆速度:
+
+  - name: 快
+    type: xpath
+    value: //*[@text='快']
+
+  - name: 中
+    type: xpath
+    value: //*[@text='中']
+
+  - name: 慢
+    type: xpath
+    value: //*[@text='慢']
+
+  - name: 变焦速速
+    type: xpath
+    value: //*[@text='变焦速速']
+
+反向:
+  - name: 水平反向
+    type: xpath
+    value: //*[contains(@resource-id, 'com.zhiyun.cama:id/ctv_yaw_reverse')]
+
+
+  - name: 垂直反向
+    type: xpath
+    value: //*[contains(@resource-id, 'com.zhiyun.cama:id/ctv_roll_reverse')]
+
+M键:
+  - name: 开关
+    type: xpath
+    value: //*[contains(@resource-id, 'com.zhiyun.cama:id/cb_video_click_m')]
+
+  - name: 单击M键默认
+    type: xpath
+    value: //*[@text='默认']
+
+  - name: 单击M键切换拍照/录像
+    type: xpath
+    value: //*[@text='切换拍照/录像']
+
+  - name: 单击M键快捷菜单
+    type: xpath
+    value: //*[@text='快捷菜单']
+
+云台自动校准:
+  - name: 云台自动校准
+    type: xpath
+    value: //*[@text='云台自动校准']
+
+  - name: 取消
+    type: xpath
+    value: //*[@text='取消']
+
+  - name: 开始
+    type: xpath
+    value: //*[@text='开始']
+
+通用:
+  - name: 通用
+    type: xpath
+    value: //*[@text='通用']
+
+  - name: 设备管理
+    type: xpath
+    value: //*[@text='设备管理']
+
+  - name: 设备关闭
+    type: xpath
+    value: //*[@text='红润']
+
+  - name: 连接
+    type: xpath
+    value: //*[@text='红润']
+
+  - name: 刷新
+    type: xpath
+    value: //*[@text='快']
+
+  - name: 对勾
+    type: xpath
+    value: //*[@text='中']
+
+  - name: 取消
+    type: xpath
+    value: //*[@text='慢']
+
+
+

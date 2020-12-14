@@ -24,7 +24,7 @@ class WebPage(object):
         # a = self.driver.find_elements_by_name("")
         #
         self.driver = driver
-        self.timeout = 10
+        self.timeout = 20
         self.wait = WebDriverWait(self.driver, self.timeout)
 
     def get_url(self, url):
@@ -72,14 +72,14 @@ class WebPage(object):
         """输入(输入前先清空)"""
         sleep(0.5)
         ele = self.find_element(locator)
-        ele.clear()
+        ele.clear()     #you 但是刚才没清除  弹框关了就没有载输入了
         ele.send_keys(txt)
         log.info("输入文本：{}".format(txt))
 
     def is_click(self, locator):
         """点击"""
         self.find_element(locator).click()
-        sleep()
+        sleep(0.5)
         log.info("点击元素：{}".format(locator))
 
     def is_exists(self, locator):
@@ -100,6 +100,11 @@ class WebPage(object):
             return text
         else:
             log.info("没有Alert弹窗提示!")
+
+    def find_toast(self, text):
+        """获取弹框信息"""
+        log.info('获取toast 弹框元素{},{}'.format(LOCATE_MODE['xpath'],'//*[contains(@text,"{}")]'.format((text))))
+        return self.wait.until(EC.presence_of_all_elements_located(('xpath','//*[contains(@text,"{}")]'.format(text))))
 
     def element_text(self, locator):
         """获取当前的text"""
@@ -224,6 +229,53 @@ class WebPage(object):
         self.driver.refresh()
         self.driver.implicitly_wait(30)
 
+    def swipe_up(self):
+        x = self.driver.get_window_size()["width"]
+        y = self.driver.get_window_size()["height"]
+        self.driver.swipe(x * 0.15, y * 0.8, x * 0.15, y * 0.3, 200)    #向上滑动
+
+    def swipe_down(self):
+        x = self.driver.get_window_size()["width"]
+        y = self.driver.get_window_size()["height"]
+        self.driver.swipe(x * 0.15, y * 0.3, x * 0.15, y * 0.8, 200)    #向下滑动
+
+    def swipe_navigation_up(self):
+        x = self.driver.get_window_size()["width"]
+        y = self.driver.get_window_size()["height"]
+        self.driver.swipe(x * 0.98, y * 0.8, x * 98, y * 0.2, 200)  # 导航向上滑动
+    def roll_beautify(self,zong):       #滚动条华为mate30
+        if zong == 1016:
+            for i in range(0, 100):
+                try:
+                    zong = zong - 8.16
+                    self.driver.tap([(632, zong)])
+                except:
+                    zong = zong - 9
+                    self.driver.tap([(632, zong)])
+
+    # def roll_beautify(self,zong):       #滚动条华为mate40
+    #     if zong == 1158:
+    #         for i in range(0, 100):
+    #             try:
+    #                 zong = zong - 9.2
+    #                 self.driver.tap([(780, zong)])
+    #             except:
+    #                 zong = zong - 10
+    #                 self.driver.tap([(780, zong)])
+
+    def blank_01(self):     #点击空白区域
+        self.driver.tap([(1180, 540)])
+
+    # 返回按钮--通用
+    def swip_return(self):
+        self.driver.keyevent(4)
+
 
 if __name__ == "__main__":
-    pass
+    def element_locator(locator):
+        """元素定位器"""
+        name, value = locator
+        return (LOCATE_MODE[name], value)
+
+    print(element_locator(('css', 'com.zhiyun.cama:id/tv_login')))
+

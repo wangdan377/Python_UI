@@ -1,2 +1,10 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Fri Dec 04 18:13:24 CST 2020","Fri Dec 04 18:13:24 CST 2020","1","TestCase","test_02_test_login","TestLogin","","","登录成功",""
+"passed","Wed Dec 09 16:22:19 CST 2020","Wed Dec 09 16:22:25 CST 2020","5929","TestCase","test_02_test_login","TestLogin","","","登录成功",""
+"passed","Wed Dec 09 16:22:00 CST 2020","Wed Dec 09 16:22:07 CST 2020","6823","TestCase","test_01_test_camera","Testcamera","","","美颜",""
+"passed","Wed Dec 09 16:22:07 CST 2020","Wed Dec 09 16:22:13 CST 2020","5656","TestCase","test_01_test_camera","Testcamera","","","倒计时",""
+"passed","Wed Dec 09 16:22:13 CST 2020","Wed Dec 09 16:22:19 CST 2020","5681","TestCase","test_01_test_camera","Testcamera","","","倒计时",""
+"passed","Wed Dec 09 16:21:53 CST 2020","Wed Dec 09 16:22:00 CST 2020","7514","TestCase","test_01_test_camera","Testcamera","","","test_front","
+        前置条件
+        :param get_driver:
+        :return:
+        "

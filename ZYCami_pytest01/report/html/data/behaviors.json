@@ -2,18 +2,82 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
+    "name" : "相机",
+    "children" : [ {
+      "name" : "test_front",
+      "uid" : "99d2a07e7a3129bb",
+      "parentUid" : "78f8fe53edef165a2456fabee34f4e19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607502113381,
+        "stop" : 1607502120895,
+        "duration" : 7514
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "美颜",
+      "children" : [ {
+        "name" : "美颜",
+        "uid" : "7ef42af918291783",
+        "parentUid" : "dceac2ae71f5476497dc60d746c30922",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607502120897,
+          "stop" : 1607502127720,
+          "duration" : 6823
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '拍照', 'type': 'id', 'value': 'cb_action'}" ]
+      } ],
+      "uid" : "dceac2ae71f5476497dc60d746c30922"
+    }, {
+      "name" : "倒计时",
+      "children" : [ {
+        "name" : "倒计时",
+        "uid" : "9498edbb9ca19ff2",
+        "parentUid" : "e21aa11177e35c81a0a7489b8ef00922",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607502127722,
+          "stop" : 1607502133378,
+          "duration" : 5656
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '倒计时', 'type': 'id', 'value': 'iv_countdown'}" ]
+      }, {
+        "name" : "倒计时",
+        "uid" : "109fcbb9a8465e75",
+        "parentUid" : "e21aa11177e35c81a0a7489b8ef00922",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607502133381,
+          "stop" : 1607502139062,
+          "duration" : 5681
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '3s', 'type': 'xpath', 'value': \"//*[@text='3s']\"}" ]
+      } ],
+      "uid" : "e21aa11177e35c81a0a7489b8ef00922"
+    } ],
+    "uid" : "78f8fe53edef165a2456fabee34f4e19"
+  }, {
     "name" : "测试登录页",
     "children" : [ {
       "name" : "登录成功",
       "children" : [ {
         "name" : "登录成功",
-        "uid" : "c68f20a828831052",
+        "uid" : "5c2c35ebab644492",
         "parentUid" : "27206bc6653ea30d4a7572408412ad20",
-        "status" : "broken",
+        "status" : "passed",
         "time" : {
-          "start" : 1607076804055,
-          "stop" : 1607076804056,
-          "duration" : 1
+          "start" : 1607502139076,
+          "stop" : 1607502145005,
+          "duration" : 5929
         },
         "flaky" : false,
         "newFailed" : false,

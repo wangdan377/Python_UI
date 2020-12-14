@@ -37,5 +37,6 @@ def read_yaml(file_name):
 
 if __name__ == '__main__':
 
-    read_yamls = read_yaml('Login')['登录']
-    print((read_yamls[2]['type'],read_yamls[2]['value']))
+    print(read_yaml('Camera')['相机1'][int(len(read_yaml('Camera')['相机1']) - 1)])
+
+

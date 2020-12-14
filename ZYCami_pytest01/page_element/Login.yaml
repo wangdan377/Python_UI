@@ -8,7 +8,7 @@
 #输入密码: "id==et_pass"
 #登录提交按钮: "id==tv_commit"
 
-登录:
+导航:
   - name: 首页
     type: xpath
     value: //*[@content-desc='Home']
@@ -21,18 +21,42 @@
     type: xpath
     value: //*[@content-desc='Me']
 
+登录:
+
   - name: 登录按钮
     type: id
-    value: tv_login
+    value: com.zhiyun.cama:id/tv_login
 
-  - name: 输入用户名
-    type: id
-    value: et_name
 
-  - name: 输入密码
+  - name: 请输入手机号码
     type: id
-    value: et_pass
+    value: com.zhiyun.cama:id/et_name
+
+  - name: 请输入密码
+    type: id
+    value: com.zhiyun.cama:id/et_pass
 
   - name: 登录提交按钮
     type: id
-    value: tv_commit
+    value: com.zhiyun.cama:id/tv_commit
+
+  - name: 提示
+    type: id
+    value: com.zhiyun.cama:id/tv_title
+
+  - name: 确定
+    type: id
+    value: com.zhiyun.cama:id/positive
+
+  - name: 手机号未注册
+    type: id
+    value: com.zhiyun.cama:id/tv_title
+
+  - name: 取消
+    type: id
+    value: com.zhiyun.cama:id/negative
+
+  - name: 立即注册
+    type: id
+    value: com.zhiyun.cama:id/positive
+
