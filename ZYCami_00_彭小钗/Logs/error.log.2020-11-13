@@ -1,0 +1,436 @@
+2020-11-11 18:09:18,134 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='一个月']")元素可见失效，错误：Message: 
+
+2020-11-11 18:16:17,396 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='一个月']")元素可见失效，错误：Message: 
+
+2020-11-11 18:24:27,630 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='一个月']")元素可见失效，错误：Message: 
+
+2020-11-11 18:31:57,070 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='连续包季']")元素可见失效，错误：Message: 
+
+2020-11-11 18:33:35,767 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='连续包季']")元素可见失效，错误：Message: 
+
+2020-11-12 10:32:28,313 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 10:36:21,663 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='连续包半年']")元素可见失效，错误：Message: 
+
+2020-11-12 10:36:38,724 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='连续包季']")元素可见失效，错误：Message: 
+
+2020-11-12 10:41:03,625 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 10:41:20,292 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='连续包季']")元素可见失效，错误：Message: 
+
+2020-11-12 10:45:17,271 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='连续包半年']")元素可见失效，错误：Message: 
+
+2020-11-12 10:47:30,944 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='连续包半年']")元素可见失效，错误：Message: 
+
+2020-11-12 10:48:30,276 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='连续包半年']")元素可见失效，错误：Message: 
+
+2020-11-12 10:48:47,425 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='连续包季']")元素可见失效，错误：Message: 
+
+2020-11-12 10:49:40,228 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='一个月']")元素可见失效，错误：Message: 
+
+2020-11-12 10:50:11,430 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='一个月']")元素可见失效，错误：Message: 
+
+2020-11-12 10:50:49,269 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='一个月']")元素可见失效，错误：Message: 
+
+2020-11-12 10:52:01,793 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='连续包半年']")元素可见失效，错误：Message: 
+
+2020-11-12 10:54:01,807 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='连续包半年']")元素可见失效，错误：Message: 
+
+2020-11-12 10:57:29,167 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='连续包半年']")元素可见失效，错误：Message: 
+
+2020-11-12 10:59:37,403 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='连续包半年']")元素可见失效，错误：Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET
+
+2020-11-12 11:00:31,867 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='连续包半年']")元素可见失效，错误：Message: 
+
+2020-11-12 11:04:41,355 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='连续包半年']")元素可见失效，错误：Message: 
+
+2020-11-12 11:05:35,044 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='连续包半年']")元素可见失效，错误：Message: 
+
+2020-11-12 11:07:20,210 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='一个月']")元素可见失效，错误：Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET
+
+2020-11-12 11:13:40,254 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 11:36:46,745 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='连续包季']")元素可见失效，错误：Message: 
+
+2020-11-12 11:37:18,493 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='连续包季']")元素可见失效，错误：Message: 
+
+2020-11-12 11:37:35,598 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='连续包半年']")元素可见失效，错误：Message: 
+
+2020-11-12 11:41:17,014 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='连续包季']")元素可见失效，错误：Message: 
+
+2020-11-12 11:41:34,528 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='连续包半年']")元素可见失效，错误：Message: 
+
+2020-11-12 11:43:33,269 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='连续包季']")元素可见失效，错误：Message: 
+
+2020-11-12 11:43:50,425 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='连续包半年']")元素可见失效，错误：Message: 
+
+2020-11-12 11:44:40,368 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='立即开通']")元素可见失效，错误：Message: 
+
+2020-11-12 11:44:48,899 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 11:44:57,440 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 11:45:51,489 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='连续包季']")元素可见失效，错误：Message: 
+
+2020-11-12 15:37:53,918 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='立即续费']")元素可见失效，错误：Message: 
+
+2020-11-12 15:38:50,873 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='购买']")元素可见失效，错误：Message: 
+
+2020-11-12 15:40:06,665 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='购买']")元素可见失效，错误：Message: 
+
+2020-11-12 16:02:51,466 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 16:03:15,567 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 16:03:24,608 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 16:03:33,678 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 16:03:42,896 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 16:06:00,013 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.zhiyun.cama' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files (x86)\\android_sdk\\android-21\\platform-tools\\adb.exe' -P 5037 -s 7HX0219918017044 shell am start -W -n com.zhiyun.cama/.splash.SplashActivity -S' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability
+
+2020-11-12 16:06:00,015 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-12 16:06:00,017 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-12 16:06:00,022 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-12 16:06:00,023 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-12 16:06:00,025 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-12 16:06:36,280 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 16:06:44,880 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 16:06:53,988 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 16:07:02,716 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 16:28:53,814 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 16:29:02,890 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 16:29:11,663 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 16:29:20,390 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 16:30:31,235 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.zhiyun.cama' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files (x86)\\android_sdk\\android-21\\platform-tools\\adb.exe' -P 5037 -s 7HX0219918017044 shell am start -W -n com.zhiyun.cama/.splash.SplashActivity -S' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability
+
+2020-11-12 16:31:40,654 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 16:33:18,607 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 16:35:33,969 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 16:35:42,777 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 16:35:51,519 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 16:36:00,400 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 16:39:16,328 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.zhiyun.cama' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files (x86)\\android_sdk\\android-21\\platform-tools\\adb.exe' -P 5037 -s 7HX0219918017044 shell am start -W -n com.zhiyun.cama/.splash.SplashActivity -S' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability
+
+2020-11-12 16:39:16,329 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-12 16:39:16,331 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-12 16:39:16,341 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-12 16:39:16,342 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-12 16:39:16,343 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-12 16:43:51,753 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.zhiyun.cama' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files (x86)\\android_sdk\\android-21\\platform-tools\\adb.exe' -P 5037 -s 7HX0219918017044 shell am start -W -n com.zhiyun.cama/.splash.SplashActivity -S' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability
+
+2020-11-12 16:43:51,755 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-12 16:43:51,757 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-12 16:43:51,767 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-12 16:43:51,768 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-12 16:43:51,782 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-12 16:53:51,958 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 16:54:01,043 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 16:54:10,113 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 16:54:19,164 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 16:56:40,175 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.zhiyun.cama' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files (x86)\\android_sdk\\android-21\\platform-tools\\adb.exe' -P 5037 -s 7HX0219918017044 shell am start -W -n com.zhiyun.cama/.splash.SplashActivity -S' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability
+
+2020-11-12 16:56:40,176 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-12 16:56:40,178 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-12 16:56:40,186 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-12 16:56:40,187 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-12 16:56:40,188 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-12 16:59:47,047 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 17:00:52,024 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 17:04:57,843 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 17:05:32,750 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 17:07:46,625 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.zhiyun.cama' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command ''D:\\Program Files (x86)\\android_sdk\\android-21\\platform-tools\\adb.exe' -P 5037 -s 7HX0219918017044 shell am start -W -n com.zhiyun.cama/.splash.SplashActivity -S' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability
+
+2020-11-12 17:07:46,627 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-12 17:08:21,977 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 17:10:16,093 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 17:11:47,429 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 17:13:03,695 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 17:14:10,123 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 17:20:12,371 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 17:23:02,900 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 17:23:11,701 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 17:23:20,525 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 17:23:29,347 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 17:24:28,608 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 17:25:29,230 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 17:30:07,046 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 17:31:07,214 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 17:31:44,028 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 17:33:01,321 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 17:35:08,889 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 17:35:47,744 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 17:37:21,231 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 17:38:19,839 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 17:41:39,432 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 17:47:22,586 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 17:50:21,348 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 17:52:27,541 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 17:54:00,677 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8200
+
+2020-11-12 17:54:29,020 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 17:57:09,015 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 18:08:59,687 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 18:11:09,907 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 18:14:52,199 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 18:16:20,408 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 18:18:48,200 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 18:19:33,442 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 18:21:21,569 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 18:23:49,380 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 18:24:53,017 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 18:25:51,270 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 18:29:47,946 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：'resetKeyboard'
+2020-11-12 18:29:47,947 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-12 18:29:55,546 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：'resetKeyboard'
+2020-11-12 18:29:55,547 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-12 18:30:02,411 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：'resetKeyboard'
+2020-11-12 18:30:02,412 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-12 18:33:33,684 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 19:11:56,771 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 19:31:38,106 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 19:42:07,685 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 19:42:49,399 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 19:45:30,662 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: 17195453626元素可见失效，错误：find_element() takes from 1 to 3 positional arguments but 12 were given
+2020-11-12 19:45:39,574 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 19:45:48,346 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 19:45:57,073 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 19:46:05,872 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 19:47:02,592 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-12 19:47:12,669 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-12 19:47:22,068 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-12 19:47:31,454 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-12 19:50:16,618 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-12 19:50:25,969 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-12 19:50:36,088 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-12 19:50:45,465 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-12 19:51:50,817 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 19:51:59,443 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 19:52:08,285 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 19:52:17,099 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 19:52:26,148 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 19:53:24,217 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: 
+
+2020-11-12 19:57:26,005 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'com.zhiyun.cama:id/et_name')元素可见失效，错误：Message: 
+
+2020-11-12 20:08:22,349 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'com.zhiyun.cama:id/et_name')元素可见失效，错误：Message: 
+
+2020-11-12 20:12:56,034 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 20:24:44,419 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 20:25:27,291 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 20:26:39,103 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 20:30:10,234 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 20:30:19,183 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 20:30:28,348 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 20:30:37,269 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 20:30:45,802 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 20:31:25,211 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 20:31:34,269 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 20:31:42,947 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 20:31:51,664 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 20:32:00,741 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 20:32:09,505 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 20:33:10,301 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-12 20:34:46,238 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-12 20:34:57,660 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+
+2020-11-12 20:34:57,672 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET
+
+2020-11-12 20:35:35,845 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-12 20:44:22,461 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 20:44:34,301 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-12 21:12:06,044 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-12 21:12:54,536 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-13 10:05:32,628 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F8EEA5F188>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-11-13 10:05:32,639 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-13 10:05:41,848 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F8EEAA7A08>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-11-13 10:05:41,848 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-13 10:05:50,982 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F8EEAA7908>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-11-13 10:05:50,982 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-13 10:06:00,108 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F8EEA57E08>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-11-13 10:06:00,108 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-13 10:06:09,260 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F8EEABF908>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-11-13 10:06:09,260 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-13 10:06:18,371 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F8EEACAD48>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-11-13 10:06:18,372 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-13 10:06:27,491 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F8EEAA4408>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-11-13 10:06:27,491 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-13 10:07:26,944 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BBD396F108>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-11-13 10:07:26,944 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-13 10:07:36,077 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BBD39B7988>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-11-13 10:07:36,077 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-13 10:07:45,190 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BBD39B7888>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-11-13 10:07:45,190 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-13 10:07:54,325 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BBD3967D88>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-11-13 10:07:54,325 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-13 10:08:03,467 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BBD39CF888>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-11-13 10:08:03,467 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-13 10:08:12,624 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BBD39DACC8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-11-13 10:08:12,624 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-13 10:08:21,780 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BBD39B43C8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-11-13 10:08:21,780 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-13 10:08:38,849 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002680A00F048>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-11-13 10:08:38,850 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-13 10:08:47,984 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002680A057908>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-11-13 10:08:47,984 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-13 10:08:57,119 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002680A057788>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-11-13 10:08:57,119 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-13 10:09:06,254 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002680A007D08>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-11-13 10:09:06,254 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-13 10:09:15,400 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002680A06F7C8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-11-13 10:09:15,400 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
+2020-11-13 11:06:01,744 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='立即开通']")元素可见失效，错误：Message: 
+
+2020-11-13 11:07:17,397 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='立即开通']")元素可见失效，错误：Message: 
+
+2020-11-13 12:15:28,896 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', "//*[@text='一个月']")元素可见失效，错误：Message: 
+
+2020-11-13 12:18:09,933 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'com.zhiyun.cama:id/tv_login')元素可见失效，错误：Message: 
+
+2020-11-13 12:25:04,669 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'com.zhiyun.cama:id/tv_login')元素可见失效，错误：Message: 
+
+2020-11-13 14:14:32,768 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('id', 'com.zhiyun.cama:id/tv_login')元素可见失效，错误：Message: 
+
+2020-11-13 14:36:43,636 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-13 14:37:15,174 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-13 14:37:50,226 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET
+
+2020-11-13 14:38:11,255 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-13 14:38:18,701 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET
+
+2020-11-13 14:38:28,280 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET
+
+2020-11-13 14:39:24,748 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-13 14:39:46,468 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-13 14:40:06,965 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-13 14:43:04,749 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-13 14:43:25,268 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-13 14:43:46,144 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-13 14:49:58,771 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'et_name')元素可见失效，错误：Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: read ECONNRESET
+
+2020-11-13 14:53:28,918 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-13 14:55:08,458 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+
+2020-11-13 14:58:02,206 - D:\ZYCami_00\Public\Function.py[line:22] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-13 17:20:11,474 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'com.zhiyun.cama:id/create')元素可见失效，错误：Message: 
+
+2020-11-13 17:21:33,567 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'com.zhiyun.cama:id/create')元素可见失效，错误：Message: 
+
+2020-11-13 17:39:00,266 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Editor"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-13 18:24:30,571 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('id', 'tv_login')元素可见失效，错误：Message: 
+

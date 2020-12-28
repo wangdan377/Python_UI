@@ -1,0 +1,117 @@
+{
+  "uid" : "9a35a6e2628eb84",
+  "name" : "test_1[3-6]",
+  "fullName" : "my_test#test_1",
+  "historyId" : "7d20109c10967b2c1332071926de45e2",
+  "time" : {
+    "start" : 1608114426058,
+    "stop" : 1608114426059,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1608114417129,
+      "stop" : 1608114417172,
+      "duration" : 43
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "get_driver",
+    "time" : {
+      "start" : 1608114417173,
+      "stop" : 1608114426043,
+      "duration" : 8870
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b6e5f31c738acf0f",
+      "name" : "stdout",
+      "source" : "b6e5f31c738acf0f.txt",
+      "type" : "text/plain",
+      "size" : 4
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "get_driver::fn",
+    "time" : {
+      "start" : 1608115014335,
+      "stop" : 1608115023003,
+      "duration" : 8668
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "my_test"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-4KG9PK6"
+  }, {
+    "name" : "thread",
+    "value" : "67464-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "my_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "6"
+  }, {
+    "name" : "b",
+    "value" : "3"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9a35a6e2628eb84.json",
+  "parameterValues" : [ "6", "3" ]
+}

@@ -1,0 +1,7 @@
+INFO	2020-12-04 17:54:50,106	[Caplictily.py:31]	启动app错误：[Errno 2] No such file or directory: '../page_element/desired_caps.yaml'
+INFO	2020-12-04 17:58:09,076	[Caplictily.py:31]	启动app错误：[Errno 2] No such file or directory: '../page_element/desired_caps.yaml'
+INFO	2020-12-04 18:12:23,539	[webpage.py:83]	点击元素：('xpath', "//*[@content-desc='Me']")
+INFO	2020-12-04 18:12:24,600	[webpage.py:83]	点击元素：('id', 'tv_login')
+INFO	2020-12-04 18:12:25,754	[webpage.py:77]	输入文本：17195453626
+INFO	2020-12-04 18:12:27,400	[webpage.py:77]	输入文本：00000000
+INFO	2020-12-04 18:12:29,104	[webpage.py:83]	点击元素：('id', 'tv_commit')

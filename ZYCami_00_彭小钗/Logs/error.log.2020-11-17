@@ -1,0 +1,2 @@
+2020-11-17 18:14:31,423 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/androidx.viewpager.widget.ViewPager/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.TextView[1]')元素可见失效，错误：Message: 
+

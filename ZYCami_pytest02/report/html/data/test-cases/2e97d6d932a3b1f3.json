@@ -1,0 +1,138 @@
+{
+  "uid" : "2e97d6d932a3b1f3",
+  "name" : "关闭、常亮",
+  "fullName" : "TestCase.test_01_test_camera.Testcamera#test_camera_flash",
+  "historyId" : "b2715fbc71edcb7aefdd6e85d4843bc0",
+  "time" : {
+    "start" : 1608114711786,
+    "stop" : 1608114714111,
+    "duration" : 2325
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1608114417129,
+      "stop" : 1608114417172,
+      "duration" : 43
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "get_driver",
+    "time" : {
+      "start" : 1608114417173,
+      "stop" : 1608114426043,
+      "duration" : 8870
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "前置条件",
+      "time" : {
+        "start" : 1608114711786,
+        "stop" : 1608114712100,
+        "duration" : 314
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "locator",
+        "value" : "{'name': '设置', 'type': 'id', 'value': 'iv_setting'}"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "get_driver::fn",
+    "time" : {
+      "start" : 1608115014335,
+      "stop" : 1608115023003,
+      "duration" : 8668
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试相机"
+  }, {
+    "name" : "story",
+    "value" : "闪光灯"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_01_test_camera"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcamera"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-4KG9PK6"
+  }, {
+    "name" : "thread",
+    "value" : "67464-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_01_test_camera"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "flash",
+    "value" : "{'name': '设置', 'type': 'id', 'value': 'iv_setting'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2e97d6d932a3b1f3.json",
+  "parameterValues" : [ "{'name': '设置', 'type': 'id', 'value': 'iv_setting'}" ]
+}

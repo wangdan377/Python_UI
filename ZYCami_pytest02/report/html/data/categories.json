@@ -1,0 +1,65 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "设备连接、断开设备",
+        "uid" : "76feea0555550940",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608114899484,
+          "stop" : 1608114920871,
+          "duration" : 21387
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '设备管理', 'type': 'xpath', 'value': \"//*[@text='设备管理']\"}" ]
+      }, {
+        "name" : "设备连接、断开设备",
+        "uid" : "a22d21d434e072b9",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608114920920,
+          "stop" : 1608114942345,
+          "duration" : 21425
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '刷新', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/iv_scan')]\"}" ]
+      }, {
+        "name" : "设备连接、断开设备",
+        "uid" : "d49ba4c6b5f3678f",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608114942368,
+          "stop" : 1608114963848,
+          "duration" : 21480
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '7240设备', 'type': 'xpath', 'value': \"//*[@text='SMOOTH-X_7240']/following-sibling::android.widget.ImageView\"}" ]
+      }, {
+        "name" : "设备连接、断开设备",
+        "uid" : "e2cf1b80a1ce343",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608114963871,
+          "stop" : 1608114985478,
+          "duration" : 21607
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '取消', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/tv_cancel')]\"}" ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

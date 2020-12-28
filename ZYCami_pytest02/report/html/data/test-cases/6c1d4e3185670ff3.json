@@ -1,0 +1,138 @@
+{
+  "uid" : "6c1d4e3185670ff3",
+  "name" : "各种模式",
+  "fullName" : "TestCase.test_01_test_camera.Testcamera#test_camera_Yuntai",
+  "historyId" : "c77dcb2d52ea64c5e0de8f73c3453e15",
+  "time" : {
+    "start" : 1608114807676,
+    "stop" : 1608114811539,
+    "duration" : 3863
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1608114417129,
+      "stop" : 1608114417172,
+      "duration" : 43
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "get_driver",
+    "time" : {
+      "start" : 1608114417173,
+      "stop" : 1608114426043,
+      "duration" : 8870
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "前置条件",
+      "time" : {
+        "start" : 1608114807677,
+        "stop" : 1608114808531,
+        "duration" : 854
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "locator",
+        "value" : "{'name': '行走', 'type': 'xpath', 'value': \"//*[@text='行走']\"}"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "get_driver::fn",
+    "time" : {
+      "start" : 1608115014335,
+      "stop" : 1608115023003,
+      "duration" : 8668
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试相机"
+  }, {
+    "name" : "story",
+    "value" : "云台"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_01_test_camera"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcamera"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-4KG9PK6"
+  }, {
+    "name" : "thread",
+    "value" : "67464-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_01_test_camera"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Yuntai",
+    "value" : "{'name': '行走', 'type': 'xpath', 'value': \"//*[@text='行走']\"}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6c1d4e3185670ff3.json",
+  "parameterValues" : [ "{'name': '行走', 'type': 'xpath', 'value': \"//*[@text='行走']\"}" ]
+}

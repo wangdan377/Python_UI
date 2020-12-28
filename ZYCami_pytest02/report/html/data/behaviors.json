@@ -1,0 +1,1102 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_1[1-2]",
+    "uid" : "3a78f017f828c075",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608114426045,
+      "stop" : 1608114426045,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2", "1" ]
+  }, {
+    "name" : "test_1[1-4]",
+    "uid" : "607a4b4f0c3f9ae6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608114426048,
+      "stop" : 1608114426048,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "4", "1" ]
+  }, {
+    "name" : "test_1[1-6]",
+    "uid" : "72487c0e163fa98b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608114426050,
+      "stop" : 1608114426051,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "6", "1" ]
+  }, {
+    "name" : "test_1[3-2]",
+    "uid" : "9c25b9d537647270",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608114426053,
+      "stop" : 1608114426054,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2", "3" ]
+  }, {
+    "name" : "test_1[3-4]",
+    "uid" : "bb5f102902f09129",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608114426056,
+      "stop" : 1608114426056,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "4", "3" ]
+  }, {
+    "name" : "test_1[3-6]",
+    "uid" : "9a35a6e2628eb84",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608114426058,
+      "stop" : 1608114426059,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "6", "3" ]
+  }, {
+    "name" : "test_1[5-2]",
+    "uid" : "a8a6976dd6c81571",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608114426062,
+      "stop" : 1608114426062,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2", "5" ]
+  }, {
+    "name" : "test_1[5-4]",
+    "uid" : "de2298064d6593b1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608114426064,
+      "stop" : 1608114426064,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "4", "5" ]
+  }, {
+    "name" : "test_1[5-6]",
+    "uid" : "f8f97333447b9625",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1608114426067,
+      "stop" : 1608114426067,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "6", "5" ]
+  }, {
+    "name" : "测试相机",
+    "children" : [ {
+      "name" : "test_front",
+      "uid" : "672a195ff936b8f7",
+      "parentUid" : "e344a4f780f26c47c9495fb60f055d58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608114426070,
+        "stop" : 1608114440654,
+        "duration" : 14584
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "美颜",
+      "children" : [ {
+        "name" : "美颜",
+        "uid" : "6258c173533244af",
+        "parentUid" : "81f45a049bf6f0ecd3ff6e24d4aaecc0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114440656,
+          "stop" : 1608114455362,
+          "duration" : 14706
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '美颜按钮', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/iv_beauty')]\"}", "{'name': '取消美颜', 'type': 'xpath', 'value': '//android.widget.LinearLayout/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.ImageView'}", "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "9c07028d757ea04e",
+        "parentUid" : "81f45a049bf6f0ecd3ff6e24d4aaecc0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114455365,
+          "stop" : 1608114469496,
+          "duration" : 14131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '美颜按钮', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/iv_beauty')]\"}", "{'name': '自动美颜', 'type': 'xpath', 'value': \"//*[@text='自动美颜']\"}", "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "9d6b28cf26cf1b6f",
+        "parentUid" : "81f45a049bf6f0ecd3ff6e24d4aaecc0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114469500,
+          "stop" : 1608114497894,
+          "duration" : 28394
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '美颜按钮', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/iv_beauty')]\"}", "{'name': '瘦脸', 'type': 'xpath', 'value': \"//*[@text='瘦脸']\"}", "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "2304580750d939dd",
+        "parentUid" : "81f45a049bf6f0ecd3ff6e24d4aaecc0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114497898,
+          "stop" : 1608114526358,
+          "duration" : 28460
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '美颜按钮', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/iv_beauty')]\"}", "{'name': '磨皮', 'type': 'xpath', 'value': \"//*[@text='磨皮']\"}", "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "a774ecfd0b27c6d6",
+        "parentUid" : "81f45a049bf6f0ecd3ff6e24d4aaecc0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114526361,
+          "stop" : 1608114559096,
+          "duration" : 32735
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '美颜按钮', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/iv_beauty')]\"}", "{'name': '美白', 'type': 'xpath', 'value': \"//*[@text='美白']\"}", "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "80c6c894867e3965",
+        "parentUid" : "81f45a049bf6f0ecd3ff6e24d4aaecc0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114559105,
+          "stop" : 1608114587862,
+          "duration" : 28757
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '美颜按钮', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/iv_beauty')]\"}", "{'name': '眼睛放大', 'type': 'xpath', 'value': \"//*[@text='眼睛放大']\"}", "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "4eeb88b95cd57657",
+        "parentUid" : "81f45a049bf6f0ecd3ff6e24d4aaecc0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114587865,
+          "stop" : 1608114623716,
+          "duration" : 35851
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '美颜按钮', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/iv_beauty')]\"}", "{'name': '光照', 'type': 'xpath', 'value': \"//*[@text='光照']\"}", "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "f5891dc4c63463b4",
+        "parentUid" : "81f45a049bf6f0ecd3ff6e24d4aaecc0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114623719,
+          "stop" : 1608114655401,
+          "duration" : 31682
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '美颜按钮', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/iv_beauty')]\"}", "{'name': '红润', 'type': 'xpath', 'value': \"//*[@text='红润']\"}", "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      } ],
+      "uid" : "81f45a049bf6f0ecd3ff6e24d4aaecc0"
+    }, {
+      "name" : "倒计时",
+      "children" : [ {
+        "name" : "3、5、7、off",
+        "uid" : "1282e0eb6e57453",
+        "parentUid" : "2152a674271a0f14d333c4e8bee8be83",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114655404,
+          "stop" : 1608114669582,
+          "duration" : 14178
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '倒计时', 'type': 'id', 'value': 'iv_countdown'}", "{'name': '3s', 'type': 'xpath', 'value': \"//*[@text='3s']\"}", "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "3、5、7、off",
+        "uid" : "dfd30e615135d675",
+        "parentUid" : "2152a674271a0f14d333c4e8bee8be83",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114669585,
+          "stop" : 1608114683649,
+          "duration" : 14064
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '倒计时', 'type': 'id', 'value': 'iv_countdown'}", "{'name': '5s', 'type': 'xpath', 'value': \"//*[@text='5s']\"}", "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "3、5、7、off",
+        "uid" : "85f31752872fc2f3",
+        "parentUid" : "2152a674271a0f14d333c4e8bee8be83",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114683653,
+          "stop" : 1608114697712,
+          "duration" : 14059
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '倒计时', 'type': 'id', 'value': 'iv_countdown'}", "{'name': '7s', 'type': 'xpath', 'value': \"//*[@text='7s']\"}", "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "3、5、7、off",
+        "uid" : "bfc58cb7e177fd97",
+        "parentUid" : "2152a674271a0f14d333c4e8bee8be83",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114697715,
+          "stop" : 1608114711783,
+          "duration" : 14068
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '倒计时', 'type': 'id', 'value': 'iv_countdown'}", "{'name': 'off', 'type': 'xpath', 'value': \"//*[@text='off']\"}", "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      } ],
+      "uid" : "2152a674271a0f14d333c4e8bee8be83"
+    }, {
+      "name" : "闪光灯",
+      "children" : [ {
+        "name" : "关闭、常亮",
+        "uid" : "2e97d6d932a3b1f3",
+        "parentUid" : "2242f33ea6210ae704bdfd9a31f4fd83",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114711786,
+          "stop" : 1608114714111,
+          "duration" : 2325
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '设置', 'type': 'id', 'value': 'iv_setting'}" ]
+      }, {
+        "name" : "关闭、常亮",
+        "uid" : "99ca7fac055f309d",
+        "parentUid" : "2242f33ea6210ae704bdfd9a31f4fd83",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114714114,
+          "stop" : 1608114716967,
+          "duration" : 2853
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '视频', 'type': 'xpath', 'value': \"//*[@text='视频']\"}" ]
+      }, {
+        "name" : "关闭、常亮",
+        "uid" : "b910596c6d731455",
+        "parentUid" : "2242f33ea6210ae704bdfd9a31f4fd83",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114716969,
+          "stop" : 1608114719926,
+          "duration" : 2957
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '闪光灯', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/cb_video_flash')]\"}" ]
+      }, {
+        "name" : "关闭、常亮",
+        "uid" : "9de1ae1e76d12cbc",
+        "parentUid" : "2242f33ea6210ae704bdfd9a31f4fd83",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114719928,
+          "stop" : 1608114722837,
+          "duration" : 2909
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '关闭', 'type': 'xpath', 'value': \"//*[@text='关闭']\"}" ]
+      }, {
+        "name" : "关闭、常亮",
+        "uid" : "1bcc580ff3b82708",
+        "parentUid" : "2242f33ea6210ae704bdfd9a31f4fd83",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114722840,
+          "stop" : 1608114725715,
+          "duration" : 2875
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '常亮', 'type': 'xpath', 'value': \"//*[@text='常亮']\"}" ]
+      }, {
+        "name" : "关闭、常亮",
+        "uid" : "f066a6200b7539fb",
+        "parentUid" : "2242f33ea6210ae704bdfd9a31f4fd83",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114725722,
+          "stop" : 1608114728718,
+          "duration" : 2996
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '闪光灯', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/cb_video_flash')]\"}" ]
+      } ],
+      "uid" : "2242f33ea6210ae704bdfd9a31f4fd83"
+    }, {
+      "name" : "网络显示",
+      "children" : [ {
+        "name" : "关闭、方格、对角+方格",
+        "uid" : "c253eb9a54023bfa",
+        "parentUid" : "8fca5662072f347efcddb181ff019dcd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114728721,
+          "stop" : 1608114731129,
+          "duration" : 2408
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '网络显示', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/cb_video_grid')]\"}" ]
+      }, {
+        "name" : "关闭、方格、对角+方格",
+        "uid" : "9923c5a8a307aedc",
+        "parentUid" : "8fca5662072f347efcddb181ff019dcd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114731131,
+          "stop" : 1608114734049,
+          "duration" : 2918
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '关闭', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/rb_grid_none')]\"}" ]
+      }, {
+        "name" : "关闭、方格、对角+方格",
+        "uid" : "d0abba006b6a68e0",
+        "parentUid" : "8fca5662072f347efcddb181ff019dcd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114734051,
+          "stop" : 1608114736949,
+          "duration" : 2898
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '方格', 'type': 'xpath', 'value': \"//*[@text='方格']\"}" ]
+      }, {
+        "name" : "关闭、方格、对角+方格",
+        "uid" : "45f1aa9a6caecaa7",
+        "parentUid" : "8fca5662072f347efcddb181ff019dcd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114736952,
+          "stop" : 1608114739824,
+          "duration" : 2872
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '方格+对角线', 'type': 'xpath', 'value': \"//*[@text='方格+对角线']\"}" ]
+      }, {
+        "name" : "关闭、方格、对角+方格",
+        "uid" : "163ee86a6c8f11db",
+        "parentUid" : "8fca5662072f347efcddb181ff019dcd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114739827,
+          "stop" : 1608114742766,
+          "duration" : 2939
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '网络显示', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/cb_video_grid')]\"}" ]
+      } ],
+      "uid" : "8fca5662072f347efcddb181ff019dcd"
+    }, {
+      "name" : "白平衡",
+      "children" : [ {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "9a2cc3485ce76695",
+        "parentUid" : "f5649b77b6d12c3e9798579558b881fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114742768,
+          "stop" : 1608114745715,
+          "duration" : 2947
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '白平衡', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/tv_white_balance')]\"}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "751baf964161350c",
+        "parentUid" : "f5649b77b6d12c3e9798579558b881fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114745718,
+          "stop" : 1608114748562,
+          "duration" : 2844
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '自动', 'type': 'xpath', 'value': \"//*[@text='自动']\"}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "8c70500b71c6375f",
+        "parentUid" : "f5649b77b6d12c3e9798579558b881fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114748564,
+          "stop" : 1608114751380,
+          "duration" : 2816
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '晴天', 'type': 'xpath', 'value': \"//*[@text='晴天']\"}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "74fd4a6afbb2d51c",
+        "parentUid" : "f5649b77b6d12c3e9798579558b881fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114751383,
+          "stop" : 1608114754159,
+          "duration" : 2776
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '阴天', 'type': 'xpath', 'value': \"//*[@text='阴天']\"}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "3a94b8009190669f",
+        "parentUid" : "f5649b77b6d12c3e9798579558b881fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114754161,
+          "stop" : 1608114756974,
+          "duration" : 2813
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '白炽灯', 'type': 'xpath', 'value': \"//*[@text='白炽灯']\"}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "c3963b9e04038693",
+        "parentUid" : "f5649b77b6d12c3e9798579558b881fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114756976,
+          "stop" : 1608114759793,
+          "duration" : 2817
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '荧光灯', 'type': 'xpath', 'value': \"//*[@text='荧光灯']\"}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "18b27929b342b625",
+        "parentUid" : "f5649b77b6d12c3e9798579558b881fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114759795,
+          "stop" : 1608114762713,
+          "duration" : 2918
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '返回', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/iv_back')]\"}" ]
+      } ],
+      "uid" : "f5649b77b6d12c3e9798579558b881fa"
+    }, {
+      "name" : "手势控制",
+      "children" : [ {
+        "name" : "跟随、拍摄",
+        "uid" : "52bb7d40f17d15d1",
+        "parentUid" : "3005a3c130e396c8d2aa142ac016a492",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114762715,
+          "stop" : 1608114766691,
+          "duration" : 3976
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '手势控制', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/ll_gesture')]\"}" ]
+      }, {
+        "name" : "跟随、拍摄",
+        "uid" : "961c032a74a25689",
+        "parentUid" : "3005a3c130e396c8d2aa142ac016a492",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114766693,
+          "stop" : 1608114770597,
+          "duration" : 3904
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '跟随+拍摄', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/tv_follow_take')]\"}" ]
+      }, {
+        "name" : "跟随、拍摄",
+        "uid" : "ec2135931baa96e5",
+        "parentUid" : "3005a3c130e396c8d2aa142ac016a492",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114770599,
+          "stop" : 1608114774514,
+          "duration" : 3915
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '仅拍摄', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/tv_only_take')]\"}" ]
+      }, {
+        "name" : "跟随、拍摄",
+        "uid" : "84e3974471be5671",
+        "parentUid" : "3005a3c130e396c8d2aa142ac016a492",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114774516,
+          "stop" : 1608114778435,
+          "duration" : 3919
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '返回', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/iv_back')]\"}" ]
+      }, {
+        "name" : "跟随、拍摄",
+        "uid" : "c0a1f0964492bc4d",
+        "parentUid" : "3005a3c130e396c8d2aa142ac016a492",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114778437,
+          "stop" : 1608114782702,
+          "duration" : 4265
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '去水印', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/cb_watermark')]\"}" ]
+      }, {
+        "name" : "跟随、拍摄",
+        "uid" : "a71b4b0a845a3b05",
+        "parentUid" : "3005a3c130e396c8d2aa142ac016a492",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114782705,
+          "stop" : 1608114786911,
+          "duration" : 4206
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '去水印', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/cb_watermark')]\"}" ]
+      }, {
+        "name" : "跟随、拍摄",
+        "uid" : "e94d14e53574b0c3",
+        "parentUid" : "3005a3c130e396c8d2aa142ac016a492",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114786913,
+          "stop" : 1608114800919,
+          "duration" : 14006
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      } ],
+      "uid" : "3005a3c130e396c8d2aa142ac016a492"
+    }, {
+      "name" : "云台",
+      "children" : [ {
+        "name" : "各种模式",
+        "uid" : "96eeeca24e6d162e",
+        "parentUid" : "a2ca9fd78863976c42182355638f2539",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114800921,
+          "stop" : 1608114804281,
+          "duration" : 3360
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '设置', 'type': 'id', 'value': 'iv_setting'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "3b8d30967e8b9399",
+        "parentUid" : "a2ca9fd78863976c42182355638f2539",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114804283,
+          "stop" : 1608114807674,
+          "duration" : 3391
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '云台', 'type': 'xpath', 'value': \"//*[@text='云台']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "6c1d4e3185670ff3",
+        "parentUid" : "a2ca9fd78863976c42182355638f2539",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114807676,
+          "stop" : 1608114811539,
+          "duration" : 3863
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '行走', 'type': 'xpath', 'value': \"//*[@text='行走']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "f27cad3d9e2e45e3",
+        "parentUid" : "a2ca9fd78863976c42182355638f2539",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114811549,
+          "stop" : 1608114815399,
+          "duration" : 3850
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '运动', 'type': 'xpath', 'value': \"//*[@text='运动']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "8aadc9ffe6a08669",
+        "parentUid" : "a2ca9fd78863976c42182355638f2539",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114815401,
+          "stop" : 1608114819395,
+          "duration" : 3994
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '跟随', 'type': 'xpath', 'value': \"//*[@text='跟随模式']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "59c9e3fe318bac1a",
+        "parentUid" : "a2ca9fd78863976c42182355638f2539",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114819398,
+          "stop" : 1608114823226,
+          "duration" : 3828
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '左右跟随', 'type': 'xpath', 'value': \"//*[@text='左右跟随']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "3a40c7e39305d988",
+        "parentUid" : "a2ca9fd78863976c42182355638f2539",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114823228,
+          "stop" : 1608114827015,
+          "duration" : 3787
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '全锁定', 'type': 'xpath', 'value': \"//*[@text='全锁定']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "a10a442efd32df5f",
+        "parentUid" : "a2ca9fd78863976c42182355638f2539",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114827017,
+          "stop" : 1608114830842,
+          "duration" : 3825
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '横滚航向跟随', 'type': 'xpath', 'value': \"//*[@text='横滚航向跟随']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "437d2f71633ac6b3",
+        "parentUid" : "a2ca9fd78863976c42182355638f2539",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114830844,
+          "stop" : 1608114834872,
+          "duration" : 4028
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '返回', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/iv_back')]\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "42483e2635454aae",
+        "parentUid" : "a2ca9fd78863976c42182355638f2539",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114834874,
+          "stop" : 1608114838753,
+          "duration" : 3879
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '快', 'type': 'xpath', 'value': \"//*[@text='快']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "b671023a62de8199",
+        "parentUid" : "a2ca9fd78863976c42182355638f2539",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114838756,
+          "stop" : 1608114842655,
+          "duration" : 3899
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '中', 'type': 'xpath', 'value': \"//*[@text='中']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "1200d1cdb85da62c",
+        "parentUid" : "a2ca9fd78863976c42182355638f2539",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114842657,
+          "stop" : 1608114846567,
+          "duration" : 3910
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '慢', 'type': 'xpath', 'value': \"//*[@text='慢']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "86d97373f206ac71",
+        "parentUid" : "a2ca9fd78863976c42182355638f2539",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114846569,
+          "stop" : 1608114857802,
+          "duration" : 11233
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '变焦速度', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/sb_zoom_speed')]\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "2a1887f939ff240e",
+        "parentUid" : "a2ca9fd78863976c42182355638f2539",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114857804,
+          "stop" : 1608114862060,
+          "duration" : 4256
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '水平反向', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/ctv_yaw_reverse')]\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "e56b6c6cbcf28062",
+        "parentUid" : "a2ca9fd78863976c42182355638f2539",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114862062,
+          "stop" : 1608114866269,
+          "duration" : 4207
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '水平反向', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/ctv_yaw_reverse')]\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "aaca0e980fff51ae",
+        "parentUid" : "a2ca9fd78863976c42182355638f2539",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114866271,
+          "stop" : 1608114869573,
+          "duration" : 3302
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '垂直反向', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/ctv_roll_reverse')]\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "91a38b569028ad8e",
+        "parentUid" : "a2ca9fd78863976c42182355638f2539",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114869576,
+          "stop" : 1608114872970,
+          "duration" : 3394
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '垂直反向', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/ctv_roll_reverse')]\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "a6e0e117383bdb8f",
+        "parentUid" : "a2ca9fd78863976c42182355638f2539",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114872972,
+          "stop" : 1608114877025,
+          "duration" : 4053
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '开关', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/cb_video_click_m')]\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "74d2c466f265ac9f",
+        "parentUid" : "a2ca9fd78863976c42182355638f2539",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114877027,
+          "stop" : 1608114881385,
+          "duration" : 4358
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '默认', 'type': 'xpath', 'value': \"//*[@text='默认']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "3ac6514d016c32d0",
+        "parentUid" : "a2ca9fd78863976c42182355638f2539",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114881387,
+          "stop" : 1608114884737,
+          "duration" : 3350
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '切换拍照/录像', 'type': 'xpath', 'value': \"//*[@text='切换拍照/录像']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "dd7250ab2660529b",
+        "parentUid" : "a2ca9fd78863976c42182355638f2539",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114884739,
+          "stop" : 1608114888685,
+          "duration" : 3946
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '快捷菜单', 'type': 'xpath', 'value': \"//*[@text='快捷菜单']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "4c913ee9fb43e3d3",
+        "parentUid" : "a2ca9fd78863976c42182355638f2539",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114888687,
+          "stop" : 1608114892681,
+          "duration" : 3994
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '开关', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/cb_video_click_m')]\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "4b4ffce1f5ba1e51",
+        "parentUid" : "a2ca9fd78863976c42182355638f2539",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114892684,
+          "stop" : 1608114896110,
+          "duration" : 3426
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '云台自动校准', 'type': 'xpath', 'value': \"//*[@text='云台自动校准']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "f4896437910e3298",
+        "parentUid" : "a2ca9fd78863976c42182355638f2539",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114896112,
+          "stop" : 1608114899482,
+          "duration" : 3370
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '取消', 'type': 'xpath', 'value': \"//*[@text='取消']\"}" ]
+      } ],
+      "uid" : "a2ca9fd78863976c42182355638f2539"
+    }, {
+      "name" : "通用",
+      "children" : [ {
+        "name" : "设备连接、断开设备",
+        "uid" : "76feea0555550940",
+        "parentUid" : "bdea82947211e7365398eb6c30c87bde",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608114899484,
+          "stop" : 1608114920871,
+          "duration" : 21387
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '设备管理', 'type': 'xpath', 'value': \"//*[@text='设备管理']\"}" ]
+      }, {
+        "name" : "设备连接、断开设备",
+        "uid" : "a22d21d434e072b9",
+        "parentUid" : "bdea82947211e7365398eb6c30c87bde",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608114920920,
+          "stop" : 1608114942345,
+          "duration" : 21425
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '刷新', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/iv_scan')]\"}" ]
+      }, {
+        "name" : "设备连接、断开设备",
+        "uid" : "d49ba4c6b5f3678f",
+        "parentUid" : "bdea82947211e7365398eb6c30c87bde",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608114942368,
+          "stop" : 1608114963848,
+          "duration" : 21480
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '7240设备', 'type': 'xpath', 'value': \"//*[@text='SMOOTH-X_7240']/following-sibling::android.widget.ImageView\"}" ]
+      }, {
+        "name" : "设备连接、断开设备",
+        "uid" : "e2cf1b80a1ce343",
+        "parentUid" : "bdea82947211e7365398eb6c30c87bde",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608114963871,
+          "stop" : 1608114985478,
+          "duration" : 21607
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '取消', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/tv_cancel')]\"}" ]
+      }, {
+        "name" : "设备连接、断开设备",
+        "uid" : "f92f562d02836146",
+        "parentUid" : "bdea82947211e7365398eb6c30c87bde",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114985501,
+          "stop" : 1608114988839,
+          "duration" : 3338
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '7240设备', 'type': 'xpath', 'value': \"//*[@text='SMOOTH-X_7240']/following-sibling::android.widget.ImageView\"}" ]
+      }, {
+        "name" : "设备连接、断开设备",
+        "uid" : "4ed9c09660076252",
+        "parentUid" : "bdea82947211e7365398eb6c30c87bde",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114988845,
+          "stop" : 1608114992199,
+          "duration" : 3354
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '确定', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/tv_confirm')]\"}" ]
+      }, {
+        "name" : "设备连接、断开设备",
+        "uid" : "5aa9550e52212862",
+        "parentUid" : "bdea82947211e7365398eb6c30c87bde",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114992202,
+          "stop" : 1608114996914,
+          "duration" : 4712
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '7240设备Button', 'type': 'xpath', 'value': \"//*[@text='SMOOTH-X_7240']/following-sibling::android.widget.Button\"}" ]
+      }, {
+        "name" : "设备连接、断开设备",
+        "uid" : "da05db08854c57d3",
+        "parentUid" : "bdea82947211e7365398eb6c30c87bde",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608114996917,
+          "stop" : 1608115000299,
+          "duration" : 3382
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '关闭', 'type': 'xpath', 'value': \"//*[contains(@resource-id, 'com.zhiyun.cama:id/iv_close')]\"}" ]
+      }, {
+        "name" : "设备连接、断开设备",
+        "uid" : "9d91e24e9f2b4751",
+        "parentUid" : "bdea82947211e7365398eb6c30c87bde",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608115000302,
+          "stop" : 1608115014332,
+          "duration" : 14030
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      } ],
+      "uid" : "bdea82947211e7365398eb6c30c87bde"
+    } ],
+    "uid" : "e344a4f780f26c47c9495fb60f055d58"
+  }, {
+    "name" : "测试登录页",
+    "children" : [ {
+      "name" : "进入登录页",
+      "children" : [ {
+        "name" : "进入登录页",
+        "uid" : "ed8e2c1f5c73191c",
+        "parentUid" : "040cf5aefe69c4da85c3af501227fe7f",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1608115014334,
+          "stop" : 1608115014334,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "040cf5aefe69c4da85c3af501227fe7f"
+    } ],
+    "uid" : "c6c26bd2a26cd70bf45651b5ab920be8"
+  } ]
+}

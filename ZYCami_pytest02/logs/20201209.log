@@ -1,0 +1,6 @@
+INFO	2020-12-09 16:15:04,078	[webpage.py:83]	点击元素：('id', 'iv_camera')
+INFO	2020-12-09 16:15:04,695	[webpage.py:83]	点击元素：('id', 'ib_help')
+INFO	2020-12-09 16:15:05,609	[webpage.py:83]	点击元素：('xpath', "//*[@text='直接进入']")
+INFO	2020-12-09 16:15:07,440	[webpage.py:83]	点击元素：('id', 'cb_action')
+INFO	2020-12-09 16:15:13,097	[webpage.py:83]	点击元素：('id', 'iv_countdown')
+INFO	2020-12-09 16:15:18,752	[webpage.py:83]	点击元素：('xpath', "//*[@text='3s']")

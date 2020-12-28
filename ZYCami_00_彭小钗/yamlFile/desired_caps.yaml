@@ -1,0 +1,12 @@
+platformName: Android
+#deviceName: 7HX0219918017044
+#deviceName: MQS7N19328015112
+deviceName: TTNDU20416005739
+platformVersion: 10
+appPackage: com.zhiyun.cama
+appActivity: .splash.SplashActivity
+noReset: True
+resetKeyboard: True
+ip : 127.0.0.1
+port: 4723
+unicodeKeyboard: True

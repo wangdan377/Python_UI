@@ -1,0 +1,9 @@
+platformName: Android
+deviceName: 7HX0219918017044
+platformVersion: '10'
+appPackage: com.zhiyun.cama
+appActivity: .splash.SplashActivity
+noReset: True
+resetKeyboard: True
+unicodeKeyboard: True
+automationName: Appium

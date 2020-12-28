@@ -1,0 +1,4 @@
+测试:
+  - name: off
+    type: xpath
+    value: //*[@text='off']

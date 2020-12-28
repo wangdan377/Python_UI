@@ -1,0 +1,32 @@
+2020-11-26 17:52:24,640 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//*[@content-desc="Editor"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-26 17:55:25,018 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//*[@content-desc="Editor"]/android.widget.ImageView')元素可见失效，错误：Message: 
+
+2020-11-26 17:57:30,221 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//*[@resource-id="com.zhiyun.cama:id/fl_go_editor"]')元素可见失效，错误：Message: 
+
+2020-11-26 18:09:27,920 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//*[@resource-id="com.zhiyun.cama:id/fl_go_editor"]')元素可见失效，错误：Message: 
+
+2020-11-26 18:10:27,402 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//*[@resource-id="com.zhiyun.cama:id/fl_go_editor"]')元素可见失效，错误：Message: 
+
+2020-11-26 18:17:16,107 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//*[@resource-id="com.zhiyun.cama:id/fl_go_editor"]')元素可见失效，错误：Message: 
+
+2020-11-26 18:19:22,576 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//*[@resource-id="com.zhiyun.cama:id/fl_go_editor"]')元素可见失效，错误：Message: 
+
+2020-11-26 18:24:59,751 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//*[@resource-id="com.zhiyun.cama:id/fl_go_editor"]')元素可见失效，错误：Message: 
+
+2020-11-26 18:29:45,186 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//*[@resource-id="com.zhiyun.cama:id/fl_go_editor"]')元素可见失效，错误：Message: 
+
+2020-11-27 10:25:55,390 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//*/android.widget.ImageButton[1]')元素可见失效，错误：Message: 
+
+2020-11-27 10:29:44,953 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//*/android.widget.ImageButton[1]')元素可见失效，错误：Message: 
+
+2020-11-27 10:55:24,436 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '(//*[@resource-id="com.zhiyun.cama:id/iv_album_thumb"])[1]')元素可见失效，错误：Message: 
+
+2020-11-27 10:57:51,582 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '(//*[@resource-id="com.zhiyun.cama:id/iv_album_thumb"])[1]')元素可见失效，错误：Message: 
+
+2020-11-27 11:40:27,785 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '(//*[@resource-id="com.zhiyun.cama:id/iv_album_thumb"])[1]')元素可见失效，错误：Message: 
+
+2020-11-27 14:07:48,670 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '(//*[@resource-id="com.zhiyun.cama:id/iv_album_thumb"])[1]')元素可见失效，错误：Message: 
+
+2020-11-27 16:43:28,129 - D:\ZYCami_00\Public\Caplictily.py[line:44] - ERROR: 错误：HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000129DAE802C8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-11-27 16:43:28,131 - D:\ZYCami_00\PO\Base_page.py[line:28] - ERROR: ('xpath', '//android.widget.FrameLayout[@content-desc="Me"]/android.widget.ImageView')元素可见失效，错误：'NoneType' object has no attribute 'find_element'
