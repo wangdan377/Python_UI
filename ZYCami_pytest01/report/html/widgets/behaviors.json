@@ -1,15 +1,70 @@
 {
-  "total" : 2,
+  "total" : 7,
   "items" : [ {
-    "uid" : "78f8fe53edef165a2456fabee34f4e19",
-    "name" : "相机",
+    "uid" : "7d03e92d5980738a388a3332e1440eca",
+    "name" : "相册",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "aaf1acd558353f7a3b28987d778ae26f",
+    "name" : "拍照",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 3
+      "total" : 10
+    }
+  }, {
+    "uid" : "f1c0f24bdb3dcc270e7f37046336cba7",
+    "name" : "录像",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
+    "uid" : "7d8075d75b32a794b0d1f6fc1aa6403f",
+    "name" : "延时摄影",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "59cfa31be6c6b9b345530ff551ac8454",
+    "name" : "运动延时",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "90e61151d9a97f4dc96dcee6133cc5bf",
+    "name" : "全景",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
     }
   }, {
     "uid" : "c6c26bd2a26cd70bf45651b5ab920be8",
@@ -17,10 +72,10 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
+      "skipped" : 2,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     }
   } ]
 }

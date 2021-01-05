@@ -1,46 +1,110 @@
-from common.readelement import read_yaml
-import pytest
+
+
+
+# def test1(loa = None):
+#     if loa is not None:
+#         print('不为空')
+#     else:
+#         print('为空')
+#
+# if __name__ == '__main__':
+#
+#     test1()
+
+
+import unittest
+import time
 from appium import webdriver
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions
 
 
-"""CAMERA_ = [(read_yaml('Camera')['相机'][12]),(read_yaml('Camera')['相机'][14]),(read_yaml('Camera')['相机'][18]),(read_yaml('Camera')['相机'][19]),(read_yaml('Camera')['相机'][20])]
-@pytest.mark.parametrize("condown", CAMERA_)
-def test_name(condown):
-    if condown['name'] =='美颜按钮':
-        print((condown['type'],condown['value'])*2)
-    elif condown['name'] =='磨皮':
-        print('磨皮操作')
-    elif condown['name'] =='美白':
-        print('美白操作')
-    elif condown['name'] =='眼睛放大':
-        print('眼睛放大操作')
-    elif condown['name'] =='光照':
-        print('光照操作')
+"""class Untitled(unittest.TestCase):
+    reportDirectory = 'reports'
+    reportFormat = 'xml'
+    dc = {}
+    testName = 'Untitled'
+    driver = None
 
+    def setUp(self):
+        self.dc['reportDirectory'] = self.reportDirectory
+        self.dc['reportFormat'] = self.reportFormat
+        self.dc['testName'] = self.testName
+        self.dc['udid'] = '7HX0219918017044'
+        self.dc['appPackage'] = 'com.zhiyun.cama'
+        self.dc['appActivity'] = '.splash.SplashActivity'
+        self.dc['platformName'] = 'android'
+        self.driver = webdriver.Remote('http://localhost:4723/wd/hub', self.dc)
+
+    def testUntitled(self):
+        self.driver.find_element_by_xpath("xpath=//*[@id='iv_camera']").click()
+
+        WebDriverWait(self.driver, 30).until(
+            expected_conditions.presence_of_element_located((By.XPATH, '//*[@id="ib_help"]')))
+        self.driver.find_element_by_xpath("xpath=//*[@id='ib_help']").click()
+
+        self.driver.find_element_by_xpath(
+            "xpath=//*[@text='直接进入' and (./preceding-sibling::* | ./following-sibling::*)[@text='SMOOTH-X']]").click()
+        self.driver.find_element_by_xpath("xpath=//*[@text='延时摄影']").click()
+        self.driver.find_element_by_xpath("xpath=//*[@id='cb_delay_set']").click()
+        self.driver.find_element_by_xpath("xpath=//*[@class='android.view.ViewGroup']").click()
+
+        self.driver.find_element_by_xpath("xpath=//*[@id='cb_path']").click()
+
+        self.driver.find_element_by_xpath("xpath=//*[@id='cb_path']").click()
+
+
+    def tearDown(self):
+        self.driver.quit()
 
 if __name__ == '__main__':
-    pytest.main([r'D:\ZYCami_pytest01\my_test.py'])"""
+    unittest.main()
+"""
+# desired_caps ={'platformName':'Android',#手机系统
+#                 'deviceName':'7HX0219918017044',
+#                 'noReset':True,#防止每次启动时软件初始化
+#                 'appPackage':'com.zhiyun.cama',
+#                 'appActivity':'.splash.SplashActivity',
+#                 'unicodeKeyboard':True,#使用unicode编码方式发送字符串
+#                 'resetKeyboard':True}#将键盘隐藏起来
+#
+# driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
+# driver.implicitly_wait(8)
+#
+# time.sleep(5)
+# driver.find_element_by_id("com.zhiyun.cama:id/iv_camera").click()	  #相机
+# time.sleep(2)
+#
+#
+# driver.find_element_by_id("com.zhiyun.cama:id/bt_connect").click()
+# # driver.find_element_by_xpath("//*[@text='SMOOTH-X_C17F']/following-sibling::android.widget.Button']").click()
+#
+# time.sleep(2)
+# driver.find_element_by_id("com.zhiyun.cama:id/cb_delay_set").click()
+# time.sleep(2)
+# driver.tap([(1300, 650)])
+# driver.find_element_by_id("com.zhiyun.cama:id/cb_delay_set").click()
+#
+# driver.tap([(1650, 302)])
+# time.sleep(2)
+# driver.find_element_by_id("com.zhiyun.cama:id/cb_path").click()
+# time.sleep(2)
+#
+# driver.tap([(1650, 302)])
+# time.sleep(2)
+#
+# for i in range(5):
+#
+#     driver.find_element_by_id("com.zhiyun.cama:id/view_add_point").click()
+# time.sleep(3)
+# driver.find_element_by_id("com.zhiyun.cama:id/iv_delete").click()
+# driver.find_element_by_id("com.zhiyun.cama:id/view_add_point").click()
+# time.sleep(3)
+#
+# driver.find_element_by_id("com.zhiyun.cama:id/tv_delay_time").click()
+# time.sleep(3)
+#
+# driver.find_element_by_id("com.zhiyun.cama:id/cb_action").click()
+# time.sleep(3)
 
-"""driver = None
-def get_driver():
-    global driver
-    if driver is None:
-        driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', read_yaml('desired_caps'))
-        driver.implicitly_wait(10)
-        return driver
-
-
-if __name__ == '__main__':
-      get_driver()"""
-
-
-import pytest
-
-@pytest.mark.parametrize("a",[2,4,6])
-@pytest.mark.parametrize("b",[1,3,5])
-def test_1(a,b):
-    print(a,b)
-
-if __name__ == '__main__':
-
-    pytest.main(["-s","my_test.py"])

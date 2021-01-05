@@ -1,50 +1,3870 @@
 [ {
-  "uid" : "5c2c35ebab644492",
-  "name" : "登录成功",
+  "uid" : "3990858dede76fcc",
+  "name" : "设备断开、连接",
   "time" : {
-    "start" : 1607502139076,
-    "stop" : 1607502145005,
-    "duration" : 5929
+    "start" : 1609831684459,
+    "stop" : 1609831687739,
+    "duration" : 3280
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "7ef42af918291783",
+  "uid" : "cd8efbca22a29398",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609831768047,
+    "stop" : 1609831770842,
+    "duration" : 2795
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "856d677a8693d7d2",
+  "name" : "选择后点赞或者删除",
+  "time" : {
+    "start" : 1609832449011,
+    "stop" : 1609832451325,
+    "duration" : 2314
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1cd277c23f722ec",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609832078494,
+    "stop" : 1609832095638,
+    "duration" : 17144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "98996fbec940d6d0",
+  "name" : "常亮、关闭",
+  "time" : {
+    "start" : 1609831923269,
+    "stop" : 1609831925548,
+    "duration" : 2279
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ab2e2acb665ad67",
+  "name" : "常亮、关闭",
+  "time" : {
+    "start" : 1609831744571,
+    "stop" : 1609831746868,
+    "duration" : 2297
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d19bf13bb421c032",
+  "name" : "设备连接、断开设备",
+  "time" : {
+    "start" : 1609831346778,
+    "stop" : 1609831349790,
+    "duration" : 3012
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33d0719119a7576f",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609831944468,
+    "stop" : 1609831946761,
+    "duration" : 2293
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d537068997efa090",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609832267690,
+    "stop" : 1609832271901,
+    "duration" : 4211
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17339c38508f2d3f",
+  "name" : "关闭、方格、对角+方格",
+  "time" : {
+    "start" : 1609831543490,
+    "stop" : 1609831545788,
+    "duration" : 2298
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23f25d2bc55621c0",
+  "name" : "编辑、删除",
+  "time" : {
+    "start" : 1609831407737,
+    "stop" : 1609831425147,
+    "duration" : 17410
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d847a714967816a",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609831778328,
+    "stop" : 1609831781509,
+    "duration" : 3181
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d227b8c914e69a2",
+  "name" : "间隔,拍摄时长,轨迹",
+  "time" : {
+    "start" : 1609832128831,
+    "stop" : 1609832129108,
+    "duration" : 277
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff214df9f7354145",
+  "name" : "视频分辨率",
+  "time" : {
+    "start" : 1609832097679,
+    "stop" : 1609832098217,
+    "duration" : 538
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d2899d716c0bd404",
+  "name" : "跟随、拍摄",
+  "time" : {
+    "start" : 1609831592039,
+    "stop" : 1609831596193,
+    "duration" : 4154
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0ce872f8f4898ed",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609832029991,
+    "stop" : 1609832033319,
+    "duration" : 3328
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "916eb129d2616afb",
+  "name" : "常亮、关闭",
+  "time" : {
+    "start" : 1609831742284,
+    "stop" : 1609831744568,
+    "duration" : 2284
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8c2faa08e7e1aab",
+  "name" : "常亮、关闭",
+  "time" : {
+    "start" : 1609831172408,
+    "stop" : 1609831175190,
+    "duration" : 2782
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "925718fd9999751b",
+  "name" : "视频分辨率,倍数",
+  "time" : {
+    "start" : 1609832346335,
+    "stop" : 1609832348634,
+    "duration" : 2299
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d2f4bf547a02f8e",
+  "name" : "常亮、关闭",
+  "time" : {
+    "start" : 1609831166672,
+    "stop" : 1609831169514,
+    "duration" : 2842
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26fa420030574922",
   "name" : "美颜",
   "time" : {
-    "start" : 1607502120897,
-    "stop" : 1607502127720,
-    "duration" : 6823
+    "start" : 1609831062707,
+    "stop" : 1609831083366,
+    "duration" : 20659
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9498edbb9ca19ff2",
-  "name" : "倒计时",
+  "uid" : "c82d47edf01720fd",
+  "name" : "美颜",
   "time" : {
-    "start" : 1607502127722,
-    "stop" : 1607502133378,
-    "duration" : 5656
+    "start" : 1609830989197,
+    "stop" : 1609831009833,
+    "duration" : 20636
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "109fcbb9a8465e75",
-  "name" : "倒计时",
+  "uid" : "c5e716c0405e061b",
+  "name" : "常亮、关闭",
   "time" : {
-    "start" : 1607502133381,
-    "stop" : 1607502139062,
-    "duration" : 5681
+    "start" : 1609831538431,
+    "stop" : 1609831541205,
+    "duration" : 2774
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "99d2a07e7a3129bb",
+  "uid" : "78eca55b11eb1f2a",
+  "name" : "选择后点赞或者删除",
+  "time" : {
+    "start" : 1609832403936,
+    "stop" : 1609832408560,
+    "duration" : 4624
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e4d10ebbe751fde",
+  "name" : "选择后点赞或者删除",
+  "time" : {
+    "start" : 1609832459889,
+    "stop" : 1609832462789,
+    "duration" : 2900
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b98f7cd1f96e546",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831650671,
+    "stop" : 1609831654869,
+    "duration" : 4198
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c8de46dd1d03381",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609832015896,
+    "stop" : 1609832020101,
+    "duration" : 4205
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5fc4f7b75509d43",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831255956,
+    "stop" : 1609831259307,
+    "duration" : 3351
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f631220de0c063d1",
+  "name" : "视频分辨率,倍数",
+  "time" : {
+    "start" : 1609832360089,
+    "stop" : 1609832362379,
+    "duration" : 2290
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a88f39787751e7b",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831791269,
+    "stop" : 1609831794616,
+    "duration" : 3347
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf015f3e84f5fbd0",
+  "name" : "3、5、7、off",
+  "time" : {
+    "start" : 1609831099826,
+    "stop" : 1609831115827,
+    "duration" : 16001
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "61191abb1667999d",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609832294756,
+    "stop" : 1609832298049,
+    "duration" : 3293
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "648b876bb50a9328",
+  "name" : "常亮、关闭",
+  "time" : {
+    "start" : 1609831531068,
+    "stop" : 1609831533867,
+    "duration" : 2799
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7612720be0b338c7",
+  "name" : "编辑、删除",
+  "time" : {
+    "start" : 1609832481539,
+    "stop" : 1609832506571,
+    "duration" : 25032
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f5a03ff2d6d61ede",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609831763418,
+    "stop" : 1609831765747,
+    "duration" : 2329
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea7f1285770c24b9",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609832224490,
+    "stop" : 1609832228390,
+    "duration" : 3900
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "600c8ee75a912df2",
+  "name" : "登录成功",
+  "time" : {
+    "start" : 1609832768833,
+    "stop" : 1609832768833,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "d3e329ffbe58b171",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609832023410,
+    "stop" : 1609832026715,
+    "duration" : 3305
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92d9fd780a7bd88e",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609831871583,
+    "stop" : 1609831874867,
+    "duration" : 3284
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ebf4b079961d2a1",
+  "name" : "美颜",
+  "time" : {
+    "start" : 1609831459954,
+    "stop" : 1609831466883,
+    "duration" : 6929
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ad6f6a95eda7435",
   "name" : "test_front",
   "time" : {
-    "start" : 1607502113381,
-    "stop" : 1607502120895,
-    "duration" : 7514
+    "start" : 1609831729514,
+    "stop" : 1609831732856,
+    "duration" : 3342
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3dbb994f9feba592",
+  "name" : "设备连接、断开设备",
+  "time" : {
+    "start" : 1609831336838,
+    "stop" : 1609831340148,
+    "duration" : 3310
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30bf6f40d0462026",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609831770844,
+    "stop" : 1609831773144,
+    "duration" : 2300
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "415f5d5fa0516f8b",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609831569423,
+    "stop" : 1609831572306,
+    "duration" : 2883
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c51067cb9777b53",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609831677870,
+    "stop" : 1609831681139,
+    "duration" : 3269
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e6ba8ee97c5091cf",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609832217879,
+    "stop" : 1609832221156,
+    "duration" : 3277
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d539f0fa8a273e72",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609832249469,
+    "stop" : 1609832253681,
+    "duration" : 4212
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ce3d6fffd65081b",
+  "name" : "编辑、删除",
+  "time" : {
+    "start" : 1609832534164,
+    "stop" : 1609832559196,
+    "duration" : 25032
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "862e5fbefee7d9bb",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609831773147,
+    "stop" : 1609831775443,
+    "duration" : 2296
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13b817bb2be90cd2",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831989866,
+    "stop" : 1609831997723,
+    "duration" : 7857
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f9bb819b3c9d143",
+  "name" : "常亮、关闭",
+  "time" : {
+    "start" : 1609831179811,
+    "stop" : 1609831182100,
+    "duration" : 2289
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ba55d6ca86c55a",
+  "name" : "编辑、删除",
+  "time" : {
+    "start" : 1609832595375,
+    "stop" : 1609832617371,
+    "duration" : 21996
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8c589020353c757d",
+  "name" : "美颜",
+  "time" : {
+    "start" : 1609830935932,
+    "stop" : 1609830952016,
+    "duration" : 16084
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3471e76260ccf40c",
+  "name" : "美颜",
+  "time" : {
+    "start" : 1609830827346,
+    "stop" : 1609830845944,
+    "duration" : 18598
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bdd2e3200345fc3b",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609832291466,
+    "stop" : 1609832294753,
+    "duration" : 3287
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8726fe5f5b8d70f",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609831956502,
+    "stop" : 1609831959668,
+    "duration" : 3166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a9fdf2d8dfc9da6",
+  "name" : "常亮、关闭",
+  "time" : {
+    "start" : 1609831182107,
+    "stop" : 1609831184391,
+    "duration" : 2284
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70a3cd6f6d09d32f",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609832042947,
+    "stop" : 1609832046246,
+    "duration" : 3299
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d557778c7cde8bf",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831842086,
+    "stop" : 1609831845387,
+    "duration" : 3301
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8325f97a4af6447",
+  "name" : "美颜",
+  "time" : {
+    "start" : 1609831466885,
+    "stop" : 1609831470106,
+    "duration" : 3221
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c4d759e1f07863d",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609831874870,
+    "stop" : 1609831877872,
+    "duration" : 3002
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6075c3585873839",
+  "name" : "间隔,拍摄时长,轨迹",
+  "time" : {
+    "start" : 1609832130503,
+    "stop" : 1609832131246,
+    "duration" : 743
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a4d520b7f750fe8",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609832006072,
+    "stop" : 1609832009350,
+    "duration" : 3278
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e6add769287e6d3",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609832231661,
+    "stop" : 1609832234930,
+    "duration" : 3269
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "299b48c1bd51e46c",
+  "name" : "选择后点赞或者删除",
+  "time" : {
+    "start" : 1609832443227,
+    "stop" : 1609832446130,
+    "duration" : 2903
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba04fd68fe8702d9",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609831567097,
+    "stop" : 1609831569421,
+    "duration" : 2324
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e281d15f71cc2b3",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831279943,
+    "stop" : 1609831283271,
+    "duration" : 3328
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "67463943e700c69a",
+  "name" : "关闭、方格、对角+方格",
+  "time" : {
+    "start" : 1609831550369,
+    "stop" : 1609831552664,
+    "duration" : 2295
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "89a359c8b5457a16",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831252626,
+    "stop" : 1609831255953,
+    "duration" : 3327
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "733f7c793856276c",
+  "name" : "常亮、关闭",
+  "time" : {
+    "start" : 1609831739993,
+    "stop" : 1609831742282,
+    "duration" : 2289
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f4ca3ceff5a3abb",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609832221158,
+    "stop" : 1609832224488,
+    "duration" : 3330
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b6eca546759edd6",
+  "name" : "常亮、关闭",
+  "time" : {
+    "start" : 1609832170511,
+    "stop" : 1609832172786,
+    "duration" : 2275
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1564f83d18671d70",
+  "name" : "选择后点赞或者删除",
+  "time" : {
+    "start" : 1609832426366,
+    "stop" : 1609832428644,
+    "duration" : 2278
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5948841e4065a2ba",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609832020103,
+    "stop" : 1609832023408,
+    "duration" : 3305
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33307df4ad1435c4",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609831765749,
+    "stop" : 1609831768044,
+    "duration" : 2295
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e58b9998905aae0",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609831881224,
+    "stop" : 1609831884506,
+    "duration" : 3282
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "243401613f2d722c",
+  "name" : "美颜",
+  "time" : {
+    "start" : 1609831488710,
+    "stop" : 1609831495665,
+    "duration" : 6955
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9ae0ddb82402466",
+  "name" : "关闭、方格、对角+方格",
+  "time" : {
+    "start" : 1609831932414,
+    "stop" : 1609831934711,
+    "duration" : 2297
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6563547acb98fc28",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609832203076,
+    "stop" : 1609832205364,
+    "duration" : 2288
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "416e7d086c5c960d",
+  "name" : "视频分辨率,倍数",
+  "time" : {
+    "start" : 1609832364661,
+    "stop" : 1609832379703,
+    "duration" : 15042
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33b718e13d68a0d0",
+  "name" : "选择后点赞或者删除",
+  "time" : {
+    "start" : 1609832431461,
+    "stop" : 1609832434551,
+    "duration" : 3090
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7753dc398590c9e7",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609832198470,
+    "stop" : 1609832200756,
+    "duration" : 2286
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5022394318a3061a",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831295522,
+    "stop" : 1609831299700,
+    "duration" : 4178
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c52857bb904b256",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831614584,
+    "stop" : 1609831617891,
+    "duration" : 3307
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "244f0ea9271d6217",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609832285152,
+    "stop" : 1609832288459,
+    "duration" : 3307
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d42ade8969aadd4",
+  "name" : "美颜",
+  "time" : {
+    "start" : 1609830845948,
+    "stop" : 1609830861963,
+    "duration" : 16015
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "653421583b5450a4",
+  "name" : "编辑、删除",
+  "time" : {
+    "start" : 1609832643378,
+    "stop" : 1609832648653,
+    "duration" : 5275
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d70afea52b569c8",
+  "name" : "美颜",
+  "time" : {
+    "start" : 1609831432876,
+    "stop" : 1609831436126,
+    "duration" : 3250
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d561d3dd2899be49",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609832298052,
+    "stop" : 1609832301350,
+    "duration" : 3298
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee325bc52d207435",
+  "name" : "选择后点赞或者删除",
+  "time" : {
+    "start" : 1609832453608,
+    "stop" : 1609832455907,
+    "duration" : 2299
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11cb6c1d02912f60",
+  "name" : "720、1080、4k",
+  "time" : {
+    "start" : 1609831527161,
+    "stop" : 1609831527412,
+    "duration" : 251
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9d9654852e3682a",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831269943,
+    "stop" : 1609831273272,
+    "duration" : 3329
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a42c2e4e19cb354",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831794619,
+    "stop" : 1609831798529,
+    "duration" : 3910
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c126b799087fd657",
+  "name" : "跟随、拍摄",
+  "time" : {
+    "start" : 1609831224382,
+    "stop" : 1609831228274,
+    "duration" : 3892
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de0913858a9b9717",
+  "name" : "美颜",
+  "time" : {
+    "start" : 1609831438422,
+    "stop" : 1609831441328,
+    "duration" : 2906
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "99e182989c4779",
+  "name" : "美颜",
+  "time" : {
+    "start" : 1609831476958,
+    "stop" : 1609831479286,
+    "duration" : 2328
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "38df0e6761079690",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831976666,
+    "stop" : 1609831979942,
+    "duration" : 3276
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42c5b900826a463d",
+  "name" : "选择后点赞或者删除",
+  "time" : {
+    "start" : 1609832446133,
+    "stop" : 1609832449008,
+    "duration" : 2875
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97b1f4d893dedfe2",
+  "name" : "720、1080、4k",
+  "time" : {
+    "start" : 1609831527415,
+    "stop" : 1609831527953,
+    "duration" : 538
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd0ba18d2c9a04de",
+  "name" : "登录成功",
+  "time" : {
+    "start" : 1609832768832,
+    "stop" : 1609832768832,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "88655494297fedf6",
+  "name" : "视频分辨率,倍数",
+  "time" : {
+    "start" : 1609832355488,
+    "stop" : 1609832357792,
+    "duration" : 2304
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70411a7264314eda",
+  "name" : "常亮、关闭",
+  "time" : {
+    "start" : 1609831528512,
+    "stop" : 1609831531065,
+    "duration" : 2553
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e0a4cfaac8e1f02",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831599510,
+    "stop" : 1609831602819,
+    "duration" : 3309
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "523c13687f9984c4",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609832049558,
+    "stop" : 1609832052826,
+    "duration" : 3268
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9694d612bf887edc",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831317166,
+    "stop" : 1609831320516,
+    "duration" : 3350
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17125da3903d0934",
+  "name" : "关闭、方格、对角+方格",
+  "time" : {
+    "start" : 1609831548073,
+    "stop" : 1609831550367,
+    "duration" : 2294
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ec32feaf027cd86",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609832059176,
+    "stop" : 1609832062458,
+    "duration" : 3282
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2812fd59cac7892",
+  "name" : "常亮、关闭",
+  "time" : {
+    "start" : 1609831916386,
+    "stop" : 1609831918693,
+    "duration" : 2307
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54e5d21129e1d4c4",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831632490,
+    "stop" : 1609831636683,
+    "duration" : 4193
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51edc93dfa5db69b",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609831560137,
+    "stop" : 1609831562465,
+    "duration" : 2328
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e17fae4c05a1866",
+  "name" : "间隔,拍摄时长,轨迹",
+  "time" : {
+    "start" : 1609832146772,
+    "stop" : 1609832160912,
+    "duration" : 14140
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c6e19151789ed38",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609832211406,
+    "stop" : 1609832214578,
+    "duration" : 3172
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "130f3fcf36914c7c",
+  "name" : "关闭、方格、对角+方格",
+  "time" : {
+    "start" : 1609832181890,
+    "stop" : 1609832184171,
+    "duration" : 2281
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7157ba4fafc75f8d",
+  "name" : "关闭、方格、对角+方格",
+  "time" : {
+    "start" : 1609831545791,
+    "stop" : 1609831548071,
+    "duration" : 2280
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "309e3084027aa19a",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831306273,
+    "stop" : 1609831309567,
+    "duration" : 3294
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "87291ba64e3e721d",
+  "name" : "间隔,拍摄时长,轨迹",
+  "time" : {
+    "start" : 1609832098220,
+    "stop" : 1609832098789,
+    "duration" : 569
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1b510c2a302abc8",
+  "name" : "设备连接、断开设备",
+  "time" : {
+    "start" : 1609831330505,
+    "stop" : 1609831333509,
+    "duration" : 3004
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e0cc0b97fa029b9",
+  "name" : "视频分辨率,倍数",
+  "time" : {
+    "start" : 1609832379706,
+    "stop" : 1609832394714,
+    "duration" : 15008
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73a90e8bae46cd1",
+  "name" : "跟随、拍摄",
+  "time" : {
+    "start" : 1609831576211,
+    "stop" : 1609831580072,
+    "duration" : 3861
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23ddf242bffb51da",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831798531,
+    "stop" : 1609831801812,
+    "duration" : 3281
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b1aae8b3c877de4",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831983213,
+    "stop" : 1609831986545,
+    "duration" : 3332
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94997c64539b9c9",
+  "name" : "编辑、删除",
+  "time" : {
+    "start" : 1609832509320,
+    "stop" : 1609832531379,
+    "duration" : 22059
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "45b1c7dcf4356c7d",
+  "name" : "选择后点赞或者删除",
+  "time" : {
+    "start" : 1609832421786,
+    "stop" : 1609832424064,
+    "duration" : 2278
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20a9a908608726bd",
+  "name" : "编辑、删除",
+  "time" : {
+    "start" : 1609832763565,
+    "stop" : 1609832768828,
+    "duration" : 5263
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "85f9a2e90be59e54",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609832234933,
+    "stop" : 1609832238260,
+    "duration" : 3327
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c68c75deacce997",
+  "name" : "关闭、方格、对角+方格",
+  "time" : {
+    "start" : 1609832186463,
+    "stop" : 1609832188750,
+    "duration" : 2287
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a2143c93518dabe3",
+  "name" : "选择后点赞或者删除",
+  "time" : {
+    "start" : 1609832411437,
+    "stop" : 1609832413734,
+    "duration" : 2297
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "beadf79f3e914959",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609831694092,
+    "stop" : 1609831697386,
+    "duration" : 3294
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "642c0f58615629dd",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609832012626,
+    "stop" : 1609832015894,
+    "duration" : 3268
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "699f1525396168e4",
+  "name" : "常亮、关闭",
+  "time" : {
+    "start" : 1609831925549,
+    "stop" : 1609831927834,
+    "duration" : 2285
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b6bd35a5efd81ab",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609832193908,
+    "stop" : 1609832196193,
+    "duration" : 2285
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a640e1fae8e5a5",
+  "name" : "视频分辨率",
+  "time" : {
+    "start" : 1609832095908,
+    "stop" : 1609832096602,
+    "duration" : 694
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f72efdf458e5dce7",
+  "name" : "美颜",
+  "time" : {
+    "start" : 1609831083370,
+    "stop" : 1609831099822,
+    "duration" : 16452
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a90332ac7c9370d",
+  "name" : "常亮、关闭",
+  "time" : {
+    "start" : 1609832172789,
+    "stop" : 1609832175059,
+    "duration" : 2270
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f44806b0a2853c0",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609831851990,
+    "stop" : 1609831855334,
+    "duration" : 3344
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b89971f99059ec6",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609832205366,
+    "stop" : 1609832208231,
+    "duration" : 2865
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2bf78b9324ff0b59",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609831781512,
+    "stop" : 1609831784669,
+    "duration" : 3157
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e6112f00751d15ef",
+  "name" : "美颜",
+  "time" : {
+    "start" : 1609831441330,
+    "stop" : 1609831448345,
+    "duration" : 7015
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7e4b172552910d6",
+  "name" : "美颜",
+  "time" : {
+    "start" : 1609831448347,
+    "stop" : 1609831450659,
+    "duration" : 2312
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "205ccf0c6dc55f74",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609831671525,
+    "stop" : 1609831674535,
+    "duration" : 3010
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "413225e90894e9e6",
+  "name" : "关闭、方格、对角+方格",
+  "time" : {
+    "start" : 1609831193568,
+    "stop" : 1609831195858,
+    "duration" : 2290
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5032cbf627d2e930",
+  "name" : "美颜",
+  "time" : {
+    "start" : 1609831009836,
+    "stop" : 1609831025902,
+    "duration" : 16066
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2dea58382119ffe3",
+  "name" : "编辑、删除",
+  "time" : {
+    "start" : 1609832654746,
+    "stop" : 1609832660021,
+    "duration" : 5275
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "84f62ed2c7427022",
+  "name" : "3、5、7、off",
+  "time" : {
+    "start" : 1609831147943,
+    "stop" : 1609831164342,
+    "duration" : 16399
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "527d8453e2316677",
+  "name" : "视频分辨率",
+  "time" : {
+    "start" : 1609832096605,
+    "stop" : 1609832097141,
+    "duration" : 536
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bda460313f537c1e",
+  "name" : "设备连接、断开设备",
+  "time" : {
+    "start" : 1609831353130,
+    "stop" : 1609831356423,
+    "duration" : 3293
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad43f0a858ce82be",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609832275227,
+    "stop" : 1609832278549,
+    "duration" : 3322
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4ac50ff0430defb",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831606668,
+    "stop" : 1609831610596,
+    "duration" : 3928
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cbcbb933ff8494da",
+  "name" : "选择后点赞或者删除",
+  "time" : {
+    "start" : 1609832437431,
+    "stop" : 1609832440341,
+    "duration" : 2910
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d4308d793cb315b",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609832238262,
+    "stop" : 1609832241590,
+    "duration" : 3328
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90cc67ed23e7f906",
+  "name" : "美颜",
+  "time" : {
+    "start" : 1609831510646,
+    "stop" : 1609831525686,
+    "duration" : 15040
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7fca7ea3c59a3ff",
+  "name" : "选择后点赞或者删除",
+  "time" : {
+    "start" : 1609832416628,
+    "stop" : 1609832418907,
+    "duration" : 2279
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "450ef0dd52a2a49d",
+  "name" : "关闭、方格、对角+方格",
+  "time" : {
+    "start" : 1609831186687,
+    "stop" : 1609831188975,
+    "duration" : 2288
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44d7e0305aca84ac",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609831210359,
+    "stop" : 1609831213254,
+    "duration" : 2895
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "180d2617ed8934f",
+  "name" : "常亮、关闭",
+  "time" : {
+    "start" : 1609831533869,
+    "stop" : 1609831536143,
+    "duration" : 2274
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8f7bc626994b490",
+  "name" : "编辑、删除",
+  "time" : {
+    "start" : 1609832473348,
+    "stop" : 1609832481536,
+    "duration" : 8188
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd6ded0c79f040f0",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831647396,
+    "stop" : 1609831650669,
+    "duration" : 3273
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be15123730a0341d",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609831951346,
+    "stop" : 1609831953640,
+    "duration" : 2294
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2a801f4a4f1df51",
+  "name" : "3、5、7、off",
+  "time" : {
+    "start" : 1609831131898,
+    "stop" : 1609831147940,
+    "duration" : 16042
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a234def1c8808fd5",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609831681142,
+    "stop" : 1609831684453,
+    "duration" : 3311
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d5864608eb8a043",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831972747,
+    "stop" : 1609831976664,
+    "duration" : 3917
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e681856446e0e56b",
+  "name" : "关闭、方格、对角+方格",
+  "time" : {
+    "start" : 1609832184172,
+    "stop" : 1609832186454,
+    "duration" : 2282
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b45e000a7b5ed10",
+  "name" : "关闭、方格、对角+方格",
+  "time" : {
+    "start" : 1609831927837,
+    "stop" : 1609831930130,
+    "duration" : 2293
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a671e5a98a17e0a",
+  "name" : "常亮、关闭",
+  "time" : {
+    "start" : 1609831918696,
+    "stop" : 1609831920987,
+    "duration" : 2291
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68eec4de14a12e5f",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609831564768,
+    "stop" : 1609831567095,
+    "duration" : 2327
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d765c9e277f4c058",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609831939281,
+    "stop" : 1609831942166,
+    "duration" : 2885
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c5193f02a78ebd7",
+  "name" : "选择后点赞或者删除",
+  "time" : {
+    "start" : 1609832400870,
+    "stop" : 1609832403933,
+    "duration" : 3063
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "89aaaf5419a33be7",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831966128,
+    "stop" : 1609831969417,
+    "duration" : 3289
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "211d070f6dde8a84",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609832304646,
+    "stop" : 1609832307650,
+    "duration" : 3004
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "317fb165510de0e",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831644111,
+    "stop" : 1609831647393,
+    "duration" : 3282
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e06d84b530135e64",
+  "name" : "常亮、关闭",
+  "time" : {
+    "start" : 1609831177496,
+    "stop" : 1609831179810,
+    "duration" : 2314
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "103be24535b03709",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609831942168,
+    "stop" : 1609831944465,
+    "duration" : 2297
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f244ba602c040f",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609832278551,
+    "stop" : 1609832281826,
+    "duration" : 3275
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cdb0435989220e96",
+  "name" : "间隔,拍摄时长,轨迹",
+  "time" : {
+    "start" : 1609832115685,
+    "stop" : 1609832128829,
+    "duration" : 13144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f8e8c4677be9fd7",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831658192,
+    "stop" : 1609831661526,
+    "duration" : 3334
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4212e1b9f4c6ba2",
+  "name" : "编辑、删除",
+  "time" : {
+    "start" : 1609832585783,
+    "stop" : 1609832591068,
+    "duration" : 5285
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "afb8d0a340c67b89",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831784671,
+    "stop" : 1609831787996,
+    "duration" : 3325
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7b5da72a3f86163",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831617893,
+    "stop" : 1609831621243,
+    "duration" : 3350
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "25ad0cbe7b599eb9",
+  "name" : "选择后点赞或者删除",
+  "time" : {
+    "start" : 1609832440344,
+    "stop" : 1609832443224,
+    "duration" : 2880
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3bb91332e5b8e9fd",
+  "name" : "视频分辨率",
+  "time" : {
+    "start" : 1609832097150,
+    "stop" : 1609832097676,
+    "duration" : 526
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db76fa0ce1af62c1",
+  "name" : "美颜",
+  "time" : {
+    "start" : 1609831457590,
+    "stop" : 1609831459952,
+    "duration" : 2362
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd2059802a763713",
+  "name" : "设备连接、断开设备",
+  "time" : {
+    "start" : 1609831356426,
+    "stop" : 1609831372463,
+    "duration" : 16037
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f5058fef6bf42c9",
+  "name" : "跟随、拍摄",
+  "time" : {
+    "start" : 1609831587845,
+    "stop" : 1609831592037,
+    "duration" : 4192
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea400863fd82a33d",
+  "name" : "间隔,拍摄时长,轨迹",
+  "time" : {
+    "start" : 1609832132775,
+    "stop" : 1609832133531,
+    "duration" : 756
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "725403135df9561a",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609831208029,
+    "stop" : 1609831210357,
+    "duration" : 2328
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80f678592c0e72d",
+  "name" : "常亮、关闭",
+  "time" : {
+    "start" : 1609831737190,
+    "stop" : 1609831739991,
+    "duration" : 2801
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a62f3a31e8741925",
+  "name" : "美颜",
+  "time" : {
+    "start" : 1609830861966,
+    "stop" : 1609830878548,
+    "duration" : 16582
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78b12673c2fdba46",
+  "name" : "常亮、关闭",
+  "time" : {
+    "start" : 1609831746871,
+    "stop" : 1609831749152,
+    "duration" : 2281
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d8f737946dfb6c",
+  "name" : "编辑、删除",
+  "time" : {
+    "start" : 1609832648660,
+    "stop" : 1609832654741,
+    "duration" : 6081
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5aaa2935926570e9",
+  "name" : "关闭、方格、对角+方格",
+  "time" : {
+    "start" : 1609831749155,
+    "stop" : 1609831751424,
+    "duration" : 2269
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f8538bc0b8487680",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609831674537,
+    "stop" : 1609831677868,
+    "duration" : 3331
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "abe1ca12006253d0",
+  "name" : "关闭、方格、对角+方格",
+  "time" : {
+    "start" : 1609831934714,
+    "stop" : 1609831936996,
+    "duration" : 2282
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf538e86a1449a62",
+  "name" : "间隔,拍摄时长,轨迹",
+  "time" : {
+    "start" : 1609832133533,
+    "stop" : 1609832133817,
+    "duration" : 284
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79d92c7ac5a4d8f0",
+  "name" : "美颜",
+  "time" : {
+    "start" : 1609830952018,
+    "stop" : 1609830972681,
+    "duration" : 20663
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62bd413a91be27e8",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609832055840,
+    "stop" : 1609832059173,
+    "duration" : 3333
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b536328608fe0209",
+  "name" : "编辑、删除",
+  "time" : {
+    "start" : 1609832686091,
+    "stop" : 1609832708099,
+    "duration" : 22008
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d0660a1a320f262f",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831265965,
+    "stop" : 1609831269941,
+    "duration" : 3976
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af6584f0695a5c58",
+  "name" : "关闭、方格、对角+方格",
+  "time" : {
+    "start" : 1609831755984,
+    "stop" : 1609831758259,
+    "duration" : 2275
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6e00f3acba56b8f",
+  "name" : "进入登录页",
+  "time" : {
+    "start" : 1609832768830,
+    "stop" : 1609832768830,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "3da531ad53281713",
+  "name" : "跟随、拍摄",
+  "time" : {
+    "start" : 1609831220483,
+    "stop" : 1609831224377,
+    "duration" : 3894
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae39423b74a32589",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831827971,
+    "stop" : 1609831831256,
+    "duration" : 3285
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ffbadace8e87fe57",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831602820,
+    "stop" : 1609831606665,
+    "duration" : 3845
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa58a213531b64a0",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609831554953,
+    "stop" : 1609831557849,
+    "duration" : 2896
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "852667019579e47e",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609831760537,
+    "stop" : 1609831763415,
+    "duration" : 2878
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a050ac624de737c",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831313839,
+    "stop" : 1609831317164,
+    "duration" : 3325
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42d2b9cd9bff8dd5",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831302971,
+    "stop" : 1609831306271,
+    "duration" : 3300
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3819afcfad75f97b",
+  "name" : "间隔,拍摄时长,轨迹",
+  "time" : {
+    "start" : 1609832133819,
+    "stop" : 1609832146770,
+    "duration" : 12951
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7d7b0c0f8a9041f",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609831201080,
+    "stop" : 1609831203384,
+    "duration" : 2304
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1d5d8d4d9f86309",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831837837,
+    "stop" : 1609831842084,
+    "duration" : 4247
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20ccbb85095be744",
+  "name" : "美颜",
+  "time" : {
+    "start" : 1609831436129,
+    "stop" : 1609831438419,
+    "duration" : 2290
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3dff11e0af0cf4ee",
+  "name" : "选择后点赞或者删除",
+  "time" : {
+    "start" : 1609832418910,
+    "stop" : 1609832421783,
+    "duration" : 2873
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47d28afea36f1ec2",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831834554,
+    "stop" : 1609831837835,
+    "duration" : 3281
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "515d252491e631ac",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831979945,
+    "stop" : 1609831983211,
+    "duration" : 3266
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "239349cf59c5416b",
+  "name" : "跟随、拍摄",
+  "time" : {
+    "start" : 1609831228276,
+    "stop" : 1609831232471,
+    "duration" : 4195
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5138cc22aad587",
+  "name" : "选择后点赞或者删除",
+  "time" : {
+    "start" : 1609832413736,
+    "stop" : 1609832416624,
+    "duration" : 2888
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74d73f46fd0d3da3",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609831877875,
+    "stop" : 1609831881222,
+    "duration" : 3347
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e65de494b73eccda",
+  "name" : "跟随、拍摄",
+  "time" : {
+    "start" : 1609831217157,
+    "stop" : 1609831220480,
+    "duration" : 3323
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6525674abfd63e2",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609831668206,
+    "stop" : 1609831671522,
+    "duration" : 3316
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fde3530623ebbb0c",
+  "name" : "视频分辨率,倍数",
+  "time" : {
+    "start" : 1609832357801,
+    "stop" : 1609832360087,
+    "duration" : 2286
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6c7d7ebe6754bc1",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609831858664,
+    "stop" : 1609831861678,
+    "duration" : 3014
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "927cdc5459df250e",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609832257834,
+    "stop" : 1609832261091,
+    "duration" : 3257
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bcee49fbbc9dbcf0",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831962825,
+    "stop" : 1609831966125,
+    "duration" : 3300
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80235d6ff4ee1615",
+  "name" : "选择后点赞或者删除",
+  "time" : {
+    "start" : 1609832408563,
+    "stop" : 1609832411434,
+    "duration" : 2871
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "434b128ca2c7ed74",
+  "name" : "美颜",
+  "time" : {
+    "start" : 1609831428528,
+    "stop" : 1609831432874,
+    "duration" : 4346
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b4999d72b2f8cad",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831596196,
+    "stop" : 1609831599504,
+    "duration" : 3308
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "efe62b60beb41a83",
+  "name" : "间隔,拍摄时长,轨迹",
+  "time" : {
+    "start" : 1609832132031,
+    "stop" : 1609832132772,
+    "duration" : 741
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2397f176eb0e7b34",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609831687741,
+    "stop" : 1609831690747,
+    "duration" : 3006
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d67d07ee640cd0b8",
+  "name" : "编辑、删除",
+  "time" : {
+    "start" : 1609831372466,
+    "stop" : 1609831377757,
+    "duration" : 5291
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6f1b8a28df5cd2",
+  "name" : "登录成功",
+  "time" : {
+    "start" : 1609832768835,
+    "stop" : 1609832768835,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "5820bbf5dd1c22e7",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831299702,
+    "stop" : 1609831302969,
+    "duration" : 3267
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19c3f47eab43589",
+  "name" : "编辑、删除",
+  "time" : {
+    "start" : 1609831395423,
+    "stop" : 1609831407735,
+    "duration" : 12312
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3bcded869928171c",
+  "name" : "美颜",
+  "time" : {
+    "start" : 1609830899244,
+    "stop" : 1609830915291,
+    "duration" : 16047
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "878ba77a7f03c677",
+  "name" : "test_front",
+  "time" : {
+    "start" : 1609832160914,
+    "stop" : 1609832165372,
+    "duration" : 4458
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3165a428f81ecdb0",
+  "name" : "test_front",
+  "time" : {
+    "start" : 1609830809461,
+    "stop" : 1609830827344,
+    "duration" : 17883
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d43a1535b8cd8a2",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831811743,
+    "stop" : 1609831819640,
+    "duration" : 7897
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d97209ab7b739f1",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609832039664,
+    "stop" : 1609832042945,
+    "duration" : 3281
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3b5ddb2d9d187ac",
+  "name" : "美颜",
+  "time" : {
+    "start" : 1609831486379,
+    "stop" : 1609831488707,
+    "duration" : 2328
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1c34c64bc1a973b",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609832191037,
+    "stop" : 1609832193907,
+    "duration" : 2870
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d57e0424bc2958b",
+  "name" : "3、5、7、off",
+  "time" : {
+    "start" : 1609831115831,
+    "stop" : 1609831131894,
+    "duration" : 16063
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19080a747f40f58",
+  "name" : "关闭、方格、对角+方格",
+  "time" : {
+    "start" : 1609831552667,
+    "stop" : 1609831554951,
+    "duration" : 2284
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ee8270dabea7df",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609831861681,
+    "stop" : 1609831864992,
+    "duration" : 3311
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f81482f40205950",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831808420,
+    "stop" : 1609831811741,
+    "duration" : 3321
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d53ef5977511c0c6",
+  "name" : "编辑、删除",
+  "time" : {
+    "start" : 1609831377759,
+    "stop" : 1609831383070,
+    "duration" : 5311
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1f70d7e784fd66f",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609832046249,
+    "stop" : 1609832049556,
+    "duration" : 3307
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "132e17dc9db76a6e",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831997726,
+    "stop" : 1609832001924,
+    "duration" : 4198
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a6e2f744f9964d1",
+  "name" : "编辑、删除",
+  "time" : {
+    "start" : 1609832468066,
+    "stop" : 1609832473345,
+    "duration" : 5279
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6a4175aa9419422",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831969419,
+    "stop" : 1609831972745,
+    "duration" : 3326
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d219cfd432a67ec",
+  "name" : "常亮、关闭",
+  "time" : {
+    "start" : 1609831913615,
+    "stop" : 1609831916383,
+    "duration" : 2768
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b59c7dfd6a9599e5",
+  "name" : "关闭、方格、对角+方格",
+  "time" : {
+    "start" : 1609831184394,
+    "stop" : 1609831186684,
+    "duration" : 2290
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9dd0341e97dd4f67",
+  "name" : "常亮、关闭",
+  "time" : {
+    "start" : 1609832175061,
+    "stop" : 1609832177327,
+    "duration" : 2266
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a70389ab0ca08ef8",
+  "name" : "视频分辨率,倍数",
+  "time" : {
+    "start" : 1609832353174,
+    "stop" : 1609832355486,
+    "duration" : 2312
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4418456f2b503dfe",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831831258,
+    "stop" : 1609831834551,
+    "duration" : 3293
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "641d3ed6988fc9fb",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609832009352,
+    "stop" : 1609832012624,
+    "duration" : 3272
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97d989f8c8b51140",
+  "name" : "常亮、关闭",
+  "time" : {
+    "start" : 1609831164345,
+    "stop" : 1609831166670,
+    "duration" : 2325
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "87118bdd9a44b8ff",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609831949062,
+    "stop" : 1609831951344,
+    "duration" : 2282
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f92a56e72c8ad41b",
+  "name" : "跟随、拍摄",
+  "time" : {
+    "start" : 1609831583971,
+    "stop" : 1609831587843,
+    "duration" : 3872
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14f73220db3d80a8",
+  "name" : "跟随、拍摄",
+  "time" : {
+    "start" : 1609831580075,
+    "stop" : 1609831583969,
+    "duration" : 3894
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "40106de66e3a1471",
+  "name" : "设备连接、断开设备",
+  "time" : {
+    "start" : 1609831327174,
+    "stop" : 1609831330502,
+    "duration" : 3328
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "461f508a5074c9b2",
+  "name" : "常亮、关闭",
+  "time" : {
+    "start" : 1609831541208,
+    "stop" : 1609831543488,
+    "duration" : 2280
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d57e3386ee1055e5",
+  "name" : "设备连接、断开设备",
+  "time" : {
+    "start" : 1609831333511,
+    "stop" : 1609831336835,
+    "duration" : 3324
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e319348fbfef10b",
+  "name" : "跟随、拍摄",
+  "time" : {
+    "start" : 1609831213257,
+    "stop" : 1609831217152,
+    "duration" : 3895
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1be42fcf3701294",
+  "name" : "视频分辨率,倍数",
+  "time" : {
+    "start" : 1609832350892,
+    "stop" : 1609832353171,
+    "duration" : 2279
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a09d3b864622deb8",
+  "name" : "美颜",
+  "time" : {
+    "start" : 1609831046606,
+    "stop" : 1609831062703,
+    "duration" : 16097
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cebb54efe9860793",
+  "name" : "视频分辨率,倍数",
+  "time" : {
+    "start" : 1609832348637,
+    "stop" : 1609832350890,
+    "duration" : 2253
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3472e336ca93679",
+  "name" : "选择后点赞或者删除",
+  "time" : {
+    "start" : 1609832424067,
+    "stop" : 1609832426363,
+    "duration" : 2296
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b5d881fd94de217",
+  "name" : "设备连接、断开设备",
+  "time" : {
+    "start" : 1609831343497,
+    "stop" : 1609831346776,
+    "duration" : 3279
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3fc5d4d5b70f072",
+  "name" : "编辑、删除",
+  "time" : {
+    "start" : 1609832758285,
+    "stop" : 1609832763558,
+    "duration" : 5273
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1872ce8932363398",
+  "name" : "编辑、删除",
+  "time" : {
+    "start" : 1609832561808,
+    "stop" : 1609832583792,
+    "duration" : 21984
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2f8015e7f46cf972",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609831946764,
+    "stop" : 1609831949059,
+    "duration" : 2295
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2386f0fbafd6e67a",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831309570,
+    "stop" : 1609831313837,
+    "duration" : 4267
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93877fd6489fcf6c",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831661528,
+    "stop" : 1609831664854,
+    "duration" : 3326
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5393c33b1d48054",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609831562468,
+    "stop" : 1609831564766,
+    "duration" : 2298
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ec830cb9f959d3d",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609832307657,
+    "stop" : 1609832310991,
+    "duration" : 3334
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9be35421d8cf7e8c",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831636686,
+    "stop" : 1609831640832,
+    "duration" : 4146
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8623b6dfea9cbb78",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831805099,
+    "stop" : 1609831808418,
+    "duration" : 3319
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "beff355a85af2205",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609831959670,
+    "stop" : 1609831962823,
+    "duration" : 3153
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "91b572370f8f3275",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609831953643,
+    "stop" : 1609831956500,
+    "duration" : 2857
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "994af9a1ee8d4cc4",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831291224,
+    "stop" : 1609831295521,
+    "duration" : 4297
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3289b7f0a02758b",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831320519,
+    "stop" : 1609831323830,
+    "duration" : 3311
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "efc8d1eae306ad5e",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609832301352,
+    "stop" : 1609832304634,
+    "duration" : 3282
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77bd159de20e292f",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609831203386,
+    "stop" : 1609831205693,
+    "duration" : 2307
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb7b051bf9eb170e",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831654872,
+    "stop" : 1609831658190,
+    "duration" : 3318
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c0fa20da2a33039",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609831690750,
+    "stop" : 1609831694090,
+    "duration" : 3340
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee7f301b27e5b152",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831610599,
+    "stop" : 1609831614580,
+    "duration" : 3981
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24886f8ac04a8561",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609832288462,
+    "stop" : 1609832291464,
+    "duration" : 3002
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7665b9283da5aefb",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609831868292,
+    "stop" : 1609831871581,
+    "duration" : 3289
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ffcdde93b09fbb15",
+  "name" : "test_front",
+  "time" : {
+    "start" : 1609832394718,
+    "stop" : 1609832394998,
+    "duration" : 280
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ab19fd1d5af471f",
+  "name" : "间隔,拍摄时长,轨迹",
+  "time" : {
+    "start" : 1609832131248,
+    "stop" : 1609832132025,
+    "duration" : 777
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "487efa3e736058b6",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831276577,
+    "stop" : 1609831279941,
+    "duration" : 3364
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95e529cc9322f0bc",
+  "name" : "常亮、关闭",
+  "time" : {
+    "start" : 1609831175192,
+    "stop" : 1609831177493,
+    "duration" : 2301
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "301036c255757676",
+  "name" : "test_front",
+  "time" : {
+    "start" : 1609831425155,
+    "stop" : 1609831428527,
+    "duration" : 3372
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b3c0e486bdb1396",
+  "name" : "美颜",
+  "time" : {
+    "start" : 1609831470108,
+    "stop" : 1609831476956,
+    "duration" : 6848
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45f8c8b44e68c961",
+  "name" : "常亮、关闭",
+  "time" : {
+    "start" : 1609831920990,
+    "stop" : 1609831923267,
+    "duration" : 2277
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d3d0587a4c207ce",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609832214580,
+    "stop" : 1609832217874,
+    "duration" : 3294
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f52b9aabcb39539",
+  "name" : "美颜",
+  "time" : {
+    "start" : 1609831025905,
+    "stop" : 1609831046603,
+    "duration" : 20698
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43bd99f7413ab9c8",
+  "name" : "关闭、方格、对角+方格",
+  "time" : {
+    "start" : 1609832188752,
+    "stop" : 1609832191035,
+    "duration" : 2283
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c7ac90617acb606",
+  "name" : "关闭、方格、对角+方格",
+  "time" : {
+    "start" : 1609831758262,
+    "stop" : 1609831760535,
+    "duration" : 2273
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18a11390944b3b6d",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609831884508,
+    "stop" : 1609831900773,
+    "duration" : 16265
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e09e94d4a8f21e7",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831819647,
+    "stop" : 1609831823832,
+    "duration" : 4185
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "488d870a6c26b67d",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831283274,
+    "stop" : 1609831291221,
+    "duration" : 7947
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4165b6098c182ed4",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609832228392,
+    "stop" : 1609832231659,
+    "duration" : 3267
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "137b8210baf94783",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831845389,
+    "stop" : 1609831848704,
+    "duration" : 3315
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0866664b6a03bd9",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609832001926,
+    "stop" : 1609832006069,
+    "duration" : 4143
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16aaea56a5c0b9f8",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831986548,
+    "stop" : 1609831989863,
+    "duration" : 3315
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22a690f90e30bcd9",
+  "name" : "视频分辨率,倍数",
+  "time" : {
+    "start" : 1609832362382,
+    "stop" : 1609832364659,
+    "duration" : 2277
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef9ece9234d2a0ab",
+  "name" : "跟随、拍摄",
+  "time" : {
+    "start" : 1609831232474,
+    "stop" : 1609831236653,
+    "duration" : 4179
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6f70f6e71ef89e9",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831801815,
+    "stop" : 1609831805097,
+    "duration" : 3282
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5744b60debabeb4",
+  "name" : "美颜",
+  "time" : {
+    "start" : 1609830972684,
+    "stop" : 1609830989193,
+    "duration" : 16509
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7943793872b04e35",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609831198735,
+    "stop" : 1609831201077,
+    "duration" : 2342
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2956ae61e09c004",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609832196195,
+    "stop" : 1609832198468,
+    "duration" : 2273
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e5ca0d1057add620",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609831864995,
+    "stop" : 1609831868291,
+    "duration" : 3296
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8476805c842c31ed",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609832208233,
+    "stop" : 1609832211404,
+    "duration" : 3171
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69b5668d057b1007",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831624604,
+    "stop" : 1609831632488,
+    "duration" : 7884
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "27191131a2de57b4",
+  "name" : "常亮、关闭",
+  "time" : {
+    "start" : 1609832167706,
+    "stop" : 1609832170508,
+    "duration" : 2802
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f63bcee380f0c0b1",
+  "name" : "设备连接、断开设备",
+  "time" : {
+    "start" : 1609831323832,
+    "stop" : 1609831327171,
+    "duration" : 3339
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "384f6f76b1dbac3c",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609832033321,
+    "stop" : 1609832036649,
+    "duration" : 3328
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c3cf582b2c7298c",
+  "name" : "间隔,拍摄时长,轨迹",
+  "time" : {
+    "start" : 1609832098792,
+    "stop" : 1609832115683,
+    "duration" : 16891
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bde7306cba76c86",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831640835,
+    "stop" : 1609831644108,
+    "duration" : 3273
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1cebc1685cf364f",
+  "name" : "视频分辨率",
+  "time" : {
+    "start" : 1609832095641,
+    "stop" : 1609832095905,
+    "duration" : 264
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a873babc70af5a16",
+  "name" : "关闭、方格、对角+方格",
+  "time" : {
+    "start" : 1609831753703,
+    "stop" : 1609831755982,
+    "duration" : 2279
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b4f6fa11663ec72",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831787998,
+    "stop" : 1609831791268,
+    "duration" : 3270
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f121fcbbc0121cb6",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609831664857,
+    "stop" : 1609831668204,
+    "duration" : 3347
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53a1bccfa796d924",
+  "name" : "美颜",
+  "time" : {
+    "start" : 1609831450662,
+    "stop" : 1609831457589,
+    "duration" : 6927
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59e11282746e4d5a",
+  "name" : "设备连接、断开设备",
+  "time" : {
+    "start" : 1609831349793,
+    "stop" : 1609831353129,
+    "duration" : 3336
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8975614bb8a24fe",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609831855337,
+    "stop" : 1609831858662,
+    "duration" : 3325
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c84e99afd7beb9f",
+  "name" : "常亮、关闭",
+  "time" : {
+    "start" : 1609831169516,
+    "stop" : 1609831172403,
+    "duration" : 2887
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3cb77fa960fd363c",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609831713427,
+    "stop" : 1609831729511,
+    "duration" : 16084
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11ce68e6c191ae1e",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831621245,
+    "stop" : 1609831624601,
+    "duration" : 3356
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "99d9fa460d340881",
+  "name" : "常亮、关闭",
+  "time" : {
+    "start" : 1609831732858,
+    "stop" : 1609831737187,
+    "duration" : 4329
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "980a9301b00be1d2",
+  "name" : "test_front",
+  "time" : {
+    "start" : 1609831908766,
+    "stop" : 1609831913613,
+    "duration" : 4847
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b4718410dc24d0c",
+  "name" : "720、1080、4k",
+  "time" : {
+    "start" : 1609831527955,
+    "stop" : 1609831528510,
+    "duration" : 555
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29c87e372ece5fbf",
+  "name" : "编辑、删除",
+  "time" : {
+    "start" : 1609831383072,
+    "stop" : 1609831395420,
+    "duration" : 12348
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a5ce43ff6cd6699",
+  "name" : "跟随、拍摄",
+  "time" : {
+    "start" : 1609831572308,
+    "stop" : 1609831576209,
+    "duration" : 3901
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "578af96260099694",
+  "name" : "选择后点赞或者删除",
+  "time" : {
+    "start" : 1609832395000,
+    "stop" : 1609832400868,
+    "duration" : 5868
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "efb1bde7de490896",
+  "name" : "关闭、方格、对角+方格",
+  "time" : {
+    "start" : 1609831191271,
+    "stop" : 1609831193566,
+    "duration" : 2295
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f376702c8811a957",
+  "name" : "关闭、方格、对角+方格",
+  "time" : {
+    "start" : 1609832179603,
+    "stop" : 1609832181887,
+    "duration" : 2284
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1c94c5a42b2ded3",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609831195861,
+    "stop" : 1609831198733,
+    "duration" : 2872
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4040435bd955545c",
+  "name" : "美颜",
+  "time" : {
+    "start" : 1609830878552,
+    "stop" : 1609830899241,
+    "duration" : 20689
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2dff71616025788e",
+  "name" : "关闭、方格、对角+方格",
+  "time" : {
+    "start" : 1609831930133,
+    "stop" : 1609831932412,
+    "duration" : 2279
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe25a78d0a13fe88",
+  "name" : "选择后点赞或者删除",
+  "time" : {
+    "start" : 1609832455909,
+    "stop" : 1609832459886,
+    "duration" : 3977
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f74284ee9598ee2",
+  "name" : "编辑、删除",
+  "time" : {
+    "start" : 1609832619380,
+    "stop" : 1609832641385,
+    "duration" : 22005
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1120710d18caef26",
+  "name" : "编辑、删除",
+  "time" : {
+    "start" : 1609832660026,
+    "stop" : 1609832685036,
+    "duration" : 25010
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3f3af78bd2d249a9",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609831205698,
+    "stop" : 1609831208025,
+    "duration" : 2327
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed1a3cab0712ee4b",
+  "name" : "选择后点赞或者删除",
+  "time" : {
+    "start" : 1609832451328,
+    "stop" : 1609832453605,
+    "duration" : 2277
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb7fe3303f35c3de",
+  "name" : "关闭、方格、对角+方格",
+  "time" : {
+    "start" : 1609831188977,
+    "stop" : 1609831191269,
+    "duration" : 2292
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d42d0959df4fb716",
+  "name" : "720、1080、4k",
+  "time" : {
+    "start" : 1609831525975,
+    "stop" : 1609831527157,
+    "duration" : 1182
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f3fabbb505984e9",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609832036650,
+    "stop" : 1609832039662,
+    "duration" : 3012
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1b8536647315aad",
+  "name" : "设备连接、断开设备",
+  "time" : {
+    "start" : 1609831340150,
+    "stop" : 1609831343488,
+    "duration" : 3338
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "320536973e670179",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609832052829,
+    "stop" : 1609832055837,
+    "duration" : 3008
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ff5c7ab3a637f2b",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609832281829,
+    "stop" : 1609832285149,
+    "duration" : 3320
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c49687ab94a23af",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609832200758,
+    "stop" : 1609832203074,
+    "duration" : 2316
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d65b5dc0e39d5742",
+  "name" : "美颜",
+  "time" : {
+    "start" : 1609830915294,
+    "stop" : 1609830935928,
+    "duration" : 20634
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d65cd06d8e8bc080",
+  "name" : "常亮、关闭",
+  "time" : {
+    "start" : 1609831536146,
+    "stop" : 1609831538429,
+    "duration" : 2283
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b66ea3a20fb9168c",
+  "name" : "选择后点赞或者删除",
+  "time" : {
+    "start" : 1609832434554,
+    "stop" : 1609832437428,
+    "duration" : 2874
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a5f9d2a612ac560",
+  "name" : "720、1080、4k",
+  "time" : {
+    "start" : 1609831525688,
+    "stop" : 1609831525973,
+    "duration" : 285
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c488e73061916efe",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609831900781,
+    "stop" : 1609831908761,
+    "duration" : 7980
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ee6694bcb4bf29",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831848706,
+    "stop" : 1609831851988,
+    "duration" : 3282
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "87b8c3aa4ee7e1b2",
+  "name" : "常亮、关闭",
+  "time" : {
+    "start" : 1609832177330,
+    "stop" : 1609832179601,
+    "duration" : 2271
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2673ae8aff43cb65",
+  "name" : "关闭、方格、对角+方格",
+  "time" : {
+    "start" : 1609831751429,
+    "stop" : 1609831753700,
+    "duration" : 2271
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "deb8bb4cdc91c856",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609832314286,
+    "stop" : 1609832330326,
+    "duration" : 16040
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a72dc938a57fab",
+  "name" : "选择后点赞或者删除",
+  "time" : {
+    "start" : 1609832428646,
+    "stop" : 1609832431458,
+    "duration" : 2812
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b837ed86288cec6",
+  "name" : "间隔,拍摄时长,轨迹",
+  "time" : {
+    "start" : 1609832129110,
+    "stop" : 1609832130501,
+    "duration" : 1391
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b80390bee31ca6e",
+  "name" : "美颜",
+  "time" : {
+    "start" : 1609831495667,
+    "stop" : 1609831510644,
+    "duration" : 14977
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "27ab12995a063308",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609831557851,
+    "stop" : 1609831560135,
+    "duration" : 2284
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4c886e21d68d01",
+  "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+  "time" : {
+    "start" : 1609831775446,
+    "stop" : 1609831778326,
+    "duration" : 2880
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69c5f7ba12185735",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609832264391,
+    "stop" : 1609832267689,
+    "duration" : 3298
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d71fa29e90d189cf",
+  "name" : "关闭、方格、对角+方格",
+  "time" : {
+    "start" : 1609831936999,
+    "stop" : 1609831939278,
+    "duration" : 2279
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "568bb96883b27ef0",
+  "name" : "跟随、拍摄",
+  "time" : {
+    "start" : 1609831236655,
+    "stop" : 1609831252623,
+    "duration" : 15968
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3907cdf0c51eae7",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609832271904,
+    "stop" : 1609832275225,
+    "duration" : 3321
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc185a6a0b9d29ba",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609832330329,
+    "stop" : 1609832346332,
+    "duration" : 16003
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf728a784eff1fab",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831259309,
+    "stop" : 1609831262588,
+    "duration" : 3279
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3ba9b1e02a57a92",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831262591,
+    "stop" : 1609831265963,
+    "duration" : 3372
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b976116b0cecac64",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609831697389,
+    "stop" : 1609831713424,
+    "duration" : 16035
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a677d3047de5c0e5",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609832026717,
+    "stop" : 1609832029989,
+    "duration" : 3272
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23bfc373b5cc5e7a",
+  "name" : "编辑、删除",
+  "time" : {
+    "start" : 1609832591071,
+    "stop" : 1609832593366,
+    "duration" : 2295
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c1869f2f7f703168",
+  "name" : "编辑、删除",
+  "time" : {
+    "start" : 1609832735183,
+    "stop" : 1609832757169,
+    "duration" : 21986
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "703a01de575a8e4",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609832261094,
+    "stop" : 1609832264388,
+    "duration" : 3294
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "98799788c30941b7",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609832310994,
+    "stop" : 1609832314283,
+    "duration" : 3289
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "180dbb6589298b8a",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609832241593,
+    "stop" : 1609832249466,
+    "duration" : 7873
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a2fd374ce16b6e8",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831273274,
+    "stop" : 1609831276573,
+    "duration" : 3299
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7bbcb29747ccec52",
+  "name" : "编辑、删除",
+  "time" : {
+    "start" : 1609832462791,
+    "stop" : 1609832468063,
+    "duration" : 5272
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26dd5034b9241d98",
+  "name" : "编辑、删除",
+  "time" : {
+    "start" : 1609832709153,
+    "stop" : 1609832734134,
+    "duration" : 24981
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6cea9c92cf564d50",
+  "name" : "常亮、关闭",
+  "time" : {
+    "start" : 1609832165374,
+    "stop" : 1609832167704,
+    "duration" : 2330
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bca21eaacefba3ad",
+  "name" : "设备断开、连接",
+  "time" : {
+    "start" : 1609832062461,
+    "stop" : 1609832078492,
+    "duration" : 16031
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8ce52028c459487",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609831823835,
+    "stop" : 1609831827969,
+    "duration" : 4134
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9385731cba3e5d2c",
+  "name" : "各种模式",
+  "time" : {
+    "start" : 1609832253683,
+    "stop" : 1609832257832,
+    "duration" : 4149
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "27bfc8d60844eb10",
+  "name" : "美颜",
+  "time" : {
+    "start" : 1609831479289,
+    "stop" : 1609831486377,
+    "duration" : 7088
   },
   "status" : "passed",
   "severity" : "normal"

@@ -1,0 +1,180 @@
+{
+  "uid" : "8d57e0424bc2958b",
+  "name" : "3、5、7、off",
+  "fullName" : "TestCase.test_01_test_camera.Testcamera01#test_camera_countdown",
+  "historyId" : "f9355261151f7a685aebd8d65ab27c94",
+  "time" : {
+    "start" : 1609831115831,
+    "stop" : 1609831131894,
+    "duration" : 16063
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_driver",
+    "time" : {
+      "start" : 1609830802206,
+      "stop" : 1609830809460,
+      "duration" : 7254
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1609830802163,
+      "stop" : 1609830802206,
+      "duration" : 43
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "前置条件",
+      "time" : {
+        "start" : 1609831115831,
+        "stop" : 1609831116145,
+        "duration" : 314
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "locator",
+        "value" : "{'name': '倒计时', 'type': 'id', 'value': 'iv_countdown'}"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "前置条件",
+      "time" : {
+        "start" : 1609831116145,
+        "stop" : 1609831116856,
+        "duration" : 711
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "locator",
+        "value" : "{'name': '5s', 'type': 'xpath', 'value': \"//*[@text='5s']\"}"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "前置条件",
+      "time" : {
+        "start" : 1609831116856,
+        "stop" : 1609831129880,
+        "duration" : 13024
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "locator",
+        "value" : "{'name': 'action', 'type': 'id', 'value': 'cb_action'}"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "get_driver::fn",
+    "time" : {
+      "start" : 1609832768836,
+      "stop" : 1609832769417,
+      "duration" : 581
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "倒计时"
+  }, {
+    "name" : "feature",
+    "value" : "拍照"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_01_test_camera"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcamera01"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-4KG9PK6"
+  }, {
+    "name" : "thread",
+    "value" : "38132-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_01_test_camera"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "countdown0",
+    "value" : "{'name': '倒计时', 'type': 'id', 'value': 'iv_countdown'}"
+  }, {
+    "name" : "countdown1",
+    "value" : "{'name': '5s', 'type': 'xpath', 'value': \"//*[@text='5s']\"}"
+  }, {
+    "name" : "countdown2",
+    "value" : "{'name': 'action', 'type': 'id', 'value': 'cb_action'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8d57e0424bc2958b.json",
+  "parameterValues" : [ "{'name': '倒计时', 'type': 'id', 'value': 'iv_countdown'}", "{'name': '5s', 'type': 'xpath', 'value': \"//*[@text='5s']\"}", "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+}

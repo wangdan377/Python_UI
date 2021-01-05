@@ -1,5 +1,160 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "编辑、删除",
+        "uid" : "7612720be0b338c7",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609832481539,
+          "stop" : 1609832506571,
+          "duration" : 25032
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '爱心', 'type': 'id', 'value': 'favorite'}" ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "94997c64539b9c9",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609832509320,
+          "stop" : 1609832531379,
+          "duration" : 22059
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '相册页取消', 'type': 'id', 'value': 'cancel'}" ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "8ce3d6fffd65081b",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609832534164,
+          "stop" : 1609832559196,
+          "duration" : 25032
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '爱心', 'type': 'id', 'value': 'favorite'}" ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "1872ce8932363398",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609832561808,
+          "stop" : 1609832583792,
+          "duration" : 21984
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '确定删除', 'type': 'id', 'value': 'ok'}" ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "9ba55d6ca86c55a",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609832595375,
+          "stop" : 1609832617371,
+          "duration" : 21996
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '剪辑返回', 'type': 'id', 'value': 'iv_title_left'}" ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "4f74284ee9598ee2",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609832619380,
+          "stop" : 1609832641385,
+          "duration" : 22005
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '退出/取消', 'type': 'id', 'value': 'negative'}" ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "1120710d18caef26",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609832660026,
+          "stop" : 1609832685036,
+          "duration" : 25010
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '爱心', 'type': 'id', 'value': 'favorite'}" ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "b536328608fe0209",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609832686091,
+          "stop" : 1609832708099,
+          "duration" : 22008
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '相册页取消', 'type': 'id', 'value': 'cancel'}" ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "26dd5034b9241d98",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609832709153,
+          "stop" : 1609832734134,
+          "duration" : 24981
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '爱心', 'type': 'id', 'value': 'favorite'}" ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "c1869f2f7f703168",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609832735183,
+          "stop" : 1609832757169,
+          "duration" : 21986
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '确定删除', 'type': 'id', 'value': 'ok'}" ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    }, {
+      "name" : "selenium.common.exceptions.InvalidArgumentException: Message: Coordinate [x=936.0, y=2316.0] is outside of element rect: [0,0][2328,1128]",
+      "children" : [ {
+        "name" : "编辑、删除",
+        "uid" : "23bfc373b5cc5e7a",
+        "parentUid" : "83ba8efd6a9a0ee51cea415fbfadd020",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609832591071,
+          "stop" : 1609832593366,
+          "duration" : 2295
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '图片信息关闭', 'type': 'id', 'value': 'close'}" ]
+      } ],
+      "uid" : "83ba8efd6a9a0ee51cea415fbfadd020"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

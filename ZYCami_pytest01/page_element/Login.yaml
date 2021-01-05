@@ -40,9 +40,9 @@
     type: id
     value: com.zhiyun.cama:id/tv_commit
 
-  - name: 提示
-    type: id
-    value: com.zhiyun.cama:id/tv_title
+#  - name: 提示
+#    type: id
+#    value: com.zhiyun.cama:id/tv_title
 
   - name: 确定
     type: id

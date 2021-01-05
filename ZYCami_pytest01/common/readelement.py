@@ -36,7 +36,5 @@ def read_yaml(file_name):
     return dic
 
 if __name__ == '__main__':
-
-    print(read_yaml('Camera')['相机1'][int(len(read_yaml('Camera')['相机1']) - 1)])
-
+    print(read_yaml('desired_caps'))
 

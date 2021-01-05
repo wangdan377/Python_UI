@@ -4,9 +4,8 @@
 import pytest
 from tools.times import sleep
 from page_object.loginpage import LoginPage
-import allure,os
+import allure, os
 from page import Caplictily
-
 
 
 # @allure.feature("测试登录页")
@@ -41,36 +40,28 @@ from page import Caplictily
 class TestLogin:
     """测试登录"""
 
-    # @pytest.mark.parametrize("username,password", [('1','0'),('17195453625','0'),('17195453626','00000000')])
-    # @allure.story("登录成功")
-    # @allure.title("登录成功")
-    # def test_login_success_01(self, get_driver, username, password):
-    #     login_page = LoginPage(get_driver)   #我觉得send_keys要加个清除  要不然不会清除 那个在哪里
-    #     # with allure.step("step1输入账号"):
-    #     # login.me()
-    #     # login.login_Button()
-    #     # login.username(name)
-    #     # login.password(pwd)
-    #     # login.submit()
-    #     # 该手机号未注册   账号或密码错误
-    #     sleep(2)
-    #     if username == '1':
-    #         assert login_page.login_test_lists(username, password) == '账号或密码错误'
-    #     else :
-    #         assert login_page.login_test_lists(username, password) == '账号或密码错误'
 
 
-    @pytest.mark.parametrize("username,password", [('17195453626', '00000000')])
+    @pytest.mark.skip(reason="跳过执行这条case")
+    @allure.story("进入登录页")
+    @allure.title("进入登录页")
+    def test_login_success_01(self, get_driver):
+        login_page = LoginPage(get_driver)
+        login_page.click_me()
+
+    @pytest.mark.skip(reason="跳过执行这条case")
+    @pytest.mark.parametrize("username,password", [('167', '0000'), ('167', '00100'), ('16714056631', '00000000')])
     @allure.story("登录成功")
     @allure.title("登录成功")
     def test_login_success_02(self, get_driver, username, password):
         login_page = LoginPage(get_driver)
-        login_page.login_test_lists2(username, password)
-
-
+        if username == '16714056631':
+            assert login_page.login_test_lists(username, password, '登录成功') == '登录成功'
+        else:
+            assert login_page.login_test_lists(username, password, '账号或密码错误') == '账号或密码错误'
 
 if __name__ == '__main__':
-    pytest.main(["-s","test_02_test_login.py"])
+    pytest.main(["-s", "test_02_test_login.py"])
     # # 执行pytest单元测试，生成 Allure 报告需要的数据存在 /temp 目录
     # pytest.main(['--alluredir', '../report/result',r'test_02_test_login.py'])
     # # # 执行命令 allure generate ./temp -o ./report --clean ，生成测试报告

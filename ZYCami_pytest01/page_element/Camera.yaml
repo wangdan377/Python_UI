@@ -3,27 +3,54 @@
     type: id
     value: iv_camera
 
-  - name: 帮助
+  - name: 帮助  #1
     type: id
     value: ib_help
 
-  - name: 直接进入
+  - name: 直接进入  #2
     type: xpath
     value: //*[@text='直接进入']
 
-  - name: 连接设备
-    type: id
-    value: bt_connect
+  - name: 连接设备    #7240    #3F5E    #C17F
+    type: xpath
+    value: //*[@text='SMOOTH-X_C17F']/following-sibling::android.widget.Button
 
-  - name: 返回
+  - name: 返回   #4  返回首页/smart预览页返回
     type: id
     value: iv_home
 
-  - name: 蓝牙
+  - name: 蓝牙  #5
     type: id
     value: iv_bluetooth
 
+
+  - name: 返回   #6   相册中视频设置、设置页面
+    type: id
+    value: iv_back
+
 导航栏:
+  - name: 相册
+    type: id
+    value: iv_photo
+
+  - name: 手势
+    type: id
+    value: cb_gesture
+
+  - name: action  #2
+    type: id
+    value: cb_action
+
+  - name: 切换摄像头   #3
+    type: id
+    value: iv_flip
+
+  - name: 切换SMART     #4
+    type: id
+    value: iv_script
+
+
+底部导航栏:
   - name: SMART
     type: xpath
     value: //android.view.ViewGroup/android.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.ImageView[1]
@@ -36,21 +63,39 @@
     type: xpath
     value: //*[@text='拍照']
 
-  - name: 录像
+  - name: 录像    #3
     type: xpath
     value: //*[@text='录像']
 
-  - name: 全景
+  - name: 全景   #4
     type: xpath
     value: //*[@text='全景']
 
-  - name: 延时摄影
+  - name: 延时摄影    #5
     type: xpath
     value: //*[@text='延时摄影']
 
-  - name: 运动延时
+  - name: 运动延时    #6
     type: xpath
     value: //*[@text='运动延时']
+
+视频分辨率:
+  - name: 分辨率
+    type: id
+    value: iv_dpi
+
+  - name: resolution_720
+    type: id
+    value: rb_resolution_720
+
+  - name: resolution_1080
+    type: id
+    value: rb_resolution_1080
+
+  - name: resolution_4k
+    type: id
+    value: rb_resolution_4k
+
 
 倒计时:
   - name: 倒计时
@@ -69,52 +114,52 @@
     type: xpath
     value: //*[@text='7s']
 
-  - name: off
+  - name: 'off'
     type: xpath
     value: //*[@text='off']
 
 
 美颜:
   - name: 美颜按钮
-    type: xpath
-    value: //*[contains(@resource-id, 'com.zhiyun.cama:id/iv_beauty')]
+    type: id
+    value: iv_beauty
 
 
-  - name: 取消美颜
+  - name: 取消美颜   #1
     type: xpath
     value: //android.widget.LinearLayout/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.ImageView
 
-  - name: 自动美颜
+  - name: 自动美颜  #2
     type: xpath
     value: //*[@text='自动美颜']
 
-  - name: 瘦脸
+  - name: 瘦脸  #3
     type: xpath
     value: //*[@text='瘦脸']
 
-  - name: 磨皮
+  - name: 磨皮  #4
     type: xpath
     value: //*[@text='磨皮']
 
-  - name: 美白
+  - name: 美白  #5
     type: xpath
     value: //*[@text='美白']
 
-  - name: 眼睛放大
+  - name: 眼睛放大  #6
     type: xpath
     value: //*[@text='眼睛放大']
 
-  - name: 光照
+  - name: 光照  #7
     type: xpath
     value: //*[@text='光照']
 
-  - name: 红润
+  - name: 红润  #8
     type: xpath
     value: //*[@text='红润']
 
-  - name: action
+  - name: 美颜滚动条 #9
     type: id
-    value: cb_action
+    value: sb_roll
 
 
 设置:
@@ -137,42 +182,47 @@
 闪光灯:
 
   - name: 闪光灯
-    type: xpath
-    value: //*[contains(@resource-id, 'com.zhiyun.cama:id/cb_video_flash')]
+    type: id
+    value: cb_video_flash
 
-  - name: 关闭
-    type: xpath
-    value: //*[@text='关闭']
+  - name: 闪光灯关闭 #1
+    type: id
+    value: rb_flash_close
 
+  - name: 闪光灯常亮 #2
+    type: id
+    value: rb_flash_torch
 
-  - name: 常亮
-    type: xpath
-    value: //*[@text='常亮']
+  - name: 闪光灯自动 #3
+    type: id
+    value: rb_flash_auto
 
+  - name: 闪光灯打开 #4
+    type: id
+    value: rb_flash_open
 
 网络显示:
   - name: 网络显示
-    type: xpath
-    value: //*[contains(@resource-id, 'com.zhiyun.cama:id/cb_video_grid')]
+    type: id
+    value: cb_video_grid
 
-  - name: 关闭
-    type: xpath
-    value: //*[@text='关闭']
+  - name: 网络显示关闭
+    type: id
+    value: rb_grid_none
 
   - name: 方格
-    type: xpath
-    value: //*[@text='方格']
+    type: id
+    value: rb_grid
 
   - name: 方格+对角线
-    type: xpath
-    value: //*[@text='方格+对角线']
+    type: id
+    value: rb_grid_and_diagonal
 
 白平衡:
-#  - com.zhiyun.cama:id/tv_title   白平衡title
 
   - name: 白平衡
-    type: xpath
-    value: //*[contains(@resource-id, 'com.zhiyun.cama:id/tv_white_balance')]
+    type: id
+    value: tv_white_balance
 
   - name: 自动
     type: xpath
@@ -194,70 +244,64 @@
     type: xpath
     value: //*[@text='荧光灯']
 
-  - name: 返回
-    type: xpath
-    value: //*[contains(@resource-id, 'com.zhiyun.cama:id/iv_back')]
+
 
 手势控制:
   - name: 手势控制
-    type: xpath
-    value: //*[contains(@resource-id, 'com.zhiyun.cama:id/ll_gesture')]
+    type: id
+    value: ll_gesture
 
   - name: 跟随+拍摄
-    type: xpath
-    value: //*[contains(@resource-id, 'com.zhiyun.cama:id/tv_follow_take')]
+    type: id
+    value: tv_follow_take
 
   - name: 仅拍摄
-    type: xpath
-    value: //*[contains(@resource-id, 'com.zhiyun.cama:id/tv_only_take')]
+    type: id
+    value: tv_only_take
 
-  - name: 手势控制返回键
-    type: xpath
-    value: //*[contains(@resource-id, 'com.zhiyun.cama:id/iv_back')]
 
   - name: 问号
-    type: xpath
-    value: //*[contains(@resource-id, 'com.zhiyun.cama:id/ib_gesture')]
+    type: id
+    value: ib_gesture
 
 
 
 去水印:
   - name: 去水印
-    type: xpath
-    value: //*[contains(@resource-id, 'com.zhiyun.cama:id/cb_watermark')]
+    type: id
+    value: cb_watermark
 
 
 情景模式:
   - name: 行走
-    type: xpath
-    value: //*[@text='行走']
+    type: id
+    value: rb_walk
 
   - name: 运动
     type: xpath
     value: //*[@text='运动']
 
 跟随模式:
-  - name: 跟随模式
+  - name: 跟随
     type: xpath
     value: //*[@text='跟随模式']
 
   - name: 左右跟随
-    type: xpath
-    value: //*[@text='左右跟随']
+    type: id
+    value: tv_ptz_follow
 
   - name: 全锁定
     type: xpath
-    value: //*[@text='全锁定']
+    value: //*[@text='全锁定'] and @index='1'
 
   - name: 横滚航向跟随
     type: xpath
     value: //*[@text='横滚航向跟随']
 
 摇杆速度:
-
   - name: 快
-    type: xpath
-    value: //*[@text='快']
+    type: id
+    value: rb_high
 
   - name: 中
     type: xpath
@@ -267,34 +311,34 @@
     type: xpath
     value: //*[@text='慢']
 
-  - name: 变焦速速
-    type: xpath
-    value: //*[@text='变焦速速']
+  - name: 变焦速度
+    type: id
+    value: sb_zoom_speed
 
 反向:
   - name: 水平反向
-    type: xpath
-    value: //*[contains(@resource-id, 'com.zhiyun.cama:id/ctv_yaw_reverse')]
+    type: id
+    value: ctv_yaw_reverse
 
 
   - name: 垂直反向
-    type: xpath
-    value: //*[contains(@resource-id, 'com.zhiyun.cama:id/ctv_roll_reverse')]
+    type: id
+    value: ctv_roll_reverse
 
 M键:
-  - name: 开关
-    type: xpath
-    value: //*[contains(@resource-id, 'com.zhiyun.cama:id/cb_video_click_m')]
+  - name: M键开关
+    type: id
+    value: cb_video_click_m
 
-  - name: 单击M键默认
+  - name: 默认
     type: xpath
     value: //*[@text='默认']
 
-  - name: 单击M键切换拍照/录像
+  - name: 切换拍照/录像
     type: xpath
     value: //*[@text='切换拍照/录像']
 
-  - name: 单击M键快捷菜单
+  - name: 快捷菜单
     type: xpath
     value: //*[@text='快捷菜单']
 
@@ -303,42 +347,429 @@ M键:
     type: xpath
     value: //*[@text='云台自动校准']
 
-  - name: 取消
-    type: xpath
-    value: //*[@text='取消']
-
-  - name: 开始
-    type: xpath
-    value: //*[@text='开始']
-
 通用:
-  - name: 通用
-    type: xpath
-    value: //*[@text='通用']
-
   - name: 设备管理
     type: xpath
     value: //*[@text='设备管理']
 
-  - name: 设备关闭
+  - name: 刷新  #1
+    type: id
+    value: iv_scan
+
+  - name: C17F设备  #2
     type: xpath
-    value: //*[@text='红润']
+    value: //*[@text='SMOOTH-X_C17F']/following-sibling::android.widget.ImageView
 
-  - name: 连接
+  - name: C17F设备Button    #3    断开后；连接
     type: xpath
-    value: //*[@text='红润']
+    value: //*[@text='SMOOTH-X_C17F']/following-sibling::android.widget.Button
 
-  - name: 刷新
+  - name: 取消     #4
+    type: id
+    value: tv_cancel
+
+  - name: 通用页确定   #5
+    type: id
+    value: tv_confirm
+
+  - name: 通用页关闭  #6
+    type: id
+    value: iv_close
+
+
+相册:
+
+  - name: 全部
+    type: id
+    value: all
+
+  - name: 视频 #1
+    type: id
+    value: video
+
+  - name: 照片 #2
+    type: id
+    value: photo
+
+  - name: 喜欢 #3
+    type: id
+    value: favorite
+
+  - name: 选择 #4
+    type: id
+    value: select
+
+  - name: 全选 #5
+    type: id
+    value: header_select
+
+  - name: 图 #6
+    type: id
+    value: story_name
+
+  - name: 爱心 #7
+    type: id
+    value: favorite
+
+
+  - name: favorite #8
+    type: id
+    value: add_favorite
+
+  - name: 删除图 #9    #选择后点击删除
+    type: id
+    value: delete
+
+  - name: 相册页取消 #10     #选择后点击删除
+    type: id
+    value: cancel
+
+  - name: 确定删除 #11
+    type: id
+    value: ok
+
+  - name: 图片信息 #12
+    type: id
+    value: info
+
+  - name: 图片信息关闭 #13
+    type: id
+    value: close
+
+  - name: 编辑    #14
+    type: id
+    value: edit
+
+  - name: 退出/取消    #15     相册、smart预览后、发布页点击返回的取消按钮、云台的取消
+    type: id
+    value: negative
+
+  - name: 保存并退出/确定   #16  相册、smart预览后、发布页  点击返回的确定按钮、云台的开始、云台的确定
+    type: id
+    value: positive
+
+  - name: 剪辑返回    #17     发布时选取封面的返回键
+    type: id
+    value: iv_title_left
+
+  - name: 视频开启    #18     发布时选取封面的返回键
+    type: id
+    value: video_play_icon
+
+  - name: 视频暂停    #19     发布时选取封面的返回键
+    type: id
+    value: play
+
+  - name: 相册返回    #20     发布时选取封面的返回键
+    type: id
+    value: back
+
+
+
+延时摄影:
+  - name: 间隔
+    type: id
+    value: tv_delay_interval
+
+  - name: 第一时长
+    type: id
+    value: tv_delay_time
+
+  - name: 第二时长
+    type: id
+    value: tv_delay_time
+
+  - name: 箭头
+    type: id
+    value: cb_delay_set
+
+轨迹:
+  - name: 轨迹_path
+    type: id
+    value: cb_path
+
+  - name: 添加视频
+    type: id
+    value: view_add_point
+
+  - name: 删除视频
+    type: id
+    value: iv_delete
+
+间隔:
+  - name: 0.5秒  #0
     type: xpath
-    value: //*[@text='快']
+    value: //*[@text='0.5s']
 
-  - name: 对勾
+  - name: 1秒  #1
     type: xpath
-    value: //*[@text='中']
+    value: //*[@text='1s']
 
-  - name: 取消
+  - name: 2秒  #2
     type: xpath
-    value: //*[@text='慢']
+    value: //*[@text='2s']
+
+  - name: 3秒  #3
+    type: xpath
+    value: //*[@text='3s']
+
+  - name: 4秒  #4
+    type: xpath
+    value: //*[@text='4s']
+  - name: 5秒  #5
+    type: xpath
+    value: //*[@text='5s']
+  - name: 6秒  #6
+    type: xpath
+    value: //*[@text='6s']
+  - name: 7秒  #7
+    type: xpath
+    value: //*[@text='7s']
+  - name: 8秒  #8
+    type: xpath
+    value: //*[@text='8s']
+  - name: 9秒  #9
+    type: xpath
+    value: //*[@text='9s']
+  - name: 10秒 #10
+    type: xpath
+    value: //*[@text='10s']
+  - name: 13秒 #11
+    type: xpath
+    value: //*[@text='13s']
+  - name: 15秒 #12
+    type: xpath
+    value: //*[@text='15s']
+  - name: 20秒 #13
+    type: xpath
+    value: //*[@text='20s']
+  - name: 25秒 #14
+    type: xpath
+    value: //*[@text='25s']
+  - name: 30秒 #15
+    type: xpath
+    value: //*[@text='30s']
+  - name: 40秒 #16
+    type: xpath
+    value: //*[@text='40s']
+  - name: 60秒 #17
+    type: xpath
+    value: //*[@text='60s']
+
+摄影时长:
+  - name: '∞' #0
+    type: xpath
+    value: //*[@text='∞']
+  - name: 1min  #1
+    type: xpath
+    value: //*[@text='1min']
+  - name: 2min  #2
+    type: xpath
+    value: //*[@text='2min']
+  - name: 3min  #3
+    type: xpath
+    value: //*[@text='3min']
+  - name: 4min  #4
+    type: xpath
+    value: //*[@text='4min']
+  - name: 5min  #5
+    type: xpath
+    value: //*[@text='5min']
+  - name: 10min #6
+    type: xpath
+    value: //*[@text='10min']
+  - name: 20min #7
+    type: xpath
+    value: //*[@text='20min']
+  - name: 30min #8
+    type: xpath
+    value: //*[@text='30min']
+  - name: 1h  #9
+    type: xpath
+    value: //*[@text='1h']
+  - name: 2h  #10
+    type: xpath
+    value: //*[@text='2h']
+  - name: 3h  #11
+    type: xpath
+    value: //*[@text='3h']
+  - name: 5h  #12
+    type: xpath
+    value: //*[@text='5h']
 
 
 
+视频设置:
+  - name: 5x
+    type: id
+    value: rb_multiple_5x
+
+  - name: 10x
+    type: id
+    value: rb_multiple_10x
+
+  - name: 15x
+    type: id
+    value: rb_multiple_15x
+
+  - name: 30x
+    type: id
+    value: rb_multiple_30x
+
+
+#SMART1:
+#  - name: 使用
+#    type: id
+#    value: tv_story_apply
+#
+#  - name: 使用后返回
+#    type: id
+#    value: iv_story_script
+#
+#  - name: 草稿箱
+#    type: id
+#    value: iv_draft
+#
+#  - name: 视频开/关
+#    type: id
+#    value: nvs_live_window
+#
+#SMART2:
+#
+#  - name: 倾心
+#    type: id
+#    value: rb_multiple_30x
+#
+#  - name: 探店  #1
+#    type: id
+#    value: tv_story_apply
+#
+#  - name: 可爱  #2
+#    type: id
+#    value: iv_story_script
+#
+#  - name: 游寄  #3
+#    type: id
+#    value: iv_draft
+#
+#  - name: 街拍  #4
+#    type: id
+#    value: rb_multiple_30x
+#
+#  - name: 律动  #5
+#    type: id
+#    value: tv_story_apply
+#
+#  - name: 180°环视  #6
+#    type: id
+#    value: iv_story_script
+#
+#  - name: 希区柯克（4.0~1.0） #7
+#    type: id
+#    value: iv_draft
+#
+#  - name: 希区柯克（1.0~4.0） #8
+#    type: id
+#    value: rb_multiple_30x
+#
+#
+#  - name: 欢快  #9
+#    type: id
+#    value: tv_story_apply
+#
+#  - name: 震撼  #10
+#    type: id
+#    value: iv_story_script
+#
+#  - name: 记录  #11
+#    type: id
+#    value: iv_draft
+#
+#  - name: 潮 #12
+#    type: id
+#    value: rb_multiple_30x
+#
+#  - name: 探索  #13  tv_re_record
+#    type: id
+#    value: rb_multiple_30x
+#
+#SMART3:
+#  - name: 重拍  #0
+#    type: id
+#    value: tv_re_record
+#
+#  - name: 拍下一段  #1
+#    type: id
+#    value: tv_next
+#
+#  - name: 预览后保存  #2   预览页和拍完视频后的保存
+#    type: id
+#    value: tv_save
+#
+#  - name: smart蓝牙  #3
+#    type: id
+#    value: iv_bluetooth_expanded
+#
+#  - name: 拍摄教程缩小  #4
+#    type: xpath
+#    value: //android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.ImageView
+##    value: //*[@resource-id = 'com.zhiyun.cama:id/favorite'and @index="5"]
+#
+#  - name: 拍摄教程放大  #5
+#    type: id
+#    value: iv_tutorial_big
+#
+#发布:
+#  - name: 发布的返回键  #0
+#    type: id
+#    value: iv_titlebar_left
+#
+#  - name: 为你的作品写一段描述吧  #1
+#    type: id
+#    value: et_introduction
+#
+#  - name: 同步发布按钮  #2
+#    type: id
+#    value: iv_open_sync
+#
+#  - name: 发布  #3
+#    type: id
+#    value: id/pb_compose
+#
+#  - name: 快手按钮  #4
+#    type: id
+#    value: cb_sync_kwai
+#
+#  - name: 定位  #5
+#    type: id
+#    value: cb_location
+#
+#  - name: 添加标签  #6
+#    type: xpath
+#    value: //*[@text='#添加标签']
+##    value: /android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.widget.FrameLayout/android.widget.TextView
+#
+#  - name: 标签2 #7
+#    type: xpath
+#    value: //android.view.ViewGroup/android.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.TextView[2]
+#
+#  - name: 删除标签1 #8  #添加标签
+#    type: xpath
+#    value: //android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ImageView
+#
+#
+#  - name: 同步发布  #9
+#    type: id
+#    value: //*[@text='#同步发布']
+#
+#  - name: 选取封面  #10
+#    type: id
+#    value: view_line
+#
+#  - name: 选取封面确定按钮  #11
+#    type: id
+#    value: tv_title_right
+#
+#  - name: 选取封面滑动  #12
+#    type: id
+#    value: pb_compose

@@ -1,217 +1,347 @@
-
 from page.webpage import WebPage
 from common.readelement import read_yaml
 import allure
 from tools.times import sleep
+from tools.logger import log
+import time
 
 camera = read_yaml('Camera')['相机']
 settings = read_yaml('Camera')['设置']
+bot_navigation = read_yaml('Camera')['底部导航栏']
 navigation = read_yaml('Camera')['导航栏']
+beauti = read_yaml('Camera')['美颜']
+# release = read_yaml('Camera')['发布']
+
+
 class CameraPage(WebPage):
     """相机类"""
-    @allure.step("相机按钮")
-    def cameras(self):
-        self.is_click((camera[0]['type'],camera[0]['value']))
+
+    @allure.step("不连接设备")
+    def no_connect(self):
+        self.is_click((camera[0]['type'], camera[0]['value']))
+        self.is_click((camera[1]['type'], camera[1]['value']))
+        self.is_click((camera[2]['type'], camera[2]['value']))
         sleep(3)
-
-    @allure.step("帮助")
-    def help(self):
-        self.is_click((camera[1]['type'],camera[1]['value']))
-
-    @allure.step("直接进入")
-    def enter(self):
-        """直接进入"""
-        self.is_click((camera[2]['type'],camera[2]['value']))
 
     @allure.step("连接设备")
     def connect(self):
         """连接设备"""
-        self.is_click((camera[3]['type'],camera[3]['value']))
+        self.is_click((camera[0]['type'], camera[0]['value']))
+        self.is_click((camera[3]['type'], camera[3]['value']))
         sleep(3)
 
-    @allure.step("返回")
-    def home(self):
-        """返回"""
-        self.is_click((camera[4]['type'],camera[4]['value']))
-    @allure.step("蓝牙")
-    def bluetooth(self):
-        """蓝牙"""
-        self.is_click((camera[5]['type'],camera[5]['value']))
-
-    def Universal(self):
-        """通用"""
-        self.is_click((settings[3]['type'], settings[3]['value']))
-
-    def SMART(self):
-        """SMART"""
-        self.swipe_up()
+    @allure.step("导航栏")
+    def photo(self):
+        """切换smart"""
         self.is_click((navigation[0]['type'], navigation[0]['value']))
 
-    def AILive(self):
-        """AILive"""
-        self.swipe_up()
+    def gesture(self):
         self.is_click((navigation[1]['type'], navigation[1]['value']))
+        # self.gesture_move()
+
+    def action(self):
+        self.is_click((navigation[2]['type'], navigation[2]['value']))
+
+    def flip(self):
+        self.is_click((navigation[3]['type'], navigation[3]['value']))
+
+    def script(self):
+        self.is_click((navigation[4]['type'], navigation[4]['value']))
+
+    @allure.step("底部导航栏")
+    def smart(self):
+        """SMART"""
+        self.is_click((bot_navigation[0]['type'], bot_navigation[0]['value']))
+
+    def ai_live(self):
+        """AILive"""
+        self.is_click((bot_navigation[1]['type'], bot_navigation[1]['value']))
 
     def actions(self):
         """拍照"""
-        self.swipe_up()
-        self.is_click((settings[2]['type'], settings[2]['value']))
+        sleep(3)
+        self.is_click((bot_navigation[2]['type'], bot_navigation[2]['value']))
 
-    def Video(self):
+    def video(self):
         """录像"""
-
-        self.is_click((settings[3]['type'], settings[3]['value']))
+        sleep(3)
+        self.is_click((bot_navigation[3]['type'], bot_navigation[3]['value']))
 
     def panoramic(self):
         """全景"""
-        self.is_click((settings[4]['type'], settings[4]['value']))
+        sleep(3)
+        self.is_click((bot_navigation[4]['type'], bot_navigation[4]['value']))
 
-    def Time_lapse(self):
+    def time_lapse(self):
         """延时摄影"""
-        self.is_click((settings[5]['type'], settings[5]['value']))
+        sleep(3)
+        self.is_click((bot_navigation[5]['type'], bot_navigation[5]['value']))
 
-    def Motion_delay(self):
+    def motion_delay(self):
         """运动延时"""
-        self.is_click((settings[6]['type'], settings[6]['value']))
+        sleep(3)
+        self.is_click((bot_navigation[6]['type'], bot_navigation[6]['value']))
 
     @allure.step("前置条件")
     def is_click_(self, locator):
-        if locator['name'] == '美颜按钮':
+        if locator['name'] == '取消美颜':
+            self.swipe_up()
+            self.is_click((locator['type'], locator['value']))
+        elif locator['name'] == '美颜按钮' or \
+                locator['name'] == '自动美颜' or \
+                locator['name'] == '瘦脸' or \
+                locator['name'] == '磨皮' or \
+                locator['name'] == '美白' or \
+                locator['name'] == '光照' or \
+                locator['name'] == '红润':
             self.is_click((locator['type'], locator['value']))
 
-        elif locator['name'] == '取消美颜':
-            self.swipe_up()
-            self.is_click((locator['type'],locator['value']))
-
-        elif locator['name'] == '自动美颜':
-            self.is_click((locator['type'],locator['value']))
-
-        elif locator['name'] == '瘦脸':
-            self.is_click((locator['type'],locator['value']))
-            self.roll_beautify(1164)
-
-        elif locator['name'] == '磨皮':
-            self.is_click((locator['type'],locator['value']))
-            self.roll_beautify(1164)
-
-        elif locator['name'] == '美白':
-            self.is_click((locator['type'],locator['value']))
-            self.roll_beautify(1164)
+        elif locator['name'] == '美颜滚动条':
+            self.swipe_seek_bar_from_start_to_end((locator['type'], locator['value']),timeout=8000)
+            self.is_click((locator['type'], locator['value']))
 
         elif locator['name'] == '眼睛放大':
             self.swipe_down()
-            self.is_click((locator['type'],locator['value']))
-            self.roll_beautify(1160)
+            self.is_click((locator['type'], locator['value']))
 
-        elif locator['name'] == '光照':
-            self.swipe_down()
-            self.is_click((locator['type'],locator['value']))
-            self.roll_beautify(1160)
-
-        elif locator['name'] == '红润':
-            self.swipe_down()
-            self.is_click((locator['type'],locator['value']))
-            self.roll_beautify(1158)        #滚动条
-            self.blank_01()     #空白区域
-            sleep(3)
         elif locator['name'] == 'action':
-            self.is_click((locator['type'],locator['value']))
-            self.swip_return()
-
-        elif locator['name'] == '倒计时':
-           self.is_click((locator['type'], locator['value']))
-
-        elif locator['name'] == 'off':
-           self.is_click((locator['type'], locator['value']))
-
-        elif locator['name'] == '3s':
-           self.is_click((locator['type'], locator['value']))
-
-        elif locator['name'] == '5s':
-           self.is_click((locator['type'], locator['value']))
-
-        elif locator['name'] == '7s':
-           self.is_click((locator['type'], locator['value']))
-
-        elif locator['name'] == '设置':
-           self.is_click((locator['type'], locator['value']))
-
-        elif locator['name'] == '视频':
-           self.is_click((locator['type'], locator['value']))
-
-        elif locator['name'] == '云台':
-           self.is_click((locator['type'], locator['value']))
-
-        elif locator['name'] == '通用':
-           self.is_click((locator['type'], locator['value']))
-
-        elif locator['name'] == '闪光灯':
-           self.is_click((locator['type'], locator['value']))
-
-
-        elif locator['name'] == '关闭':
-           self.is_click((locator['type'], locator['value']))
-
-        elif locator['name'] == '常亮':
-           self.is_click((locator['type'], locator['value']))
-
-        elif locator['name'] == '网络显示':
-           self.is_click((locator['type'], locator['value']))
-
-        elif locator['name'] == '关闭':
-           self.is_click((locator['type'], locator['value']))
-
-        elif locator['name'] == '方格':
-           self.is_click((locator['type'], locator['value']))
-
-        elif locator['name'] == '方格+对角线':
-           self.is_click((locator['type'], locator['value']))
-
-        elif locator['name'] == '白平衡':
-           self.is_click((locator['type'], locator['value']))
-
-        elif locator['name'] == '自动':
-           self.is_click((locator['type'], locator['value']))
-
-        elif locator['name'] == '晴天':
-           self.is_click((locator['type'], locator['value']))
-
-        elif locator['name'] == '阴天':
-           self.is_click((locator['type'], locator['value']))
-
-        elif locator['name'] == '白炽灯':
-           self.is_click((locator['type'], locator['value']))
-        elif locator['name'] == '荧光灯':
-           self.is_click((locator['type'], locator['value']))
-
-        elif locator['name'] == '返回':
-           self.is_click((locator['type'], locator['value']))
-
-        elif locator['name'] == '手势控制':
+            self.blank_01()  # 空白区域
             self.is_click((locator['type'], locator['value']))
+            sleep(12)
 
-        elif locator['name'] == '跟随+拍摄':
+        elif locator['name'] == '手势':
             self.is_click((locator['type'], locator['value']))
-
-        elif locator['name'] == '仅拍摄':
-            self.is_click((locator['type'], locator['value']))
-
-        elif locator['name'] == '手势控制返回键':
-            self.is_click((locator['type'], locator['value']))
-
-        elif locator['name'] == '问号':
-            self.is_click((locator['type'], locator['value']))
+            self.gesture_move()
+            sleep(6)
 
         elif locator['name'] == '去水印':
-
+            self.swipe_watermark_up()  # 横屏向上滑动
             self.is_click((locator['type'], locator['value']))
 
+        elif locator['name'] == '变焦速度':
+            self.swipe_seek_bar_from_start_to_end2((locator['type'], locator['value']), timeout=8000)
+            self.is_click((locator['type'], locator['value']))
+
+        elif locator['name'] == '水平反向':
+            self.swipe_yuntai_up()
+            self.is_click((locator['type'], locator['value']))
+
+        elif locator['name'] == '默认':
+            self.swipe_yuntai_up()
+            self.is_click((locator['type'], locator['value']))
+
+        elif locator['name'] == '爱心':
+            sleep(3)
+            self.is_click((locator['type'], locator['value']))
+            sleep(2)
+            self.blank_04()     #删除后取消/删除
+
+        elif locator['name'] == '图片信息关闭':
+            self.is_click((locator['type'], locator['value']))
+            sleep(2)
+            self.blank_03()     #编辑
+            sleep(2)
+
+        elif locator['name'] == '0.5秒':
+            self.swipe_interval_down()
+            self.swipe_interval_up()
+            self.swipe_interval_up()
+            self.swipe_interval_up()
+            self.swipe_interval_up()
+            self.swipe_interval_up()
+            self.swipe_interval_up()
+            self.swipe_interval_up()
+            self.swipe_interval_up()
+            self.swipe_interval_up()
+            self.swipe_interval_up()
+            self.swipe_interval_up()
+            self.swipe_interval_up()
+            self.swipe_interval_up()
+            self.swipe_interval_up()
+            self.swipe_interval_up()
+            self.swipe_interval_up()
+            self.swipe_interval_up()
+            self.swipe_interval_down()
+            # self.is_click((locator['type'], locator['value']))
+
+        elif locator['name'] == '∞':
+            self.swipe_shooting_time_down()
+            self.swipe_shooting_time_up()
+            self.swipe_shooting_time_up()
+            self.swipe_shooting_time_up()
+            self.swipe_shooting_time_up()
+            self.swipe_shooting_time_up()
+            self.swipe_shooting_time_up()
+            self.swipe_shooting_time_up()
+            self.swipe_shooting_time_up()
+            self.swipe_shooting_time_up()
+            self.swipe_shooting_time_up()
+            self.swipe_shooting_time_up()
+            self.swipe_shooting_time_up()
+            self.swipe_shooting_time_down()
+            self.blank_02()
+
+        elif locator['name'] == '倒计时' or \
+                locator['name'] == 'off' or \
+                locator['name'] == '3s' or \
+                locator['name'] == '5s' or \
+                locator['name'] == '7s' or \
+                locator['name'] == '设置' or \
+                locator['name'] == '视频' or \
+                locator['name'] == '云台' or \
+                locator['name'] == '通用' or \
+                locator['name'] == '闪光灯' or \
+                locator['name'] == '闪光灯关闭' or \
+                locator['name'] == '闪光灯自动' or \
+                locator['name'] == '闪光灯常亮' or \
+                locator['name'] == '闪光灯打开' or \
+                locator['name'] == '通用页确定' or \
+                locator['name'] == '通用页关闭' or \
+                locator['name'] == '常亮' or \
+                locator['name'] == '网络显示' or \
+                locator['name'] == '网络显示关闭' or \
+                locator['name'] == '方格' or \
+                locator['name'] == '方格+对角线' or \
+                locator['name'] == '白平衡' or \
+                locator['name'] == '自动' or \
+                locator['name'] == '晴天' or \
+                locator['name'] == '阴天' or \
+                locator['name'] == '白炽灯' or \
+                locator['name'] == '荧光灯' or \
+                locator['name'] == '返回' or \
+                locator['name'] == '手势控制' or \
+                locator['name'] == '跟随+拍摄' or \
+                locator['name'] == '仅拍摄' or \
+                locator['name'] == '问号' or \
+                locator['name'] == '行走' or \
+                locator['name'] == '运动' or \
+                locator['name'] == '跟随' or \
+                locator['name'] == '左右跟随' or \
+                locator['name'] == '全锁定' or \
+                locator['name'] == '横滚航向跟随' or \
+                locator['name'] == '快' or \
+                locator['name'] == '中' or \
+                locator['name'] == '慢' or \
+                locator['name'] == '垂直反向' or \
+                locator['name'] == 'M键开关' or \
+                locator['name'] == '切换拍照/录像' or \
+                locator['name'] == '快捷菜单' or \
+                locator['name'] == '云台自动校准' or \
+                locator['name'] == '取消' or \
+                locator['name'] == '开始' or \
+                locator['name'] == '设备管理' or \
+                locator['name'] == 'C17F设备' or \
+                locator['name'] == 'C17F设备Button' or \
+                locator['name'] == '分辨率' or \
+                locator['name'] == 'resolution_720' or \
+                locator['name'] == 'resolution_1080' or \
+                locator['name'] == 'resolution_4k' or \
+                locator['name'] == '5x' or \
+                locator['name'] == '10x' or \
+                locator['name'] == '15x' or \
+                locator['name'] == '30x' or \
+                locator['name'] == '运动延时' or \
+                locator['name'] == '延时摄影' or \
+                locator['name'] == '全景' or \
+                locator['name'] == '录像' or \
+                locator['name'] == '拍照' or \
+                locator['name'] == 'SMART':
+            self.is_click((locator['type'], locator['value']))
+
+        elif locator['name'] == '相册' or \
+                locator['name'] == '切换摄像头' or \
+                locator['name'] == '切换SMART' or \
+                locator['name'] == '全部' or \
+                locator['name'] == '视频' or \
+                locator['name'] == '照片' or \
+                locator['name'] == '喜欢' or \
+                locator['name'] == '图' or \
+                locator['name'] == '删除图' or \
+                locator['name'] == '选择' or \
+                locator['name'] == '全选' or \
+                locator['name'] == 'favorite' or \
+                locator['name'] == '相册页取消' or \
+                locator['name'] == '视频开启' or \
+                locator['name'] == '视频暂停' or \
+                locator['name'] == '图片信息关闭' or \
+                locator['name'] == '图片信息' or \
+                locator['name'] == '剪辑返回' or \
+                locator['name'] == '退出/取消' or \
+                locator['name'] == '保存并退出/确定' or \
+                locator['name'] == '相册返回' or \
+                locator['name'] == '确定删除':
+            self.is_click((locator['type'], locator['value']))
+
+        elif locator['name'] == '0.5秒' or \
+                locator['name'] == '2秒' or \
+                locator['name'] == '3秒' or \
+                locator['name'] == '4秒' or \
+                locator['name'] == '5秒' or \
+                locator['name'] == '6秒' or \
+                locator['name'] == '7秒' or \
+                locator['name'] == '8秒' or \
+                locator['name'] == '9秒' or \
+                locator['name'] == '10秒' or \
+                locator['name'] == '13秒' or \
+                locator['name'] == '15秒' or \
+                locator['name'] == '20秒' or \
+                locator['name'] == '25秒' or \
+                locator['name'] == '30秒' or \
+                locator['name'] == '40秒' or \
+                locator['name'] == '60秒' or \
+                locator['name'] == '∞' or \
+                locator['name'] == '1min' or \
+                locator['name'] == '2min' or \
+                locator['name'] == '3min' or \
+                locator['name'] == '4min' or \
+                locator['name'] == '5min' or \
+                locator['name'] == '10min' or \
+                locator['name'] == '20min' or \
+                locator['name'] == '30min' or \
+                locator['name'] == '1h' or \
+                locator['name'] == '3h' or \
+                locator['name'] == '5h' or \
+                locator['name'] == '间隔' or \
+                locator['name'] == '第一时长' or \
+                locator['name'] == '第二时长' or \
+                locator['name'] == '箭头' or \
+                locator['name'] == '轨迹_path' or \
+                locator['name'] == '添加视频' or \
+                locator['name'] == '删除视频':
+            self.is_click((locator['type'], locator['value']))
+
+        elif locator['name'] == '使用' or \
+                locator['name'] == '使用后返回' or \
+                locator['name'] == '草稿箱' or \
+                locator['name'] == '重拍' or \
+                locator['name'] == '拍下一段' or \
+                locator['name'] == '草稿' or \
+                locator['name'] == 'SMART3保存' or \
+                locator['name'] == 'smart蓝牙' or \
+                locator['name'] == '拍摄教程缩小' or \
+                locator['name'] == '拍摄教程放大' or \
+                locator['name'] == '预览后保存' or \
+                locator['name'] == '发布的返回键' or \
+                locator['name'] == '为你的作品写一段描述吧' or \
+                locator['name'] == '快手按钮' or \
+                locator['name'] == '同步发布按钮' or \
+                locator['name'] == '同步发布' or \
+                locator['name'] == '发布' or \
+                locator['name'] == '定位' or \
+                locator['name'] == '添加标签' or \
+                locator['name'] == '标签2' or \
+                locator['name'] == '删除标签1' or \
+                locator['name'] == '视频开/关':
+            self.is_click((locator['type'], locator['value']))
+
+
 if __name__ == '__main__':
-    camera = read_yaml('Camera')['手势控制'][1]
-    print(camera)
-    # print((camera['type'],camera['value']))
+    beauti = read_yaml('Camera')['美颜']
+    print((beauti[9]['type'], beauti[9]['value']))
+    # print((camera[0]['type'], camera[0]['value']))
+    # print((navigation['type'], navigation['value']))
     # print((camera[11]['type'],camera[11]['value']))
     # print((camera[18]['type'], camera[18]['value']))
-    # locator1 = [(read_yaml('Camera')['相机'][12]),(read_yaml('Camera')['相机'][14]),(read_yaml('Camera')['相机'][18]),(read_yaml('Camera')['相机'][19]),(read_yaml('Camera')['相机'][20])]
+    # locator1 = [(read_yaml('Camera')['相机'][0]),(read_yaml('Camera')['相机'][1]),(read_yaml('Camera')['相机'][2]),(read_yaml('Camera')['相机'][3]),(read_yaml('Camera')['相机'][4])]
     # for i in locator1:
     #     print((i['type'], i['value']))

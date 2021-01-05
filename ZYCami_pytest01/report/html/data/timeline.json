@@ -4,74 +4,5040 @@
   "children" : [ {
     "name" : "DESKTOP-4KG9PK6",
     "children" : [ {
-      "name" : "82328-MainThread",
+      "name" : "38132-MainThread",
       "children" : [ {
-        "name" : "倒计时",
-        "uid" : "9498edbb9ca19ff2",
-        "parentUid" : "41a5fadf5eeed74f11e94540f0392b95",
+        "name" : "关闭、方格、对角+方格",
+        "uid" : "d71fa29e90d189cf",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
         "status" : "passed",
         "time" : {
-          "start" : 1607502127722,
-          "stop" : 1607502133378,
-          "duration" : 5656
+          "start" : 1609831936999,
+          "stop" : 1609831939278,
+          "duration" : 2279
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'name': '倒计时', 'type': 'id', 'value': 'iv_countdown'}" ]
+        "parameters" : [ "{'name': '网络显示', 'type': 'id', 'value': 'cb_video_grid'}" ]
       }, {
-        "name" : "倒计时",
-        "uid" : "109fcbb9a8465e75",
-        "parentUid" : "41a5fadf5eeed74f11e94540f0392b95",
+        "name" : "跟随、拍摄",
+        "uid" : "8a5ce43ff6cd6699",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
         "status" : "passed",
         "time" : {
-          "start" : 1607502133381,
-          "stop" : 1607502139062,
-          "duration" : 5681
+          "start" : 1609831572308,
+          "stop" : 1609831576209,
+          "duration" : 3901
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'name': '3s', 'type': 'xpath', 'value': \"//*[@text='3s']\"}" ]
+        "parameters" : [ "{'name': '手势控制', 'type': 'id', 'value': 'll_gesture'}" ]
+      }, {
+        "name" : "视频分辨率",
+        "uid" : "3bb91332e5b8e9fd",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832097150,
+          "stop" : 1609832097676,
+          "duration" : 526
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'resolution_4k', 'type': 'id', 'value': 'rb_resolution_4k'}" ]
+      }, {
+        "name" : "关闭、方格、对角+方格",
+        "uid" : "f376702c8811a957",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832179603,
+          "stop" : 1609832181887,
+          "duration" : 2284
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '网络显示', 'type': 'id', 'value': 'cb_video_grid'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "180dbb6589298b8a",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832241593,
+          "stop" : 1609832249466,
+          "duration" : 7873
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '变焦速度', 'type': 'id', 'value': 'sb_zoom_speed'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "d3907cdf0c51eae7",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832271904,
+          "stop" : 1609832275225,
+          "duration" : 3321
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '切换拍照/录像', 'type': 'xpath', 'value': \"//*[@text='切换拍照/录像']\"}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "3f3af78bd2d249a9",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831205698,
+          "stop" : 1609831208025,
+          "duration" : 2327
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '白炽灯', 'type': 'xpath', 'value': \"//*[@text='白炽灯']\"}" ]
+      }, {
+        "name" : "间隔,拍摄时长,轨迹",
+        "uid" : "cdb0435989220e96",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832115685,
+          "stop" : 1609832128829,
+          "duration" : 13144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '∞', 'type': 'xpath', 'value': \"//*[@text='∞']\"}" ]
       }, {
         "name" : "美颜",
-        "uid" : "7ef42af918291783",
-        "parentUid" : "41a5fadf5eeed74f11e94540f0392b95",
+        "uid" : "79d92c7ac5a4d8f0",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
         "status" : "passed",
         "time" : {
-          "start" : 1607502120897,
-          "stop" : 1607502127720,
-          "duration" : 6823
+          "start" : 1609830952018,
+          "stop" : 1609830972681,
+          "duration" : 20663
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'name': '拍照', 'type': 'id', 'value': 'cb_action'}" ]
+        "parameters" : [ "{'name': '美颜按钮', 'type': 'id', 'value': 'iv_beauty'}", "{'name': '美颜滚动条', 'type': 'id', 'value': 'sb_roll'}", "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
       }, {
-        "name" : "test_front",
-        "uid" : "99d2a07e7a3129bb",
-        "parentUid" : "41a5fadf5eeed74f11e94540f0392b95",
+        "name" : "视频分辨率,倍数",
+        "uid" : "416e7d086c5c960d",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
         "status" : "passed",
         "time" : {
-          "start" : 1607502113381,
-          "stop" : 1607502120895,
-          "duration" : 7514
+          "start" : 1609832364661,
+          "stop" : 1609832379703,
+          "duration" : 15042
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "2c52857bb904b256",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831614584,
+          "stop" : 1609831617891,
+          "duration" : 3307
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '快', 'type': 'id', 'value': 'rb_high'}" ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "9ba55d6ca86c55a",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609832595375,
+          "stop" : 1609832617371,
+          "duration" : 21996
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '剪辑返回', 'type': 'id', 'value': 'iv_title_left'}" ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "7612720be0b338c7",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609832481539,
+          "stop" : 1609832506571,
+          "duration" : 25032
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '爱心', 'type': 'id', 'value': 'favorite'}" ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "8ce3d6fffd65081b",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609832534164,
+          "stop" : 1609832559196,
+          "duration" : 25032
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '爱心', 'type': 'id', 'value': 'favorite'}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "d8325f97a4af6447",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831466885,
+          "stop" : 1609831470106,
+          "duration" : 3221
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '眼睛放大', 'type': 'xpath', 'value': \"//*[@text='眼睛放大']\"}" ]
+      }, {
+        "name" : "选择后点赞或者删除",
+        "uid" : "4c5193f02a78ebd7",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832400870,
+          "stop" : 1609832403933,
+          "duration" : 3063
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '照片', 'type': 'id', 'value': 'photo'}" ]
+      }, {
+        "name" : "关闭、方格、对角+方格",
+        "uid" : "413225e90894e9e6",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831193568,
+          "stop" : 1609831195858,
+          "duration" : 2290
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '网络显示', 'type': 'id', 'value': 'cb_video_grid'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "c7b5da72a3f86163",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831617893,
+          "stop" : 1609831621243,
+          "duration" : 3350
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '中', 'type': 'xpath', 'value': \"//*[@text='中']\"}" ]
+      }, {
+        "name" : "关闭、方格、对角+方格",
+        "uid" : "67463943e700c69a",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831550369,
+          "stop" : 1609831552664,
+          "duration" : 2295
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '网络显示关闭', 'type': 'id', 'value': 'rb_grid_none'}" ]
+      }, {
+        "name" : "间隔,拍摄时长,轨迹",
+        "uid" : "b837ed86288cec6",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832129110,
+          "stop" : 1609832130501,
+          "duration" : 1391
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '添加视频', 'type': 'id', 'value': 'view_add_point'}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "2b6bd35a5efd81ab",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832193908,
+          "stop" : 1609832196193,
+          "duration" : 2285
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '自动', 'type': 'xpath', 'value': \"//*[@text='自动']\"}" ]
+      }, {
+        "name" : "设备连接、断开设备",
+        "uid" : "f63bcee380f0c0b1",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831323832,
+          "stop" : 1609831327171,
+          "duration" : 3339
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '通用', 'type': 'xpath', 'value': \"//*[@text='通用']\"}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "244f0ea9271d6217",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832285152,
+          "stop" : 1609832288459,
+          "duration" : 3307
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '设备管理', 'type': 'xpath', 'value': \"//*[@text='设备管理']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "11ce68e6c191ae1e",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831621245,
+          "stop" : 1609831624601,
+          "duration" : 3356
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '慢', 'type': 'xpath', 'value': \"//*[@text='慢']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "85f9a2e90be59e54",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832234933,
+          "stop" : 1609832238260,
+          "duration" : 3327
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '中', 'type': 'xpath', 'value': \"//*[@text='中']\"}" ]
+      }, {
+        "name" : "设备连接、断开设备",
+        "uid" : "c1b8536647315aad",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831340150,
+          "stop" : 1609831343488,
+          "duration" : 3338
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'C17F设备', 'type': 'xpath', 'value': \"//*[@text='SMOOTH-X_C17F']/following-sibling::android.widget.ImageView\"}" ]
+      }, {
+        "name" : "跟随、拍摄",
+        "uid" : "73a90e8bae46cd1",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831576211,
+          "stop" : 1609831580072,
+          "duration" : 3861
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '跟随+拍摄', 'type': 'id', 'value': 'tv_follow_take'}" ]
+      }, {
+        "name" : "选择后点赞或者删除",
+        "uid" : "a2143c93518dabe3",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832411437,
+          "stop" : 1609832413734,
+          "duration" : 2297
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '图', 'type': 'id', 'value': 'story_name'}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "8c589020353c757d",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609830935932,
+          "stop" : 1609830952016,
+          "duration" : 16084
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '美颜按钮', 'type': 'id', 'value': 'iv_beauty'}", "{'name': '美白', 'type': 'xpath', 'value': \"//*[@text='美白']\"}", "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "deb8bb4cdc91c856",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832314286,
+          "stop" : 1609832330326,
+          "duration" : 16040
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "8c51067cb9777b53",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831677870,
+          "stop" : 1609831681139,
+          "duration" : 3269
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '取消', 'type': 'id', 'value': 'tv_cancel'}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "243401613f2d722c",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831488710,
+          "stop" : 1609831495665,
+          "duration" : 6955
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '美颜滚动条', 'type': 'id', 'value': 'sb_roll'}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "51edc93dfa5db69b",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831560137,
+          "stop" : 1609831562465,
+          "duration" : 2328
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '晴天', 'type': 'xpath', 'value': \"//*[@text='晴天']\"}" ]
+      }, {
+        "name" : "常亮、关闭",
+        "uid" : "7b6eca546759edd6",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832170511,
+          "stop" : 1609832172786,
+          "duration" : 2275
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '闪光灯', 'type': 'id', 'value': 'cb_video_flash'}" ]
+      }, {
+        "name" : "常亮、关闭",
+        "uid" : "87b8c3aa4ee7e1b2",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832177330,
+          "stop" : 1609832179601,
+          "duration" : 2271
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '闪光灯', 'type': 'id', 'value': 'cb_video_flash'}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "30bf6f40d0462026",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831770844,
+          "stop" : 1609831773144,
+          "duration" : 2300
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '白炽灯', 'type': 'xpath', 'value': \"//*[@text='白炽灯']\"}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "70a3cd6f6d09d32f",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832042947,
+          "stop" : 1609832046246,
+          "duration" : 3299
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '取消', 'type': 'id', 'value': 'tv_cancel'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "4c4d759e1f07863d",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831874870,
+          "stop" : 1609831877872,
+          "duration" : 3002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '刷新', 'type': 'id', 'value': 'iv_scan'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "8f3fabbb505984e9",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832036650,
+          "stop" : 1609832039662,
+          "duration" : 3012
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '刷新', 'type': 'id', 'value': 'iv_scan'}" ]
+      }, {
+        "name" : "关闭、方格、对角+方格",
+        "uid" : "bb7fe3303f35c3de",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831188977,
+          "stop" : 1609831191269,
+          "duration" : 2292
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '方格+对角线', 'type': 'id', 'value': 'rb_grid_and_diagonal'}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "90cc67ed23e7f906",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831510646,
+          "stop" : 1609831525686,
+          "duration" : 15040
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "44d7e0305aca84ac",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831210359,
+          "stop" : 1609831213254,
+          "duration" : 2895
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '返回', 'type': 'id', 'value': 'iv_back'}" ]
+      }, {
+        "name" : "关闭、方格、对角+方格",
+        "uid" : "450ef0dd52a2a49d",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831186687,
+          "stop" : 1609831188975,
+          "duration" : 2288
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '方格', 'type': 'id', 'value': 'rb_grid'}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "be15123730a0341d",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831951346,
+          "stop" : 1609831953640,
+          "duration" : 2294
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '荧光灯', 'type': 'xpath', 'value': \"//*[@text='荧光灯']\"}" ]
+      }, {
+        "name" : "选择后点赞或者删除",
+        "uid" : "cbcbb933ff8494da",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832437431,
+          "stop" : 1609832440341,
+          "duration" : 2910
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'favorite', 'type': 'id', 'value': 'add_favorite'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "bd6ded0c79f040f0",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831647396,
+          "stop" : 1609831650669,
+          "duration" : 3273
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'M键开关', 'type': 'id', 'value': 'cb_video_click_m'}" ]
+      }, {
+        "name" : "设备连接、断开设备",
+        "uid" : "59e11282746e4d5a",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831349793,
+          "stop" : 1609831353129,
+          "duration" : 3336
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'C17F设备Button', 'type': 'xpath', 'value': \"//*[@text='SMOOTH-X_C17F']/following-sibling::android.widget.Button\"}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "862e5fbefee7d9bb",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831773147,
+          "stop" : 1609831775443,
+          "duration" : 2296
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '荧光灯', 'type': 'xpath', 'value': \"//*[@text='荧光灯']\"}" ]
+      }, {
+        "name" : "视频分辨率,倍数",
+        "uid" : "f631220de0c063d1",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832360089,
+          "stop" : 1609832362379,
+          "duration" : 2290
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '30x', 'type': 'id', 'value': 'rb_multiple_30x'}" ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "29c87e372ece5fbf",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831383072,
+          "stop" : 1609831395420,
+          "duration" : 12348
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '手势', 'type': 'id', 'value': 'cb_gesture'}" ]
+      }, {
+        "name" : "720、1080、4k",
+        "uid" : "d42d0959df4fb716",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831525975,
+          "stop" : 1609831527157,
+          "duration" : 1182
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'resolution_4k', 'type': 'id', 'value': 'rb_resolution_4k'}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "6b89971f99059ec6",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832205366,
+          "stop" : 1609832208231,
+          "duration" : 2865
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '返回', 'type': 'id', 'value': 'iv_back'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "3a050ac624de737c",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831313839,
+          "stop" : 1609831317164,
+          "duration" : 3325
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '切换拍照/录像', 'type': 'xpath', 'value': \"//*[@text='切换拍照/录像']\"}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "98799788c30941b7",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832310994,
+          "stop" : 1609832314283,
+          "duration" : 3289
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '通用页关闭', 'type': 'id', 'value': 'iv_close'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "ffbadace8e87fe57",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831602820,
+          "stop" : 1609831606665,
+          "duration" : 3845
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '运动', 'type': 'xpath', 'value': \"//*[@text='运动']\"}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "4c49687ab94a23af",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832200758,
+          "stop" : 1609832203074,
+          "duration" : 2316
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '白炽灯', 'type': 'xpath', 'value': \"//*[@text='白炽灯']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "e3ba9b1e02a57a92",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831262591,
+          "stop" : 1609831265963,
+          "duration" : 3372
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '运动', 'type': 'xpath', 'value': \"//*[@text='运动']\"}" ]
+      }, {
+        "name" : "常亮、关闭",
+        "uid" : "648b876bb50a9328",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831531068,
+          "stop" : 1609831533867,
+          "duration" : 2799
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '视频', 'type': 'xpath', 'value': \"//*[@text='视频']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "7d4308d793cb315b",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832238262,
+          "stop" : 1609832241590,
+          "duration" : 3328
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '慢', 'type': 'xpath', 'value': \"//*[@text='慢']\"}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "d65b5dc0e39d5742",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609830915294,
+          "stop" : 1609830935928,
+          "duration" : 20634
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '美颜按钮', 'type': 'id', 'value': 'iv_beauty'}", "{'name': '美颜滚动条', 'type': 'id', 'value': 'sb_roll'}", "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "视频分辨率",
+        "uid" : "1cebc1685cf364f",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832095641,
+          "stop" : 1609832095905,
+          "duration" : 264
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '分辨率', 'type': 'id', 'value': 'iv_dpi'}" ]
+      }, {
+        "name" : "3、5、7、off",
+        "uid" : "84f62ed2c7427022",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831147943,
+          "stop" : 1609831164342,
+          "duration" : 16399
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '倒计时', 'type': 'id', 'value': 'iv_countdown'}", "{'name': 'off', 'type': 'xpath', 'value': \"//*[@text='off']\"}", "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "6a2fd374ce16b6e8",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831273274,
+          "stop" : 1609831276573,
+          "duration" : 3299
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '快', 'type': 'id', 'value': 'rb_high'}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "53a1bccfa796d924",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831450662,
+          "stop" : 1609831457589,
+          "duration" : 6927
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '美颜滚动条', 'type': 'id', 'value': 'sb_roll'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "b6f70f6e71ef89e9",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831801815,
+          "stop" : 1609831805097,
+          "duration" : 3282
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '快', 'type': 'id', 'value': 'rb_high'}" ]
+      }, {
+        "name" : "跟随、拍摄",
+        "uid" : "d2899d716c0bd404",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831592039,
+          "stop" : 1609831596193,
+          "duration" : 4154
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '去水印', 'type': 'id', 'value': 'cb_watermark'}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "20ccbb85095be744",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831436129,
+          "stop" : 1609831438419,
+          "duration" : 2290
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '自动美颜', 'type': 'xpath', 'value': \"//*[@text='自动美颜']\"}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "e6112f00751d15ef",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831441330,
+          "stop" : 1609831448345,
+          "duration" : 7015
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '美颜滚动条', 'type': 'id', 'value': 'sb_roll'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "afb8d0a340c67b89",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831784671,
+          "stop" : 1609831787996,
+          "duration" : 3325
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '云台', 'type': 'xpath', 'value': \"//*[@text='云台']\"}" ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "20a9a908608726bd",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832763565,
+          "stop" : 1609832768828,
+          "duration" : 5263
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '相册返回', 'type': 'id', 'value': 'back'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "f0866664b6a03bd9",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832001926,
+          "stop" : 1609832006069,
+          "duration" : 4143
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '水平反向', 'type': 'id', 'value': 'ctv_yaw_reverse'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "2f244ba602c040f",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832278551,
+          "stop" : 1609832281826,
+          "duration" : 3275
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'M键开关', 'type': 'id', 'value': 'cb_video_click_m'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "d537068997efa090",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832267690,
+          "stop" : 1609832271901,
+          "duration" : 4211
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '默认', 'type': 'xpath', 'value': \"//*[@text='默认']\"}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "1c6e19151789ed38",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832211406,
+          "stop" : 1609832214578,
+          "duration" : 3172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '去水印', 'type': 'id', 'value': 'cb_watermark'}" ]
+      }, {
+        "name" : "视频分辨率,倍数",
+        "uid" : "925718fd9999751b",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832346335,
+          "stop" : 1609832348634,
+          "duration" : 2299
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '分辨率', 'type': 'id', 'value': 'iv_dpi'}" ]
+      }, {
+        "name" : "常亮、关闭",
+        "uid" : "916eb129d2616afb",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831742284,
+          "stop" : 1609831744568,
+          "duration" : 2284
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '闪光灯常亮', 'type': 'id', 'value': 'rb_flash_torch'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "309e3084027aa19a",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831306273,
+          "stop" : 1609831309567,
+          "duration" : 3294
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'M键开关', 'type': 'id', 'value': 'cb_video_click_m'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "e5ca0d1057add620",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831864995,
+          "stop" : 1609831868291,
+          "duration" : 3296
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '取消', 'type': 'id', 'value': 'tv_cancel'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "8a88f39787751e7b",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831791269,
+          "stop" : 1609831794616,
+          "duration" : 3347
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '运动', 'type': 'xpath', 'value': \"//*[@text='运动']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "137b8210baf94783",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831845389,
+          "stop" : 1609831848704,
+          "duration" : 3315
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '快捷菜单', 'type': 'xpath', 'value': \"//*[@text='快捷菜单']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "2b4f6fa11663ec72",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831787998,
+          "stop" : 1609831791268,
+          "duration" : 3270
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '行走', 'type': 'id', 'value': 'rb_walk'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "beadf79f3e914959",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831694092,
+          "stop" : 1609831697386,
+          "duration" : 3294
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '通用页关闭', 'type': 'id', 'value': 'iv_close'}" ]
+      }, {
+        "name" : "间隔,拍摄时长,轨迹",
+        "uid" : "ea400863fd82a33d",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832132775,
+          "stop" : 1609832133531,
+          "duration" : 756
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '添加视频', 'type': 'id', 'value': 'view_add_point'}" ]
+      }, {
+        "name" : "常亮、关闭",
+        "uid" : "98996fbec940d6d0",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831923269,
+          "stop" : 1609831925548,
+          "duration" : 2279
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '闪光灯关闭', 'type': 'id', 'value': 'rb_flash_close'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "2d5864608eb8a043",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831972747,
+          "stop" : 1609831976664,
+          "duration" : 3917
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '跟随', 'type': 'xpath', 'value': \"//*[@text='跟随模式']\"}" ]
+      }, {
+        "name" : "关闭、方格、对角+方格",
+        "uid" : "a873babc70af5a16",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831753703,
+          "stop" : 1609831755982,
+          "duration" : 2279
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '方格+对角线', 'type': 'id', 'value': 'rb_grid_and_diagonal'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "9385731cba3e5d2c",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832253683,
+          "stop" : 1609832257832,
+          "duration" : 4149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '水平反向', 'type': 'id', 'value': 'ctv_yaw_reverse'}" ]
+      }, {
+        "name" : "选择后点赞或者删除",
+        "uid" : "b66ea3a20fb9168c",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832434554,
+          "stop" : 1609832437428,
+          "duration" : 2874
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '全选', 'type': 'id', 'value': 'header_select'}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "cd8efbca22a29398",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831768047,
+          "stop" : 1609831770842,
+          "duration" : 2795
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '阴天', 'type': 'xpath', 'value': \"//*[@text='阴天']\"}" ]
+      }, {
+        "name" : "选择后点赞或者删除",
+        "uid" : "3dff11e0af0cf4ee",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832418910,
+          "stop" : 1609832421783,
+          "duration" : 2873
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'favorite', 'type': 'id', 'value': 'add_favorite'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "69c5f7ba12185735",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832264391,
+          "stop" : 1609832267689,
+          "duration" : 3298
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'M键开关', 'type': 'id', 'value': 'cb_video_click_m'}" ]
+      }, {
+        "name" : "选择后点赞或者删除",
+        "uid" : "8a72dc938a57fab",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832428646,
+          "stop" : 1609832431458,
+          "duration" : 2812
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '删除图', 'type': 'id', 'value': 'delete'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "bca21eaacefba3ad",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832062461,
+          "stop" : 1609832078492,
+          "duration" : 16031
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "test_front",
+        "uid" : "7ad6f6a95eda7435",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831729514,
+          "stop" : 1609831732856,
+          "duration" : 3342
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "登录成功",
-        "uid" : "5c2c35ebab644492",
-        "parentUid" : "41a5fadf5eeed74f11e94540f0392b95",
-        "status" : "passed",
+        "name" : "编辑、删除",
+        "uid" : "23bfc373b5cc5e7a",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "broken",
         "time" : {
-          "start" : 1607502139076,
-          "stop" : 1607502145005,
-          "duration" : 5929
+          "start" : 1609832591071,
+          "stop" : 1609832593366,
+          "duration" : 2295
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'17195453626'", "'00000000'" ]
+        "parameters" : [ "{'name': '图片信息关闭', 'type': 'id', 'value': 'close'}" ]
+      }, {
+        "name" : "跟随、拍摄",
+        "uid" : "239349cf59c5416b",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831228276,
+          "stop" : 1609831232471,
+          "duration" : 4195
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '去水印', 'type': 'id', 'value': 'cb_watermark'}" ]
+      }, {
+        "name" : "设备连接、断开设备",
+        "uid" : "d19bf13bb421c032",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831346778,
+          "stop" : 1609831349790,
+          "duration" : 3012
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '刷新', 'type': 'id', 'value': 'iv_scan'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "a8ce52028c459487",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831823835,
+          "stop" : 1609831827969,
+          "duration" : 4134
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '水平反向', 'type': 'id', 'value': 'ctv_yaw_reverse'}" ]
+      }, {
+        "name" : "视频分辨率,倍数",
+        "uid" : "6e0cc0b97fa029b9",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832379706,
+          "stop" : 1609832394714,
+          "duration" : 15008
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "27bfc8d60844eb10",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831479289,
+          "stop" : 1609831486377,
+          "duration" : 7088
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '美颜滚动条', 'type': 'id', 'value': 'sb_roll'}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "f4c886e21d68d01",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831775446,
+          "stop" : 1609831778326,
+          "duration" : 2880
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '返回', 'type': 'id', 'value': 'iv_back'}" ]
+      }, {
+        "name" : "视频分辨率",
+        "uid" : "ff214df9f7354145",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832097679,
+          "stop" : 1609832098217,
+          "duration" : 538
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '返回', 'type': 'id', 'value': 'iv_back'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "317fb165510de0e",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831644111,
+          "stop" : 1609831647393,
+          "duration" : 3282
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '垂直反向', 'type': 'id', 'value': 'ctv_roll_reverse'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "bf728a784eff1fab",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831259309,
+          "stop" : 1609831262588,
+          "duration" : 3279
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '行走', 'type': 'id', 'value': 'rb_walk'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "3f81482f40205950",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831808420,
+          "stop" : 1609831811741,
+          "duration" : 3321
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '慢', 'type': 'xpath', 'value': \"//*[@text='慢']\"}" ]
+      }, {
+        "name" : "3、5、7、off",
+        "uid" : "8d57e0424bc2958b",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831115831,
+          "stop" : 1609831131894,
+          "duration" : 16063
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '倒计时', 'type': 'id', 'value': 'iv_countdown'}", "{'name': '5s', 'type': 'xpath', 'value': \"//*[@text='5s']\"}", "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "725403135df9561a",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831208029,
+          "stop" : 1609831210357,
+          "duration" : 2328
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '荧光灯', 'type': 'xpath', 'value': \"//*[@text='荧光灯']\"}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "2d42ade8969aadd4",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609830845948,
+          "stop" : 1609830861963,
+          "duration" : 16015
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '美颜按钮', 'type': 'id', 'value': 'iv_beauty'}", "{'name': '自动美颜', 'type': 'xpath', 'value': \"//*[@text='自动美颜']\"}", "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "f5a03ff2d6d61ede",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831763418,
+          "stop" : 1609831765747,
+          "duration" : 2329
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '自动', 'type': 'xpath', 'value': \"//*[@text='自动']\"}" ]
+      }, {
+        "name" : "选择后点赞或者删除",
+        "uid" : "8e4d10ebbe751fde",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832459889,
+          "stop" : 1609832462789,
+          "duration" : 2900
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '选择', 'type': 'id', 'value': 'select'}" ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "94997c64539b9c9",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609832509320,
+          "stop" : 1609832531379,
+          "duration" : 22059
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '相册页取消', 'type': 'id', 'value': 'cancel'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "8ec32feaf027cd86",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832059176,
+          "stop" : 1609832062458,
+          "duration" : 3282
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '通用页关闭', 'type': 'id', 'value': 'iv_close'}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "26fa420030574922",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831062707,
+          "stop" : 1609831083366,
+          "duration" : 20659
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '美颜按钮', 'type': 'id', 'value': 'iv_beauty'}", "{'name': '美颜滚动条', 'type': 'id', 'value': 'sb_roll'}", "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "87118bdd9a44b8ff",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831949062,
+          "stop" : 1609831951344,
+          "duration" : 2282
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '白炽灯', 'type': 'xpath', 'value': \"//*[@text='白炽灯']\"}" ]
+      }, {
+        "name" : "关闭、方格、对角+方格",
+        "uid" : "abe1ca12006253d0",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831934714,
+          "stop" : 1609831936996,
+          "duration" : 2282
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '网络显示关闭', 'type': 'id', 'value': 'rb_grid_none'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "7c8de46dd1d03381",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832015896,
+          "stop" : 1609832020101,
+          "duration" : 4205
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '默认', 'type': 'xpath', 'value': \"//*[@text='默认']\"}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "852667019579e47e",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831760537,
+          "stop" : 1609831763415,
+          "duration" : 2878
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '白平衡', 'type': 'id', 'value': 'tv_white_balance'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "42d2b9cd9bff8dd5",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831302971,
+          "stop" : 1609831306271,
+          "duration" : 3300
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '垂直反向', 'type': 'id', 'value': 'ctv_roll_reverse'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "b1f70d7e784fd66f",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832046249,
+          "stop" : 1609832049556,
+          "duration" : 3307
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'C17F设备', 'type': 'xpath', 'value': \"//*[@text='SMOOTH-X_C17F']/following-sibling::android.widget.ImageView\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "b3289b7f0a02758b",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831320519,
+          "stop" : 1609831323830,
+          "duration" : 3311
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'M键开关', 'type': 'id', 'value': 'cb_video_click_m'}" ]
+      }, {
+        "name" : "间隔,拍摄时长,轨迹",
+        "uid" : "efe62b60beb41a83",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832132031,
+          "stop" : 1609832132772,
+          "duration" : 741
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '添加视频', 'type': 'id', 'value': 'view_add_point'}" ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "d3fc5d4d5b70f072",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832758285,
+          "stop" : 1609832763558,
+          "duration" : 5273
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '相册返回', 'type': 'id', 'value': 'back'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "7ec830cb9f959d3d",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832307657,
+          "stop" : 1609832310991,
+          "duration" : 3334
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'C17F设备Button', 'type': 'xpath', 'value': \"//*[@text='SMOOTH-X_C17F']/following-sibling::android.widget.Button\"}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "ba04fd68fe8702d9",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831567097,
+          "stop" : 1609831569421,
+          "duration" : 2324
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '荧光灯', 'type': 'xpath', 'value': \"//*[@text='荧光灯']\"}" ]
+      }, {
+        "name" : "间隔,拍摄时长,轨迹",
+        "uid" : "cf538e86a1449a62",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832133533,
+          "stop" : 1609832133817,
+          "duration" : 284
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '删除视频', 'type': 'id', 'value': 'iv_delete'}" ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "9a6e2f744f9964d1",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832468066,
+          "stop" : 1609832473345,
+          "duration" : 5279
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '视频开启', 'type': 'id', 'value': 'video_play_icon'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "89a359c8b5457a16",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831252626,
+          "stop" : 1609831255953,
+          "duration" : 3327
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '设置', 'type': 'id', 'value': 'iv_setting'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "8623b6dfea9cbb78",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831805099,
+          "stop" : 1609831808418,
+          "duration" : 3319
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '中', 'type': 'xpath', 'value': \"//*[@text='中']\"}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "e0ce872f8f4898ed",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832029991,
+          "stop" : 1609832033319,
+          "duration" : 3328
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '通用', 'type': 'xpath', 'value': \"//*[@text='通用']\"}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "beff355a85af2205",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831959670,
+          "stop" : 1609831962823,
+          "duration" : 3153
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '去水印', 'type': 'id', 'value': 'cb_watermark'}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "a62f3a31e8741925",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609830861966,
+          "stop" : 1609830878548,
+          "duration" : 16582
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '美颜按钮', 'type': 'id', 'value': 'iv_beauty'}", "{'name': '瘦脸', 'type': 'xpath', 'value': \"//*[@text='瘦脸']\"}", "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "13b817bb2be90cd2",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831989866,
+          "stop" : 1609831997723,
+          "duration" : 7857
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '变焦速度', 'type': 'id', 'value': 'sb_zoom_speed'}" ]
+      }, {
+        "name" : "关闭、方格、对角+方格",
+        "uid" : "b59c7dfd6a9599e5",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831184394,
+          "stop" : 1609831186684,
+          "duration" : 2290
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '网络显示', 'type': 'id', 'value': 'cb_video_grid'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "f6c7d7ebe6754bc1",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831858664,
+          "stop" : 1609831861678,
+          "duration" : 3014
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '刷新', 'type': 'id', 'value': 'iv_scan'}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "3471e76260ccf40c",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609830827346,
+          "stop" : 1609830845944,
+          "duration" : 18598
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '美颜按钮', 'type': 'id', 'value': 'iv_beauty'}", "{'name': '取消美颜', 'type': 'xpath', 'value': '//android.widget.LinearLayout/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.ImageView'}", "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "关闭、方格、对角+方格",
+        "uid" : "17339c38508f2d3f",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831543490,
+          "stop" : 1609831545788,
+          "duration" : 2298
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '网络显示', 'type': 'id', 'value': 'cb_video_grid'}" ]
+      }, {
+        "name" : "关闭、方格、对角+方格",
+        "uid" : "5aaa2935926570e9",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831749155,
+          "stop" : 1609831751424,
+          "duration" : 2269
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '网络显示', 'type': 'id', 'value': 'cb_video_grid'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "3f8e8c4677be9fd7",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831658192,
+          "stop" : 1609831661526,
+          "duration" : 3334
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '快捷菜单', 'type': 'xpath', 'value': \"//*[@text='快捷菜单']\"}" ]
+      }, {
+        "name" : "常亮、关闭",
+        "uid" : "1d2f4bf547a02f8e",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831166672,
+          "stop" : 1609831169514,
+          "duration" : 2842
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '视频', 'type': 'xpath', 'value': \"//*[@text='视频']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "e6ba8ee97c5091cf",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832217879,
+          "stop" : 1609832221156,
+          "duration" : 3277
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '行走', 'type': 'id', 'value': 'rb_walk'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "d539f0fa8a273e72",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832249469,
+          "stop" : 1609832253681,
+          "duration" : 4212
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '水平反向', 'type': 'id', 'value': 'ctv_yaw_reverse'}" ]
+      }, {
+        "name" : "常亮、关闭",
+        "uid" : "9dd0341e97dd4f67",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832175061,
+          "stop" : 1609832177327,
+          "duration" : 2266
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '闪光灯关闭', 'type': 'id', 'value': 'rb_flash_close'}" ]
+      }, {
+        "name" : "常亮、关闭",
+        "uid" : "6ab2e2acb665ad67",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831744571,
+          "stop" : 1609831746868,
+          "duration" : 2297
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '闪光灯关闭', 'type': 'id', 'value': 'rb_flash_close'}" ]
+      }, {
+        "name" : "选择后点赞或者删除",
+        "uid" : "578af96260099694",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832395000,
+          "stop" : 1609832400868,
+          "duration" : 5868
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '喜欢', 'type': 'id', 'value': 'favorite'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "132e17dc9db76a6e",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831997726,
+          "stop" : 1609832001924,
+          "duration" : 4198
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '水平反向', 'type': 'id', 'value': 'ctv_yaw_reverse'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "61191abb1667999d",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832294756,
+          "stop" : 1609832298049,
+          "duration" : 3293
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '取消', 'type': 'id', 'value': 'tv_cancel'}" ]
+      }, {
+        "name" : "常亮、关闭",
+        "uid" : "d65cd06d8e8bc080",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831536146,
+          "stop" : 1609831538429,
+          "duration" : 2283
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '闪光灯常亮', 'type': 'id', 'value': 'rb_flash_torch'}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "434b128ca2c7ed74",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831428528,
+          "stop" : 1609831432874,
+          "duration" : 4346
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '美颜按钮', 'type': 'id', 'value': 'iv_beauty'}" ]
+      }, {
+        "name" : "进入登录页",
+        "uid" : "a6e00f3acba56b8f",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1609832768830,
+          "stop" : 1609832768830,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "2b98f7cd1f96e546",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831650671,
+          "stop" : 1609831654869,
+          "duration" : 4198
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '默认', 'type': 'xpath', 'value': \"//*[@text='默认']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "4418456f2b503dfe",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831831258,
+          "stop" : 1609831834551,
+          "duration" : 3293
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '垂直反向', 'type': 'id', 'value': 'ctv_roll_reverse'}" ]
+      }, {
+        "name" : "常亮、关闭",
+        "uid" : "8a671e5a98a17e0a",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831918696,
+          "stop" : 1609831920987,
+          "duration" : 2291
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '闪光灯', 'type': 'id', 'value': 'cb_video_flash'}" ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "2dea58382119ffe3",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832654746,
+          "stop" : 1609832660021,
+          "duration" : 5275
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '图', 'type': 'id', 'value': 'story_name'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "5022394318a3061a",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831295522,
+          "stop" : 1609831299700,
+          "duration" : 4178
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '水平反向', 'type': 'id', 'value': 'ctv_yaw_reverse'}" ]
+      }, {
+        "name" : "常亮、关闭",
+        "uid" : "99d9fa460d340881",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831732858,
+          "stop" : 1609831737187,
+          "duration" : 4329
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '设置', 'type': 'id', 'value': 'iv_setting'}" ]
+      }, {
+        "name" : "选择后点赞或者删除",
+        "uid" : "33b718e13d68a0d0",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832431461,
+          "stop" : 1609832434551,
+          "duration" : 3090
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '确定删除', 'type': 'id', 'value': 'ok'}" ]
+      }, {
+        "name" : "关闭、方格、对角+方格",
+        "uid" : "7c68c75deacce997",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832186463,
+          "stop" : 1609832188750,
+          "duration" : 2287
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '网络显示关闭', 'type': 'id', 'value': 'rb_grid_none'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "9694d612bf887edc",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831317166,
+          "stop" : 1609831320516,
+          "duration" : 3350
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '快捷菜单', 'type': 'xpath', 'value': \"//*[@text='快捷菜单']\"}" ]
+      }, {
+        "name" : "常亮、关闭",
+        "uid" : "1c84e99afd7beb9f",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831169516,
+          "stop" : 1609831172403,
+          "duration" : 2887
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '闪光灯', 'type': 'id', 'value': 'cb_video_flash'}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "c82d47edf01720fd",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609830989197,
+          "stop" : 1609831009833,
+          "duration" : 20636
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '美颜按钮', 'type': 'id', 'value': 'iv_beauty'}", "{'name': '美颜滚动条', 'type': 'id', 'value': 'sb_roll'}", "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "常亮、关闭",
+        "uid" : "4f9bb819b3c9d143",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831179811,
+          "stop" : 1609831182100,
+          "duration" : 2289
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '闪光灯打开', 'type': 'id', 'value': 'rb_flash_open'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "7f44806b0a2853c0",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831851990,
+          "stop" : 1609831855334,
+          "duration" : 3344
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '通用', 'type': 'xpath', 'value': \"//*[@text='通用']\"}" ]
+      }, {
+        "name" : "3、5、7、off",
+        "uid" : "cf015f3e84f5fbd0",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831099826,
+          "stop" : 1609831115827,
+          "duration" : 16001
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '倒计时', 'type': 'id', 'value': 'iv_countdown'}", "{'name': '3s', 'type': 'xpath', 'value': \"//*[@text='3s']\"}", "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "99e182989c4779",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831476958,
+          "stop" : 1609831479286,
+          "duration" : 2328
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '光照', 'type': 'xpath', 'value': \"//*[@text='光照']\"}" ]
+      }, {
+        "name" : "设备连接、断开设备",
+        "uid" : "b1b510c2a302abc8",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831330505,
+          "stop" : 1609831333509,
+          "duration" : 3004
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '刷新', 'type': 'id', 'value': 'iv_scan'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "7e58b9998905aae0",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831881224,
+          "stop" : 1609831884506,
+          "duration" : 3282
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '通用页关闭', 'type': 'id', 'value': 'iv_close'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "b4ac50ff0430defb",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831606668,
+          "stop" : 1609831610596,
+          "duration" : 3928
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '跟随', 'type': 'xpath', 'value': \"//*[@text='跟随模式']\"}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "c5393c33b1d48054",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831562468,
+          "stop" : 1609831564766,
+          "duration" : 2298
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '阴天', 'type': 'xpath', 'value': \"//*[@text='阴天']\"}" ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "19c3f47eab43589",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831395423,
+          "stop" : 1609831407735,
+          "duration" : 12312
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '手势', 'type': 'id', 'value': 'cb_gesture'}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "6563547acb98fc28",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832203076,
+          "stop" : 1609832205364,
+          "duration" : 2288
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '荧光灯', 'type': 'xpath', 'value': \"//*[@text='荧光灯']\"}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "2f8015e7f46cf972",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831946764,
+          "stop" : 1609831949059,
+          "duration" : 2295
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '阴天', 'type': 'xpath', 'value': \"//*[@text='阴天']\"}" ]
+      }, {
+        "name" : "登录成功",
+        "uid" : "d6f1b8a28df5cd2",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1609832768835,
+          "stop" : 1609832768835,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'00000000'", "'16714056631'" ]
+      }, {
+        "name" : "test_front",
+        "uid" : "ffcdde93b09fbb15",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832394718,
+          "stop" : 1609832394998,
+          "duration" : 280
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "2386f0fbafd6e67a",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831309570,
+          "stop" : 1609831313837,
+          "duration" : 4267
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '默认', 'type': 'xpath', 'value': \"//*[@text='默认']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "23ddf242bffb51da",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831798531,
+          "stop" : 1609831801812,
+          "duration" : 3281
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '返回', 'type': 'id', 'value': 'iv_back'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "9be35421d8cf7e8c",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831636686,
+          "stop" : 1609831640832,
+          "duration" : 4146
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '水平反向', 'type': 'id', 'value': 'ctv_yaw_reverse'}" ]
+      }, {
+        "name" : "test_front",
+        "uid" : "301036c255757676",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831425155,
+          "stop" : 1609831428527,
+          "duration" : 3372
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "5948841e4065a2ba",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832020103,
+          "stop" : 1609832023408,
+          "duration" : 3305
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '切换拍照/录像', 'type': 'xpath', 'value': \"//*[@text='切换拍照/录像']\"}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "7753dc398590c9e7",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832198470,
+          "stop" : 1609832200756,
+          "duration" : 2286
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '阴天', 'type': 'xpath', 'value': \"//*[@text='阴天']\"}" ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "4f74284ee9598ee2",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609832619380,
+          "stop" : 1609832641385,
+          "duration" : 22005
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '退出/取消', 'type': 'id', 'value': 'negative'}" ]
+      }, {
+        "name" : "间隔,拍摄时长,轨迹",
+        "uid" : "8c3cf582b2c7298c",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832098792,
+          "stop" : 1609832115683,
+          "duration" : 16891
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '0.5秒', 'type': 'xpath', 'value': \"//*[@text='0.5s']\"}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "33d0719119a7576f",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831944468,
+          "stop" : 1609831946761,
+          "duration" : 2293
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '晴天', 'type': 'xpath', 'value': \"//*[@text='晴天']\"}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "3bcded869928171c",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609830899244,
+          "stop" : 1609830915291,
+          "duration" : 16047
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '美颜按钮', 'type': 'id', 'value': 'iv_beauty'}", "{'name': '磨皮', 'type': 'xpath', 'value': \"//*[@text='磨皮']\"}", "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "设备连接、断开设备",
+        "uid" : "d57e3386ee1055e5",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831333511,
+          "stop" : 1609831336835,
+          "duration" : 3324
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'C17F设备', 'type': 'xpath', 'value': \"//*[@text='SMOOTH-X_C17F']/following-sibling::android.widget.ImageView\"}" ]
+      }, {
+        "name" : "视频分辨率,倍数",
+        "uid" : "22a690f90e30bcd9",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832362382,
+          "stop" : 1609832364659,
+          "duration" : 2277
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '返回', 'type': 'id', 'value': 'iv_back'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "3990858dede76fcc",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831684459,
+          "stop" : 1609831687739,
+          "duration" : 3280
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '通用页确定', 'type': 'id', 'value': 'tv_confirm'}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "5f52b9aabcb39539",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831025905,
+          "stop" : 1609831046603,
+          "duration" : 20698
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '美颜按钮', 'type': 'id', 'value': 'iv_beauty'}", "{'name': '美颜滚动条', 'type': 'id', 'value': 'sb_roll'}", "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "efc8d1eae306ad5e",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832301352,
+          "stop" : 1609832304634,
+          "duration" : 3282
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '通用页确定', 'type': 'id', 'value': 'tv_confirm'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "523c13687f9984c4",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832049558,
+          "stop" : 1609832052826,
+          "duration" : 3268
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '通用页确定', 'type': 'id', 'value': 'tv_confirm'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "bdd2e3200345fc3b",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832291466,
+          "stop" : 1609832294753,
+          "duration" : 3287
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'C17F设备', 'type': 'xpath', 'value': \"//*[@text='SMOOTH-X_C17F']/following-sibling::android.widget.ImageView\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "4165b6098c182ed4",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832228392,
+          "stop" : 1609832231659,
+          "duration" : 3267
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '返回', 'type': 'id', 'value': 'iv_back'}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "de0913858a9b9717",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831438422,
+          "stop" : 1609831441328,
+          "duration" : 2906
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '瘦脸', 'type': 'xpath', 'value': \"//*[@text='瘦脸']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "6d557778c7cde8bf",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831842086,
+          "stop" : 1609831845387,
+          "duration" : 3301
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '切换拍照/录像', 'type': 'xpath', 'value': \"//*[@text='切换拍照/录像']\"}" ]
+      }, {
+        "name" : "选择后点赞或者删除",
+        "uid" : "856d677a8693d7d2",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832449011,
+          "stop" : 1609832451325,
+          "duration" : 2314
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '删除图', 'type': 'id', 'value': 'delete'}" ]
+      }, {
+        "name" : "常亮、关闭",
+        "uid" : "b2812fd59cac7892",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831916386,
+          "stop" : 1609831918693,
+          "duration" : 2307
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '视频', 'type': 'xpath', 'value': \"//*[@text='视频']\"}" ]
+      }, {
+        "name" : "常亮、关闭",
+        "uid" : "95e529cc9322f0bc",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831175192,
+          "stop" : 1609831177493,
+          "duration" : 2301
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '闪光灯常亮', 'type': 'id', 'value': 'rb_flash_torch'}" ]
+      }, {
+        "name" : "常亮、关闭",
+        "uid" : "70411a7264314eda",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831528512,
+          "stop" : 1609831531065,
+          "duration" : 2553
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '设置', 'type': 'id', 'value': 'iv_setting'}" ]
+      }, {
+        "name" : "test_front",
+        "uid" : "878ba77a7f03c677",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832160914,
+          "stop" : 1609832165372,
+          "duration" : 4458
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "关闭、方格、对角+方格",
+        "uid" : "17125da3903d0934",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831548073,
+          "stop" : 1609831550367,
+          "duration" : 2294
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '方格+对角线', 'type': 'id', 'value': 'rb_grid_and_diagonal'}" ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "653421583b5450a4",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832643378,
+          "stop" : 1609832648653,
+          "duration" : 5275
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '相册返回', 'type': 'id', 'value': 'back'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "488d870a6c26b67d",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831283274,
+          "stop" : 1609831291221,
+          "duration" : 7947
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '变焦速度', 'type': 'id', 'value': 'sb_zoom_speed'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "54e5d21129e1d4c4",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831632490,
+          "stop" : 1609831636683,
+          "duration" : 4193
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '水平反向', 'type': 'id', 'value': 'ctv_yaw_reverse'}" ]
+      }, {
+        "name" : "选择后点赞或者删除",
+        "uid" : "ee325bc52d207435",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832453608,
+          "stop" : 1609832455907,
+          "duration" : 2299
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '删除图', 'type': 'id', 'value': 'delete'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "8d3d0587a4c207ce",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832214580,
+          "stop" : 1609832217874,
+          "duration" : 3294
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '云台', 'type': 'xpath', 'value': \"//*[@text='云台']\"}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "24886f8ac04a8561",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832288462,
+          "stop" : 1609832291464,
+          "duration" : 3002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '刷新', 'type': 'id', 'value': 'iv_scan'}" ]
+      }, {
+        "name" : "关闭、方格、对角+方格",
+        "uid" : "3c7ac90617acb606",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831758262,
+          "stop" : 1609831760535,
+          "duration" : 2273
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '网络显示', 'type': 'id', 'value': 'cb_video_grid'}" ]
+      }, {
+        "name" : "登录成功",
+        "uid" : "600c8ee75a912df2",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1609832768833,
+          "stop" : 1609832768833,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'00100'", "'167'" ]
+      }, {
+        "name" : "常亮、关闭",
+        "uid" : "461f508a5074c9b2",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831541208,
+          "stop" : 1609831543488,
+          "duration" : 2280
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '闪光灯', 'type': 'id', 'value': 'cb_video_flash'}" ]
+      }, {
+        "name" : "视频分辨率,倍数",
+        "uid" : "88655494297fedf6",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832355488,
+          "stop" : 1609832357792,
+          "duration" : 2304
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '10x', 'type': 'id', 'value': 'rb_multiple_10x'}" ]
+      }, {
+        "name" : "关闭、方格、对角+方格",
+        "uid" : "2dff71616025788e",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831930133,
+          "stop" : 1609831932412,
+          "duration" : 2279
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '方格', 'type': 'id', 'value': 'rb_grid'}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "5032cbf627d2e930",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831009836,
+          "stop" : 1609831025902,
+          "duration" : 16066
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '美颜按钮', 'type': 'id', 'value': 'iv_beauty'}", "{'name': '光照', 'type': 'xpath', 'value': \"//*[@text='光照']\"}", "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "74d73f46fd0d3da3",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831877875,
+          "stop" : 1609831881222,
+          "duration" : 3347
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'C17F设备Button', 'type': 'xpath', 'value': \"//*[@text='SMOOTH-X_C17F']/following-sibling::android.widget.Button\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "f1d5d8d4d9f86309",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831837837,
+          "stop" : 1609831842084,
+          "duration" : 4247
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '默认', 'type': 'xpath', 'value': \"//*[@text='默认']\"}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "77bd159de20e292f",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831203386,
+          "stop" : 1609831205693,
+          "duration" : 2307
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '阴天', 'type': 'xpath', 'value': \"//*[@text='阴天']\"}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "c7d7b0c0f8a9041f",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831201080,
+          "stop" : 1609831203384,
+          "duration" : 2304
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '晴天', 'type': 'xpath', 'value': \"//*[@text='晴天']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "bb7b051bf9eb170e",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831654872,
+          "stop" : 1609831658190,
+          "duration" : 3318
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '切换拍照/录像', 'type': 'xpath', 'value': \"//*[@text='切换拍照/录像']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "ee7f301b27e5b152",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831610599,
+          "stop" : 1609831614580,
+          "duration" : 3981
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '返回', 'type': 'id', 'value': 'iv_back'}" ]
+      }, {
+        "name" : "选择后点赞或者删除",
+        "uid" : "45b1c7dcf4356c7d",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832421786,
+          "stop" : 1609832424064,
+          "duration" : 2278
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '图', 'type': 'id', 'value': 'story_name'}" ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "26dd5034b9241d98",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609832709153,
+          "stop" : 1609832734134,
+          "duration" : 24981
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '爱心', 'type': 'id', 'value': 'favorite'}" ]
+      }, {
+        "name" : "视频分辨率",
+        "uid" : "527d8453e2316677",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832096605,
+          "stop" : 1609832097141,
+          "duration" : 536
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'resolution_1080', 'type': 'id', 'value': 'rb_resolution_1080'}" ]
+      }, {
+        "name" : "常亮、关闭",
+        "uid" : "699f1525396168e4",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831925549,
+          "stop" : 1609831927834,
+          "duration" : 2285
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '闪光灯', 'type': 'id', 'value': 'cb_video_flash'}" ]
+      }, {
+        "name" : "常亮、关闭",
+        "uid" : "e06d84b530135e64",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831177496,
+          "stop" : 1609831179810,
+          "duration" : 2314
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '闪光灯自动', 'type': 'id', 'value': 'rb_flash_auto'}" ]
+      }, {
+        "name" : "设备连接、断开设备",
+        "uid" : "6b5d881fd94de217",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831343497,
+          "stop" : 1609831346776,
+          "duration" : 3279
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '通用页确定', 'type': 'id', 'value': 'tv_confirm'}" ]
+      }, {
+        "name" : "常亮、关闭",
+        "uid" : "a90332ac7c9370d",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832172789,
+          "stop" : 1609832175059,
+          "duration" : 2270
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '闪光灯常亮', 'type': 'id', 'value': 'rb_flash_torch'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "7b1aae8b3c877de4",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831983213,
+          "stop" : 1609831986545,
+          "duration" : 3332
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '中', 'type': 'xpath', 'value': \"//*[@text='中']\"}" ]
+      }, {
+        "name" : "关闭、方格、对角+方格",
+        "uid" : "2673ae8aff43cb65",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831751429,
+          "stop" : 1609831753700,
+          "duration" : 2271
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '方格', 'type': 'id', 'value': 'rb_grid'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "384f6f76b1dbac3c",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832033321,
+          "stop" : 1609832036649,
+          "duration" : 3328
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '设备管理', 'type': 'xpath', 'value': \"//*[@text='设备管理']\"}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "a8975614bb8a24fe",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831855337,
+          "stop" : 1609831858662,
+          "duration" : 3325
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '设备管理', 'type': 'xpath', 'value': \"//*[@text='设备管理']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "a677d3047de5c0e5",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832026717,
+          "stop" : 1609832029989,
+          "duration" : 3272
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'M键开关', 'type': 'id', 'value': 'cb_video_click_m'}" ]
+      }, {
+        "name" : "关闭、方格、对角+方格",
+        "uid" : "6b45e000a7b5ed10",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831927837,
+          "stop" : 1609831930130,
+          "duration" : 2293
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '网络显示', 'type': 'id', 'value': 'cb_video_grid'}" ]
+      }, {
+        "name" : "关闭、方格、对角+方格",
+        "uid" : "130f3fcf36914c7c",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832181890,
+          "stop" : 1609832184171,
+          "duration" : 2281
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '方格', 'type': 'id', 'value': 'rb_grid'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "641d3ed6988fc9fb",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832009352,
+          "stop" : 1609832012624,
+          "duration" : 3272
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '垂直反向', 'type': 'id', 'value': 'ctv_roll_reverse'}" ]
+      }, {
+        "name" : "间隔,拍摄时长,轨迹",
+        "uid" : "4e17fae4c05a1866",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832146772,
+          "stop" : 1609832160912,
+          "duration" : 14140
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "关闭、方格、对角+方格",
+        "uid" : "e681856446e0e56b",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832184172,
+          "stop" : 1609832186454,
+          "duration" : 2282
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '方格+对角线', 'type': 'id', 'value': 'rb_grid_and_diagonal'}" ]
+      }, {
+        "name" : "跟随、拍摄",
+        "uid" : "5e319348fbfef10b",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831213257,
+          "stop" : 1609831217152,
+          "duration" : 3895
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '手势控制', 'type': 'id', 'value': 'll_gesture'}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "27ab12995a063308",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831557851,
+          "stop" : 1609831560135,
+          "duration" : 2284
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '自动', 'type': 'xpath', 'value': \"//*[@text='自动']\"}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "b1c94c5a42b2ded3",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831195861,
+          "stop" : 1609831198733,
+          "duration" : 2872
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '白平衡', 'type': 'id', 'value': 'tv_white_balance'}" ]
+      }, {
+        "name" : "常亮、关闭",
+        "uid" : "1d219cfd432a67ec",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831913615,
+          "stop" : 1609831916383,
+          "duration" : 2768
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '设置', 'type': 'id', 'value': 'iv_setting'}" ]
+      }, {
+        "name" : "选择后点赞或者删除",
+        "uid" : "7fca7ea3c59a3ff",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832416628,
+          "stop" : 1609832418907,
+          "duration" : 2279
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '图', 'type': 'id', 'value': 'story_name'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "320536973e670179",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832052829,
+          "stop" : 1609832055837,
+          "duration" : 3008
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '刷新', 'type': 'id', 'value': 'iv_scan'}" ]
+      }, {
+        "name" : "常亮、关闭",
+        "uid" : "180d2617ed8934f",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831533869,
+          "stop" : 1609831536143,
+          "duration" : 2274
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '闪光灯', 'type': 'id', 'value': 'cb_video_flash'}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "e7e4b172552910d6",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831448347,
+          "stop" : 1609831450659,
+          "duration" : 2312
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '磨皮', 'type': 'xpath', 'value': \"//*[@text='磨皮']\"}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "4040435bd955545c",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609830878552,
+          "stop" : 1609830899241,
+          "duration" : 20689
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '美颜按钮', 'type': 'id', 'value': 'iv_beauty'}", "{'name': '美颜滚动条', 'type': 'id', 'value': 'sb_roll'}", "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "c8f7bc626994b490",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832473348,
+          "stop" : 1609832481536,
+          "duration" : 8188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '视频暂停', 'type': 'id', 'value': 'play'}" ]
+      }, {
+        "name" : "选择后点赞或者删除",
+        "uid" : "fe25a78d0a13fe88",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832455909,
+          "stop" : 1609832459886,
+          "duration" : 3977
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '确定删除', 'type': 'id', 'value': 'ok'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "2d43a1535b8cd8a2",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831811743,
+          "stop" : 1609831819640,
+          "duration" : 7897
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '变焦速度', 'type': 'id', 'value': 'sb_zoom_speed'}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "e1c34c64bc1a973b",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832191037,
+          "stop" : 1609832193907,
+          "duration" : 2870
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '白平衡', 'type': 'id', 'value': 'tv_white_balance'}" ]
+      }, {
+        "name" : "登录成功",
+        "uid" : "bd0ba18d2c9a04de",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1609832768832,
+          "stop" : 1609832768832,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'0000'", "'167'" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "3cb77fa960fd363c",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831713427,
+          "stop" : 1609831729511,
+          "duration" : 16084
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "c3b5ddb2d9d187ac",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831486379,
+          "stop" : 1609831488707,
+          "duration" : 2328
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '红润', 'type': 'xpath', 'value': \"//*[@text='红润']\"}" ]
+      }, {
+        "name" : "视频分辨率,倍数",
+        "uid" : "d1be42fcf3701294",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832350892,
+          "stop" : 1609832353171,
+          "duration" : 2279
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'resolution_1080', 'type': 'id', 'value': 'rb_resolution_1080'}" ]
+      }, {
+        "name" : "关闭、方格、对角+方格",
+        "uid" : "af6584f0695a5c58",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831755984,
+          "stop" : 1609831758259,
+          "duration" : 2275
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '网络显示关闭', 'type': 'id', 'value': 'rb_grid_none'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "703a01de575a8e4",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832261094,
+          "stop" : 1609832264388,
+          "duration" : 3294
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '垂直反向', 'type': 'id', 'value': 'ctv_roll_reverse'}" ]
+      }, {
+        "name" : "跟随、拍摄",
+        "uid" : "14f73220db3d80a8",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831580075,
+          "stop" : 1609831583969,
+          "duration" : 3894
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '仅拍摄', 'type': 'id', 'value': 'tv_only_take'}" ]
+      }, {
+        "name" : "设备连接、断开设备",
+        "uid" : "cd2059802a763713",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831356426,
+          "stop" : 1609831372463,
+          "duration" : 16037
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "b976116b0cecac64",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831697389,
+          "stop" : 1609831713424,
+          "duration" : 16035
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "8476805c842c31ed",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832208233,
+          "stop" : 1609832211404,
+          "duration" : 3171
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '去水印', 'type': 'id', 'value': 'cb_watermark'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "205ccf0c6dc55f74",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831671525,
+          "stop" : 1609831674535,
+          "duration" : 3010
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '刷新', 'type': 'id', 'value': 'iv_scan'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "bcee49fbbc9dbcf0",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831962825,
+          "stop" : 1609831966125,
+          "duration" : 3300
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '云台', 'type': 'xpath', 'value': \"//*[@text='云台']\"}" ]
+      }, {
+        "name" : "常亮、关闭",
+        "uid" : "78b12673c2fdba46",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831746871,
+          "stop" : 1609831749152,
+          "duration" : 2281
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '闪光灯', 'type': 'id', 'value': 'cb_video_flash'}" ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "b536328608fe0209",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609832686091,
+          "stop" : 1609832708099,
+          "duration" : 22008
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '相册页取消', 'type': 'id', 'value': 'cancel'}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "3b80390bee31ca6e",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831495667,
+          "stop" : 1609831510644,
+          "duration" : 14977
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "db76fa0ce1af62c1",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831457590,
+          "stop" : 1609831459952,
+          "duration" : 2362
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '美白', 'type': 'xpath', 'value': \"//*[@text='美白']\"}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "f72efdf458e5dce7",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831083370,
+          "stop" : 1609831099822,
+          "duration" : 16452
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '美颜按钮', 'type': 'id', 'value': 'iv_beauty'}", "{'name': '取消美颜', 'type': 'xpath', 'value': '//android.widget.LinearLayout/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.ImageView'}", "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "视频分辨率",
+        "uid" : "4a640e1fae8e5a5",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832095908,
+          "stop" : 1609832096602,
+          "duration" : 694
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'resolution_720', 'type': 'id', 'value': 'rb_resolution_720'}" ]
+      }, {
+        "name" : "常亮、关闭",
+        "uid" : "80f678592c0e72d",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831737190,
+          "stop" : 1609831739991,
+          "duration" : 2801
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '视频', 'type': 'xpath', 'value': \"//*[@text='视频']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "927cdc5459df250e",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832257834,
+          "stop" : 1609832261091,
+          "duration" : 3257
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '垂直反向', 'type': 'id', 'value': 'ctv_roll_reverse'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "62bd413a91be27e8",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832055840,
+          "stop" : 1609832059173,
+          "duration" : 3333
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'C17F设备Button', 'type': 'xpath', 'value': \"//*[@text='SMOOTH-X_C17F']/following-sibling::android.widget.Button\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "8bde7306cba76c86",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831640835,
+          "stop" : 1609831644108,
+          "duration" : 3273
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '垂直反向', 'type': 'id', 'value': 'ctv_roll_reverse'}" ]
+      }, {
+        "name" : "跟随、拍摄",
+        "uid" : "3f5058fef6bf42c9",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831587845,
+          "stop" : 1609831592037,
+          "duration" : 4192
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '去水印', 'type': 'id', 'value': 'cb_watermark'}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "68eec4de14a12e5f",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831564768,
+          "stop" : 1609831567095,
+          "duration" : 2327
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '白炽灯', 'type': 'xpath', 'value': \"//*[@text='白炽灯']\"}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "d765c9e277f4c058",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831939281,
+          "stop" : 1609831942166,
+          "duration" : 2885
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '白平衡', 'type': 'id', 'value': 'tv_white_balance'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "211d070f6dde8a84",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832304646,
+          "stop" : 1609832307650,
+          "duration" : 3004
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '刷新', 'type': 'id', 'value': 'iv_scan'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "a6525674abfd63e2",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831668206,
+          "stop" : 1609831671522,
+          "duration" : 3316
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '设备管理', 'type': 'xpath', 'value': \"//*[@text='设备管理']\"}" ]
+      }, {
+        "name" : "3、5、7、off",
+        "uid" : "e2a801f4a4f1df51",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831131898,
+          "stop" : 1609831147940,
+          "duration" : 16042
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '倒计时', 'type': 'id', 'value': 'iv_countdown'}", "{'name': '7s', 'type': 'xpath', 'value': \"//*[@text='7s']\"}", "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "选择后点赞或者删除",
+        "uid" : "f5138cc22aad587",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832413736,
+          "stop" : 1609832416624,
+          "duration" : 2888
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'favorite', 'type': 'id', 'value': 'add_favorite'}" ]
+      }, {
+        "name" : "跟随、拍摄",
+        "uid" : "ef9ece9234d2a0ab",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831232474,
+          "stop" : 1609831236653,
+          "duration" : 4179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '去水印', 'type': 'id', 'value': 'cb_watermark'}" ]
+      }, {
+        "name" : "跟随、拍摄",
+        "uid" : "e65de494b73eccda",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831217157,
+          "stop" : 1609831220480,
+          "duration" : 3323
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '跟随+拍摄', 'type': 'id', 'value': 'tv_follow_take'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "89aaaf5419a33be7",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831966128,
+          "stop" : 1609831969417,
+          "duration" : 3289
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '行走', 'type': 'id', 'value': 'rb_walk'}" ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "d4212e1b9f4c6ba2",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832585783,
+          "stop" : 1609832591068,
+          "duration" : 5285
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '图片信息', 'type': 'id', 'value': 'info'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "c488e73061916efe",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831900781,
+          "stop" : 1609831908761,
+          "duration" : 7980
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '相册返回', 'type': 'id', 'value': 'back'}" ]
+      }, {
+        "name" : "test_front",
+        "uid" : "3165a428f81ecdb0",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609830809461,
+          "stop" : 1609830827344,
+          "duration" : 17883
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "常亮、关闭",
+        "uid" : "6cea9c92cf564d50",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832165374,
+          "stop" : 1609832167704,
+          "duration" : 2330
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '设置', 'type': 'id', 'value': 'iv_setting'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "47d28afea36f1ec2",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831834554,
+          "stop" : 1609831837835,
+          "duration" : 3281
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'M键开关', 'type': 'id', 'value': 'cb_video_click_m'}" ]
+      }, {
+        "name" : "test_front",
+        "uid" : "980a9301b00be1d2",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831908766,
+          "stop" : 1609831913613,
+          "duration" : 4847
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "c1869f2f7f703168",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609832735183,
+          "stop" : 1609832757169,
+          "duration" : 21986
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '确定删除', 'type': 'id', 'value': 'ok'}" ]
+      }, {
+        "name" : "间隔,拍摄时长,轨迹",
+        "uid" : "3819afcfad75f97b",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832133819,
+          "stop" : 1609832146770,
+          "duration" : 12951
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "515d252491e631ac",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831979945,
+          "stop" : 1609831983211,
+          "duration" : 3266
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '快', 'type': 'id', 'value': 'rb_high'}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "103be24535b03709",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831942168,
+          "stop" : 1609831944465,
+          "duration" : 2297
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '自动', 'type': 'xpath', 'value': \"//*[@text='自动']\"}" ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "7bbcb29747ccec52",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832462791,
+          "stop" : 1609832468063,
+          "duration" : 5272
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '图', 'type': 'id', 'value': 'story_name'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "d0660a1a320f262f",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831265965,
+          "stop" : 1609831269941,
+          "duration" : 3976
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '跟随', 'type': 'xpath', 'value': \"//*[@text='跟随模式']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "ae39423b74a32589",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831827971,
+          "stop" : 1609831831256,
+          "duration" : 3285
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '垂直反向', 'type': 'id', 'value': 'ctv_roll_reverse'}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "aa58a213531b64a0",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831554953,
+          "stop" : 1609831557849,
+          "duration" : 2896
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '白平衡', 'type': 'id', 'value': 'tv_white_balance'}" ]
+      }, {
+        "name" : "选择后点赞或者删除",
+        "uid" : "25ad0cbe7b599eb9",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832440344,
+          "stop" : 1609832443224,
+          "duration" : 2880
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '全选', 'type': 'id', 'value': 'header_select'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "d3e329ffbe58b171",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832023410,
+          "stop" : 1609832026715,
+          "duration" : 3305
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '快捷菜单', 'type': 'xpath', 'value': \"//*[@text='快捷菜单']\"}" ]
+      }, {
+        "name" : "常亮、关闭",
+        "uid" : "733f7c793856276c",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831739993,
+          "stop" : 1609831742282,
+          "duration" : 2289
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '闪光灯', 'type': 'id', 'value': 'cb_video_flash'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "ea7f1285770c24b9",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832224490,
+          "stop" : 1609832228390,
+          "duration" : 3900
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '跟随', 'type': 'xpath', 'value': \"//*[@text='跟随模式']\"}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "9c0fa20da2a33039",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831690750,
+          "stop" : 1609831694090,
+          "duration" : 3340
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'C17F设备Button', 'type': 'xpath', 'value': \"//*[@text='SMOOTH-X_C17F']/following-sibling::android.widget.Button\"}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "9ee8270dabea7df",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831861681,
+          "stop" : 1609831864992,
+          "duration" : 3311
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'C17F设备', 'type': 'xpath', 'value': \"//*[@text='SMOOTH-X_C17F']/following-sibling::android.widget.ImageView\"}" ]
+      }, {
+        "name" : "视频分辨率,倍数",
+        "uid" : "a70389ab0ca08ef8",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832353174,
+          "stop" : 1609832355486,
+          "duration" : 2312
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '5x', 'type': 'id', 'value': 'rb_multiple_5x'}" ]
+      }, {
+        "name" : "跟随、拍摄",
+        "uid" : "3da531ad53281713",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831220483,
+          "stop" : 1609831224377,
+          "duration" : 3894
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '仅拍摄', 'type': 'id', 'value': 'tv_only_take'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "cc185a6a0b9d29ba",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832330329,
+          "stop" : 1609832346332,
+          "duration" : 16003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "4d8f737946dfb6c",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832648660,
+          "stop" : 1609832654741,
+          "duration" : 6081
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '照片', 'type': 'id', 'value': 'photo'}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "2d70afea52b569c8",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831432876,
+          "stop" : 1609831436126,
+          "duration" : 3250
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '取消美颜', 'type': 'xpath', 'value': '//android.widget.LinearLayout/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.ImageView'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "92d9fd780a7bd88e",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831871583,
+          "stop" : 1609831874867,
+          "duration" : 3284
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '通用页确定', 'type': 'id', 'value': 'tv_confirm'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "f8538bc0b8487680",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831674537,
+          "stop" : 1609831677868,
+          "duration" : 3331
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'C17F设备', 'type': 'xpath', 'value': \"//*[@text='SMOOTH-X_C17F']/following-sibling::android.widget.ImageView\"}" ]
+      }, {
+        "name" : "间隔,拍摄时长,轨迹",
+        "uid" : "9d227b8c914e69a2",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832128831,
+          "stop" : 1609832129108,
+          "duration" : 277
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '添加视频', 'type': 'id', 'value': 'view_add_point'}" ]
+      }, {
+        "name" : "常亮、关闭",
+        "uid" : "c5e716c0405e061b",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831538431,
+          "stop" : 1609831541205,
+          "duration" : 2774
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '闪光灯关闭', 'type': 'id', 'value': 'rb_flash_close'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "3ee6694bcb4bf29",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831848706,
+          "stop" : 1609831851988,
+          "duration" : 3282
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'M键开关', 'type': 'id', 'value': 'cb_video_click_m'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "4b4999d72b2f8cad",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831596196,
+          "stop" : 1609831599504,
+          "duration" : 3308
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '云台', 'type': 'xpath', 'value': \"//*[@text='云台']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "994af9a1ee8d4cc4",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831291224,
+          "stop" : 1609831295521,
+          "duration" : 4297
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '水平反向', 'type': 'id', 'value': 'ctv_yaw_reverse'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "f5fc4f7b75509d43",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831255956,
+          "stop" : 1609831259307,
+          "duration" : 3351
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '云台', 'type': 'xpath', 'value': \"//*[@text='云台']\"}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "33307df4ad1435c4",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831765749,
+          "stop" : 1609831768044,
+          "duration" : 2295
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '晴天', 'type': 'xpath', 'value': \"//*[@text='晴天']\"}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "e1cd277c23f722ec",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832078494,
+          "stop" : 1609832095638,
+          "duration" : 17144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "5820bbf5dd1c22e7",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831299702,
+          "stop" : 1609831302969,
+          "duration" : 3267
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '垂直反向', 'type': 'id', 'value': 'ctv_roll_reverse'}" ]
+      }, {
+        "name" : "常亮、关闭",
+        "uid" : "97d989f8c8b51140",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831164345,
+          "stop" : 1609831166670,
+          "duration" : 2325
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '设置', 'type': 'id', 'value': 'iv_setting'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "e281d15f71cc2b3",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831279943,
+          "stop" : 1609831283271,
+          "duration" : 3328
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '慢', 'type': 'xpath', 'value': \"//*[@text='慢']\"}" ]
+      }, {
+        "name" : "720、1080、4k",
+        "uid" : "6a5f9d2a612ac560",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831525688,
+          "stop" : 1609831525973,
+          "duration" : 285
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '分辨率', 'type': 'id', 'value': 'iv_dpi'}" ]
+      }, {
+        "name" : "跟随、拍摄",
+        "uid" : "568bb96883b27ef0",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831236655,
+          "stop" : 1609831252623,
+          "duration" : 15968
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "视频分辨率,倍数",
+        "uid" : "fde3530623ebbb0c",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832357801,
+          "stop" : 1609832360087,
+          "duration" : 2286
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '15x', 'type': 'id', 'value': 'rb_multiple_15x'}" ]
+      }, {
+        "name" : "选择后点赞或者删除",
+        "uid" : "299b48c1bd51e46c",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832443227,
+          "stop" : 1609832446130,
+          "duration" : 2903
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'favorite', 'type': 'id', 'value': 'add_favorite'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "a234def1c8808fd5",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831681142,
+          "stop" : 1609831684453,
+          "duration" : 3311
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'C17F设备', 'type': 'xpath', 'value': \"//*[@text='SMOOTH-X_C17F']/following-sibling::android.widget.ImageView\"}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "8726fe5f5b8d70f",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831956502,
+          "stop" : 1609831959668,
+          "duration" : 3166
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '去水印', 'type': 'id', 'value': 'cb_watermark'}" ]
+      }, {
+        "name" : "常亮、关闭",
+        "uid" : "2a9fdf2d8dfc9da6",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831182107,
+          "stop" : 1609831184391,
+          "duration" : 2284
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '闪光灯', 'type': 'id', 'value': 'cb_video_flash'}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "415f5d5fa0516f8b",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831569423,
+          "stop" : 1609831572306,
+          "duration" : 2883
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '返回', 'type': 'id', 'value': 'iv_back'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "2397f176eb0e7b34",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831687741,
+          "stop" : 1609831690747,
+          "duration" : 3006
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '刷新', 'type': 'id', 'value': 'iv_scan'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "9ff5c7ab3a637f2b",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832281829,
+          "stop" : 1609832285149,
+          "duration" : 3320
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '通用', 'type': 'xpath', 'value': \"//*[@text='通用']\"}" ]
+      }, {
+        "name" : "设备连接、断开设备",
+        "uid" : "bda460313f537c1e",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831353130,
+          "stop" : 1609831356423,
+          "duration" : 3293
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '通用页关闭', 'type': 'id', 'value': 'iv_close'}" ]
+      }, {
+        "name" : "视频分辨率,倍数",
+        "uid" : "cebb54efe9860793",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832348637,
+          "stop" : 1609832350890,
+          "duration" : 2253
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'resolution_720', 'type': 'id', 'value': 'rb_resolution_720'}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "9d847a714967816a",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831778328,
+          "stop" : 1609831781509,
+          "duration" : 3181
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '去水印', 'type': 'id', 'value': 'cb_watermark'}" ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "d53ef5977511c0c6",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831377759,
+          "stop" : 1609831383070,
+          "duration" : 5311
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '切换摄像头', 'type': 'id', 'value': 'iv_flip'}" ]
+      }, {
+        "name" : "跟随、拍摄",
+        "uid" : "f92a56e72c8ad41b",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831583971,
+          "stop" : 1609831587843,
+          "duration" : 3872
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '返回', 'type': 'id', 'value': 'iv_back'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "f6a4175aa9419422",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831969419,
+          "stop" : 1609831972745,
+          "duration" : 3326
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '运动', 'type': 'xpath', 'value': \"//*[@text='运动']\"}" ]
+      }, {
+        "name" : "设备连接、断开设备",
+        "uid" : "3dbb994f9feba592",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831336838,
+          "stop" : 1609831340148,
+          "duration" : 3310
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '取消', 'type': 'id', 'value': 'tv_cancel'}" ]
+      }, {
+        "name" : "关闭、方格、对角+方格",
+        "uid" : "19080a747f40f58",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831552667,
+          "stop" : 1609831554951,
+          "duration" : 2284
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '网络显示', 'type': 'id', 'value': 'cb_video_grid'}" ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "1120710d18caef26",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609832660026,
+          "stop" : 1609832685036,
+          "duration" : 25010
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '爱心', 'type': 'id', 'value': 'favorite'}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "9ebf4b079961d2a1",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831459954,
+          "stop" : 1609831466883,
+          "duration" : 6929
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '美颜滚动条', 'type': 'id', 'value': 'sb_roll'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "f121fcbbc0121cb6",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831664857,
+          "stop" : 1609831668204,
+          "duration" : 3347
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '通用', 'type': 'xpath', 'value': \"//*[@text='通用']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "487efa3e736058b6",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831276577,
+          "stop" : 1609831279941,
+          "duration" : 3364
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '中', 'type': 'xpath', 'value': \"//*[@text='中']\"}" ]
+      }, {
+        "name" : "设备连接、断开设备",
+        "uid" : "40106de66e3a1471",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831327174,
+          "stop" : 1609831330502,
+          "duration" : 3328
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '设备管理', 'type': 'xpath', 'value': \"//*[@text='设备管理']\"}" ]
+      }, {
+        "name" : "常亮、关闭",
+        "uid" : "45f8c8b44e68c961",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831920990,
+          "stop" : 1609831923267,
+          "duration" : 2277
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '闪光灯常亮', 'type': 'id', 'value': 'rb_flash_torch'}" ]
+      }, {
+        "name" : "720、1080、4k",
+        "uid" : "11cb6c1d02912f60",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831527161,
+          "stop" : 1609831527412,
+          "duration" : 251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'resolution_1080', 'type': 'id', 'value': 'rb_resolution_1080'}" ]
+      }, {
+        "name" : "720、1080、4k",
+        "uid" : "8b4718410dc24d0c",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831527955,
+          "stop" : 1609831528510,
+          "duration" : 555
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '返回', 'type': 'id', 'value': 'iv_back'}" ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "d67d07ee640cd0b8",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831372466,
+          "stop" : 1609831377757,
+          "duration" : 5291
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '切换摄像头', 'type': 'id', 'value': 'iv_flip'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "3e0a4cfaac8e1f02",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831599510,
+          "stop" : 1609831602819,
+          "duration" : 3309
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '行走', 'type': 'id', 'value': 'rb_walk'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "ad43f0a858ce82be",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832275227,
+          "stop" : 1609832278549,
+          "duration" : 3322
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '快捷菜单', 'type': 'xpath', 'value': \"//*[@text='快捷菜单']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "c9d9654852e3682a",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831269943,
+          "stop" : 1609831273272,
+          "duration" : 3329
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '返回', 'type': 'id', 'value': 'iv_back'}" ]
+      }, {
+        "name" : "关闭、方格、对角+方格",
+        "uid" : "d9ae0ddb82402466",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831932414,
+          "stop" : 1609831934711,
+          "duration" : 2297
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '方格+对角线', 'type': 'id', 'value': 'rb_grid_and_diagonal'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "8d97209ab7b739f1",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832039664,
+          "stop" : 1609832042945,
+          "duration" : 3281
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'C17F设备', 'type': 'xpath', 'value': \"//*[@text='SMOOTH-X_C17F']/following-sibling::android.widget.ImageView\"}" ]
+      }, {
+        "name" : "选择后点赞或者删除",
+        "uid" : "78eca55b11eb1f2a",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832403936,
+          "stop" : 1609832408560,
+          "duration" : 4624
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '视频', 'type': 'id', 'value': 'video'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "642c0f58615629dd",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832012626,
+          "stop" : 1609832015894,
+          "duration" : 3268
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'M键开关', 'type': 'id', 'value': 'cb_video_click_m'}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "d5744b60debabeb4",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609830972684,
+          "stop" : 1609830989193,
+          "duration" : 16509
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '美颜按钮', 'type': 'id', 'value': 'iv_beauty'}", "{'name': '眼睛放大', 'type': 'xpath', 'value': \"//*[@text='眼睛放大']\"}", "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "选择后点赞或者删除",
+        "uid" : "ed1a3cab0712ee4b",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832451328,
+          "stop" : 1609832453605,
+          "duration" : 2277
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '相册页取消', 'type': 'id', 'value': 'cancel'}" ]
+      }, {
+        "name" : "常亮、关闭",
+        "uid" : "e8c2faa08e7e1aab",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831172408,
+          "stop" : 1609831175190,
+          "duration" : 2782
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '闪光灯关闭', 'type': 'id', 'value': 'rb_flash_close'}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "2bf78b9324ff0b59",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831781512,
+          "stop" : 1609831784669,
+          "duration" : 3157
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '去水印', 'type': 'id', 'value': 'cb_watermark'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "7665b9283da5aefb",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831868292,
+          "stop" : 1609831871581,
+          "duration" : 3289
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'C17F设备', 'type': 'xpath', 'value': \"//*[@text='SMOOTH-X_C17F']/following-sibling::android.widget.ImageView\"}" ]
+      }, {
+        "name" : "间隔,拍摄时长,轨迹",
+        "uid" : "6ab19fd1d5af471f",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832131248,
+          "stop" : 1609832132025,
+          "duration" : 777
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '添加视频', 'type': 'id', 'value': 'view_add_point'}" ]
+      }, {
+        "name" : "关闭、方格、对角+方格",
+        "uid" : "efb1bde7de490896",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831191271,
+          "stop" : 1609831193566,
+          "duration" : 2295
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '网络显示关闭', 'type': 'id', 'value': 'rb_grid_none'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "d561d3dd2899be49",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832298052,
+          "stop" : 1609832301350,
+          "duration" : 3298
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'C17F设备', 'type': 'xpath', 'value': \"//*[@text='SMOOTH-X_C17F']/following-sibling::android.widget.ImageView\"}" ]
+      }, {
+        "name" : "选择后点赞或者删除",
+        "uid" : "80235d6ff4ee1615",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832408563,
+          "stop" : 1609832411434,
+          "duration" : 2871
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '选择', 'type': 'id', 'value': 'select'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "69b5668d057b1007",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831624604,
+          "stop" : 1609831632488,
+          "duration" : 7884
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '变焦速度', 'type': 'id', 'value': 'sb_zoom_speed'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "93877fd6489fcf6c",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831661528,
+          "stop" : 1609831664854,
+          "duration" : 3326
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'M键开关', 'type': 'id', 'value': 'cb_video_click_m'}" ]
+      }, {
+        "name" : "选择后点赞或者删除",
+        "uid" : "1564f83d18671d70",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832426366,
+          "stop" : 1609832428644,
+          "duration" : 2278
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '相册页取消', 'type': 'id', 'value': 'cancel'}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "91b572370f8f3275",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831953643,
+          "stop" : 1609831956500,
+          "duration" : 2857
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '返回', 'type': 'id', 'value': 'iv_back'}" ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "1872ce8932363398",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609832561808,
+          "stop" : 1609832583792,
+          "duration" : 21984
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '确定删除', 'type': 'id', 'value': 'ok'}" ]
+      }, {
+        "name" : "间隔,拍摄时长,轨迹",
+        "uid" : "a6075c3585873839",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832130503,
+          "stop" : 1609832131246,
+          "duration" : 743
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '添加视频', 'type': 'id', 'value': 'view_add_point'}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "7943793872b04e35",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831198735,
+          "stop" : 1609831201077,
+          "duration" : 2342
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '自动', 'type': 'xpath', 'value': \"//*[@text='自动']\"}" ]
+      }, {
+        "name" : "选择后点赞或者删除",
+        "uid" : "d3472e336ca93679",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832424067,
+          "stop" : 1609832426363,
+          "duration" : 2296
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '删除图', 'type': 'id', 'value': 'delete'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "9e6add769287e6d3",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832231661,
+          "stop" : 1609832234930,
+          "duration" : 3269
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '快', 'type': 'id', 'value': 'rb_high'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "16aaea56a5c0b9f8",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831986548,
+          "stop" : 1609831989863,
+          "duration" : 3315
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '慢', 'type': 'xpath', 'value': \"//*[@text='慢']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "5a4d520b7f750fe8",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832006072,
+          "stop" : 1609832009350,
+          "duration" : 3278
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '垂直反向', 'type': 'id', 'value': 'ctv_roll_reverse'}" ]
+      }, {
+        "name" : "编辑、删除",
+        "uid" : "23f25d2bc55621c0",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831407737,
+          "stop" : 1609831425147,
+          "duration" : 17410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "关闭、方格、对角+方格",
+        "uid" : "7157ba4fafc75f8d",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831545791,
+          "stop" : 1609831548071,
+          "duration" : 2280
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '方格', 'type': 'id', 'value': 'rb_grid'}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "a09d3b864622deb8",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831046606,
+          "stop" : 1609831062703,
+          "duration" : 16097
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '美颜按钮', 'type': 'id', 'value': 'iv_beauty'}", "{'name': '红润', 'type': 'xpath', 'value': \"//*[@text='红润']\"}", "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "跟随、拍摄",
+        "uid" : "c126b799087fd657",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831224382,
+          "stop" : 1609831228274,
+          "duration" : 3892
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '返回', 'type': 'id', 'value': 'iv_back'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "1f4ca3ceff5a3abb",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832221158,
+          "stop" : 1609832224488,
+          "duration" : 3330
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '运动', 'type': 'xpath', 'value': \"//*[@text='运动']\"}" ]
+      }, {
+        "name" : "常亮、关闭",
+        "uid" : "27191131a2de57b4",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832167706,
+          "stop" : 1609832170508,
+          "duration" : 2802
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '视频', 'type': 'xpath', 'value': \"//*[@text='视频']\"}" ]
+      }, {
+        "name" : "自动、晴天、阴天、白炽灯、荧光灯",
+        "uid" : "b2956ae61e09c004",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832196195,
+          "stop" : 1609832198468,
+          "duration" : 2273
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '晴天', 'type': 'xpath', 'value': \"//*[@text='晴天']\"}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "38df0e6761079690",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831976666,
+          "stop" : 1609831979942,
+          "duration" : 3276
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '返回', 'type': 'id', 'value': 'iv_back'}" ]
+      }, {
+        "name" : "间隔,拍摄时长,轨迹",
+        "uid" : "87291ba64e3e721d",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832098220,
+          "stop" : 1609832098789,
+          "duration" : 569
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '间隔', 'type': 'id', 'value': 'tv_delay_interval'}" ]
+      }, {
+        "name" : "720、1080、4k",
+        "uid" : "97b1f4d893dedfe2",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831527415,
+          "stop" : 1609831527953,
+          "duration" : 538
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'resolution_720', 'type': 'id', 'value': 'rb_resolution_720'}" ]
+      }, {
+        "name" : "设备断开、连接",
+        "uid" : "18a11390944b3b6d",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831884508,
+          "stop" : 1609831900773,
+          "duration" : 16265
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'action', 'type': 'id', 'value': 'cb_action'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "6e09e94d4a8f21e7",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831819647,
+          "stop" : 1609831823832,
+          "duration" : 4185
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '水平反向', 'type': 'id', 'value': 'ctv_yaw_reverse'}" ]
+      }, {
+        "name" : "关闭、方格、对角+方格",
+        "uid" : "43bd99f7413ab9c8",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832188752,
+          "stop" : 1609832191035,
+          "duration" : 2283
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '网络显示', 'type': 'id', 'value': 'cb_video_grid'}" ]
+      }, {
+        "name" : "各种模式",
+        "uid" : "1a42c2e4e19cb354",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831794619,
+          "stop" : 1609831798529,
+          "duration" : 3910
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '跟随', 'type': 'xpath', 'value': \"//*[@text='跟随模式']\"}" ]
+      }, {
+        "name" : "选择后点赞或者删除",
+        "uid" : "42c5b900826a463d",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832446133,
+          "stop" : 1609832449008,
+          "duration" : 2875
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '全选', 'type': 'id', 'value': 'header_select'}" ]
+      }, {
+        "name" : "美颜",
+        "uid" : "4b3c0e486bdb1396",
+        "parentUid" : "8ba47a1590385cb68b0caf8c1ab22b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609831470108,
+          "stop" : 1609831476956,
+          "duration" : 6848
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '美颜滚动条', 'type': 'id', 'value': 'sb_roll'}" ]
       } ],
-      "uid" : "41a5fadf5eeed74f11e94540f0392b95"
+      "uid" : "8ba47a1590385cb68b0caf8c1ab22b4c"
     } ],
     "uid" : "014fb80e6a4b2c7e152f21e17aa82bc3"
   } ]
