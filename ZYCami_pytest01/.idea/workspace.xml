@@ -46,31 +46,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page/webpage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
-              <folding>
-                <element signature="e#14#78#0" expanded="true" />
-                <element signature="e#521#561#1" />
-                <element signature="e#649#683#0" />
-                <element signature="e#3834#3950#1" />
-                <element signature="e#4223#4322#1" />
-                <element signature="e#4588#4689#1" />
-                <element signature="e#4942#5020#1" />
-                <element signature="e#5307#5362#1" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestCase/test_01_test_camera02.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
               <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
               <folding>
                 <element signature="e#43#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestCase/test_02_test_login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+              <folding>
+                <element signature="e#43#56#0" expanded="true" />
+                <element signature="e#179#205#0" />
               </folding>
             </state>
           </provider>
@@ -663,7 +657,7 @@
       <workItem from="1608082461146" duration="26850000" />
       <workItem from="1608185216949" duration="181058000" />
       <workItem from="1609136749955" duration="103263000" />
-      <workItem from="1609724076896" duration="34765000" />
+      <workItem from="1609724076896" duration="35366000" />
     </task>
     <servers />
   </component>
@@ -700,7 +694,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="548308000" />
+    <option name="totallyTimeSpent" value="548909000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="7" />
@@ -1104,17 +1098,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/test_02_test_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
-          <folding>
-            <element signature="e#43#56#0" expanded="true" />
-            <element signature="e#179#205#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestCase/test_01_test_camera06.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -1199,6 +1182,17 @@
           <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding>
             <element signature="e#43#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_02_test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+          <folding>
+            <element signature="e#43#56#0" expanded="true" />
+            <element signature="e#179#205#0" />
           </folding>
         </state>
       </provider>
